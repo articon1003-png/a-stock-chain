@@ -364,6 +364,13 @@ function renderCards(groups) {
         </tr>`;
       }).join('');
 
+      const stocksContent = g.stocks.length > 0
+        ? `<table class="stock-table">
+            <thead><tr><th>股票</th><th>现价</th><th>今日涨跌</th><th>流通市值</th></tr></thead>
+            <tbody>${stocksHtml}</tbody>
+           </table>`
+        : `<div style="padding:20px;text-align:center;color:var(--text-muted);font-size:13px">暂无个股，编辑 config.json 添加</div>`;
+
       html += `<div class="group-card" id="card-${g.name}">
         <div class="card-header" onclick="toggleCard('${g.name}')">
           <div class="card-top">
@@ -395,10 +402,7 @@ function renderCards(groups) {
         </div>
         <div class="card-body" id="body-${g.name}">
           <div class="card-body-inner">
-            <table class="stock-table">
-              <thead><tr><th>股票</th><th>现价</th><th>今日涨跌</th><th>流通市值</th></tr></thead>
-              <tbody>${stocksHtml}</tbody>
-            </table>
+            ${stocksContent}
           </div>
         </div>
       </div>`;

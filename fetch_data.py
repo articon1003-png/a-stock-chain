@@ -257,7 +257,17 @@ def main():
     }
 
     for g in groups:
-        metrics = compute_group_metrics(g["stocks"], realtime, history_cache)
+        if g["stocks"]:
+            metrics = compute_group_metrics(g["stocks"], realtime, history_cache)
+        else:
+            metrics = {
+                "today_return": 0,
+                "cum_5d": 0,
+                "cum_20d": 0,
+                "valid_count": 0,
+                "total_market_cap": 0,
+                "stocks": [],
+            }
         group_result = {
             "name": g["name"],
             "desc": g["desc"],

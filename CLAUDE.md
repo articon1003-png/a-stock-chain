@@ -45,6 +45,11 @@ ai_chain/
 ## 快速操作
 用户只需说"把 XXX 放到 1.1"或"把 XXX 从 2.2 移到 2.3"，我会自动编辑 config.json。
 
+## 更新流程
+每次修改后执行以下步骤：
+1. `python3 fetch_data.py` — 拉取最新行情数据
+2. `git add -A && git commit -m "说明" && git push -u origin main --force` — 推送到 GitHub
+
 ## 待补充板块的候选股票（搜索结果）
 
 ### 1.1 芯片制造材料
