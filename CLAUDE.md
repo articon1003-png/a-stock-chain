@@ -42,6 +42,9 @@ ai_chain/
 | 3.3 | 算力网络系统整机 | ✅ 已配置 5 只 |
 | 3.4 | 智算温控与液冷设备 | ✅ 已配置 4 只 |
 
+## 快速操作
+用户只需说"把 XXX 放到 1.1"或"把 XXX 从 2.2 移到 2.3"，我会自动编辑 config.json。
+
 ## 待补充板块的候选股票（搜索结果）
 
 ### 1.1 芯片制造材料
@@ -82,8 +85,15 @@ python3 fetch_data.py
 ### 本地预览
 ```bash
 python3 serve.py
-# 浏览器打开 http://localhost:8080/dashboard.html
+# 浏览器自动打开 http://127.0.0.1:8765/dashboard.html
+# 每 5 分钟自动刷新数据
 ```
+
+### 推送到 GitHub
+```bash
+git add -A && git commit -m "更新说明" && git push -u origin main --force
+```
+仓库：https://github.com/articon1003-png/a-stock-chain
 
 ### 增删个股
 编辑 `config.json` 的 `groups` 数组，在对应组的 `stocks` 中增删即可。
@@ -107,3 +117,9 @@ python3 serve.py
 - 涨跌计算：流通市值加权平均
 - 刷新间隔：5 分钟（dashboard.html 中 `REFRESH_INTERVAL` 常量）
 - 层级分组：dashboard.html 中 `LAYER_ORDER` / `LAYER_LABELS` 常量控制显示顺序和名称
+
+## 已安装工具
+- **uv**: Python 包管理器（`~/.local/bin/uv`）
+- **browser-act-cli**: AI 浏览器自动化工具（`uv tool install browser-act-cli --python 3.12`）
+  - 使用：`browser-act get-skills core --skill-version 2.0.2`
+  - 功能：真实浏览器控制、反检测、多账号隔离、人机接力
