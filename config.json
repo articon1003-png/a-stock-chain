@@ -141,13 +141,16 @@
     {
       "name": "2.5 能源管理与供电部件",
       "layer": "components",
-      "desc": "CRPS服务器电源、PMIC电源管理芯片，AI算力电老虎动力源",
+      "desc": "CRPS服务器电源(3200W-8500W)、PMIC/DrMOS芯片级供电",
       "color": "#f39c12",
       "stocks": [
-        {"code": "300870", "name": "欧陆通", "exchange": "sz", "product": "服务器电源"},
-        {"code": "002851", "name": "麦格米特", "exchange": "sz", "product": "服务器电源"},
-        {"code": "002335", "name": "科华数据", "exchange": "sz", "product": "UPS/电源"},
-        {"code": "002518", "name": "科士达", "exchange": "sz", "product": "UPS"}
+        {"code": "002851", "name": "麦格米特", "exchange": "sz", "product": "英伟达链CRPS电源"},
+        {"code": "300870", "name": "欧陆通", "exchange": "sz", "product": "国产替代CRPS电源"},
+        {"code": "000066", "name": "中国长城", "exchange": "sz", "product": "信创大功率电源"},
+        {"code": "688141", "name": "杰华特", "exchange": "sh", "product": "多相DC-DC/DrMOS"},
+        {"code": "688508", "name": "芯朋微", "exchange": "sh", "product": "AC-DC电源芯片"},
+        {"code": "688601", "name": "力芯微", "exchange": "sh", "product": "高精度LDO"},
+        {"code": "300661", "name": "圣邦股份", "exchange": "sz", "product": "模拟/电源管理芯片"}
       ]
     },
     {
