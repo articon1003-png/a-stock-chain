@@ -60,19 +60,21 @@
     {
       "name": "1.4 高速传输/PCB基材",
       "layer": "materials",
-      "desc": "CCL M8/M9、铜箔、电子布、MLCC、特种树脂，AI服务器高速互联物理载体",
+      "desc": "CCL M8/M9、HVLP铜箔、特种树脂、极薄电子布/石英布",
       "color": "#e74c3c",
       "stocks": [
-        {"code": "600183", "name": "生益科技", "exchange": "sh", "product": "高速CCL"},
-        {"code": "688519", "name": "南亚新材", "exchange": "sh", "product": "高速CCL"},
-        {"code": "603186", "name": "华正新材", "exchange": "sh", "product": "高频材料"},
-        {"code": "301511", "name": "德福科技", "exchange": "sz", "product": "铜箔"},
-        {"code": "603256", "name": "宏和科技", "exchange": "sh", "product": "电子布"},
-        {"code": "002636", "name": "金安国纪", "exchange": "sz", "product": "覆铜板"},
-        {"code": "605376", "name": "博迁新材", "exchange": "sh", "product": "镍粉"},
-        {"code": "300408", "name": "三环集团", "exchange": "sz", "product": "MLCC/陶瓷"},
-        {"code": "000636", "name": "风华高科", "exchange": "sz", "product": "MLCC"},
-        {"code": "300285", "name": "国瓷材料", "exchange": "sz", "product": "陶瓷粉体"}
+        {"code": "600183", "name": "生益科技", "exchange": "sh", "product": "M9级CCL"},
+        {"code": "603186", "name": "华正新材", "exchange": "sh", "product": "高速CCL"},
+        {"code": "605589", "name": "圣泉集团", "exchange": "sh", "product": "PPO特种树脂"},
+        {"code": "601208", "name": "东材科技", "exchange": "sh", "product": "特种PPO树脂"},
+        {"code": "603002", "name": "宏昌电子", "exchange": "sh", "product": "高速树脂"},
+        {"code": "301511", "name": "德福科技", "exchange": "sz", "product": "HVLP铜箔"},
+        {"code": "301217", "name": "铜冠铜箔", "exchange": "sz", "product": "高速铜箔"},
+        {"code": "301150", "name": "中一科技", "exchange": "sz", "product": "极薄铜箔"},
+        {"code": "603256", "name": "宏和科技", "exchange": "sh", "product": "极薄电子布"},
+        {"code": "300395", "name": "菲利华", "exchange": "sz", "product": "石英布"},
+        {"code": "301526", "name": "国际复材", "exchange": "sz", "product": "LDK电子布"},
+        {"code": "600176", "name": "中国巨石", "exchange": "sh", "product": "电子纱/布"}
       ]
     },
     {
