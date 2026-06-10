@@ -128,15 +128,14 @@
     {
       "name": "2.4 高密度高层数PCB板",
       "layer": "components",
-      "desc": "AI服务器主板/加速卡板(UBB/OAM 20-30层+)、高速交换机板",
+      "desc": "AI服务器主板/加速卡板(UBB/OAM 28-40层)、1.6T高速交换机板",
       "color": "#e67e22",
       "stocks": [
-        {"code": "002463", "name": "沪电股份", "exchange": "sz", "product": "AI高速PCB"},
-        {"code": "300476", "name": "胜宏科技", "exchange": "sz", "product": "AI加速卡PCB"},
-        {"code": "002916", "name": "深南电路", "exchange": "sz", "product": "PCB/IC载板"},
-        {"code": "688183", "name": "生益电子", "exchange": "sh", "product": "AI服务器PCB"},
-        {"code": "002436", "name": "兴森科技", "exchange": "sz", "product": "ABF载板"},
-        {"code": "603228", "name": "景旺电子", "exchange": "sh", "product": "高阶PCB"}
+        {"code": "002463", "name": "沪电股份", "exchange": "sz", "product": "28层+UBB/交换机板"},
+        {"code": "300476", "name": "胜宏科技", "exchange": "sz", "product": "GPU加速卡OAM板"},
+        {"code": "002916", "name": "深南电路", "exchange": "sz", "product": "UBB/FBGA载板"},
+        {"code": "688183", "name": "生益电子", "exchange": "sh", "product": "1.6T交换机板"},
+        {"code": "001389", "name": "广合科技", "exchange": "sz", "product": "AI服务器PCB"}
       ]
     },
     {
