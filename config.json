@@ -156,15 +156,15 @@
     {
       "name": "3.1 半导体制造与检测设备",
       "layer": "equipment",
-      "desc": "PCB钻孔/曝光/电镀设备，半导体检测设备，国产替代核心",
+      "desc": "ALD/CVD薄膜沉积、刻蚀机、离子注入、测试机/探针台",
       "color": "#9b59b6",
       "stocks": [
-        {"code": "301200", "name": "大族数控", "exchange": "sz", "product": "PCB钻孔设备"},
-        {"code": "688630", "name": "芯碁微装", "exchange": "sh", "product": "PCB曝光设备"},
-        {"code": "688700", "name": "东威科技", "exchange": "sh", "product": "PCB电镀设备"},
-        {"code": "301377", "name": "鼎泰高科", "exchange": "sz", "product": "PCB钻针"},
-        {"code": "300802", "name": "矩子科技", "exchange": "sz", "product": "AOI检测"},
-        {"code": "000657", "name": "中钨高新", "exchange": "sz", "product": "PCB钻针"}
+        {"code": "688072", "name": "拓荆科技", "exchange": "sh", "product": "ALD/PECVD设备"},
+        {"code": "002371", "name": "北方华创", "exchange": "sz", "product": "CVD/刻蚀/清洗"},
+        {"code": "688012", "name": "中微公司", "exchange": "sh", "product": "介质刻蚀机"},
+        {"code": "600641", "name": "万业企业", "exchange": "sh", "product": "离子注入机"},
+        {"code": "688200", "name": "华峰测控", "exchange": "sh", "product": "模拟/混合信号ATE"},
+        {"code": "300604", "name": "长川科技", "exchange": "sz", "product": "SoC测试机/探针台"}
       ]
     },
     {
