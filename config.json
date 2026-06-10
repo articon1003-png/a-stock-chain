@@ -113,14 +113,16 @@
     {
       "name": "2.3 高速电互联与高频连接",
       "layer": "components",
-      "desc": "DAC/ACC铜缆、高速背板连接器，机柜内部短距铜物理连接",
+      "desc": "DAC/ACC/AEC铜缆、高速背板连接器，机柜内部短距铜物理连接",
       "color": "#1abc9c",
       "stocks": [
-        {"code": "002130", "name": "沃尔核材", "exchange": "sz", "product": "高速铜缆"},
-        {"code": "688668", "name": "鼎通科技", "exchange": "sh", "product": "高速连接器"},
-        {"code": "688800", "name": "瑞可达", "exchange": "sh", "product": "连接器"},
-        {"code": "300563", "name": "神宇股份", "exchange": "sz", "product": "高频线缆"},
-        {"code": "688629", "name": "华丰科技", "exchange": "sh", "product": "高速连接器"}
+        {"code": "002130", "name": "沃尔核材", "exchange": "sz", "product": "224G高速铜缆"},
+        {"code": "300563", "name": "神宇股份", "exchange": "sz", "product": "高频同轴电缆"},
+        {"code": "301113", "name": "兆龙互连", "exchange": "sz", "product": "DAC高速组件"},
+        {"code": "688629", "name": "华丰科技", "exchange": "sh", "product": "224G背板连接器"},
+        {"code": "688410", "name": "鼎通科技", "exchange": "sh", "product": "连接器精密组件"},
+        {"code": "002475", "name": "立讯精密", "exchange": "sz", "product": "高速背板/AEC"},
+        {"code": "002179", "name": "中航光电", "exchange": "sz", "product": "高频高密度连接器"}
       ]
     },
     {
