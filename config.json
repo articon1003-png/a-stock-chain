@@ -1,0 +1,119 @@
+{
+  "groups": [
+    {
+      "name": "1.4 高速传输/PCB基材",
+      "layer": "materials",
+      "desc": "CCL M8/M9、铜箔、电子布、MLCC、特种树脂，AI服务器高速互联物理载体",
+      "color": "#e74c3c",
+      "stocks": [
+        {"code": "600183", "name": "生益科技", "exchange": "sh", "product": "高速CCL"},
+        {"code": "688519", "name": "南亚新材", "exchange": "sh", "product": "高速CCL"},
+        {"code": "603186", "name": "华正新材", "exchange": "sh", "product": "高频材料"},
+        {"code": "301511", "name": "德福科技", "exchange": "sz", "product": "铜箔"},
+        {"code": "603256", "name": "宏和科技", "exchange": "sh", "product": "电子布"},
+        {"code": "002636", "name": "金安国纪", "exchange": "sz", "product": "覆铜板"},
+        {"code": "605376", "name": "博迁新材", "exchange": "sh", "product": "镍粉"},
+        {"code": "300408", "name": "三环集团", "exchange": "sz", "product": "MLCC/陶瓷"},
+        {"code": "000636", "name": "风华高科", "exchange": "sz", "product": "MLCC"},
+        {"code": "300285", "name": "国瓷材料", "exchange": "sz", "product": "陶瓷粉体"}
+      ]
+    },
+    {
+      "name": "2.2 高速光通信传输模组",
+      "layer": "components",
+      "desc": "800G/1.6T光模块、光芯片、硅光/CPO，万卡集群光互联核心",
+      "color": "#3498db",
+      "stocks": [
+        {"code": "300308", "name": "中际旭创", "exchange": "sz", "product": "800G光模块"},
+        {"code": "300502", "name": "新易盛", "exchange": "sz", "product": "高速光模块"},
+        {"code": "300394", "name": "天孚通信", "exchange": "sz", "product": "光器件"},
+        {"code": "002281", "name": "光迅科技", "exchange": "sz", "product": "光通信"},
+        {"code": "000988", "name": "华工科技", "exchange": "sz", "product": "激光/光模块"},
+        {"code": "688498", "name": "源杰科技", "exchange": "sh", "product": "激光芯片"},
+        {"code": "603083", "name": "剑桥科技", "exchange": "sh", "product": "光模块"},
+        {"code": "300548", "name": "博创科技", "exchange": "sz", "product": "硅光模块"},
+        {"code": "301205", "name": "联特科技", "exchange": "sz", "product": "高速光模块"},
+        {"code": "300570", "name": "太辰光", "exchange": "sz", "product": "光器件"},
+        {"code": "688205", "name": "德科立", "exchange": "sh", "product": "光器件"}
+      ]
+    },
+    {
+      "name": "2.3 高速电互联与高频连接",
+      "layer": "components",
+      "desc": "DAC/ACC铜缆、高速背板连接器，机柜内部短距铜物理连接",
+      "color": "#1abc9c",
+      "stocks": [
+        {"code": "002130", "name": "沃尔核材", "exchange": "sz", "product": "高速铜缆"},
+        {"code": "688668", "name": "鼎通科技", "exchange": "sh", "product": "高速连接器"},
+        {"code": "688800", "name": "瑞可达", "exchange": "sh", "product": "连接器"},
+        {"code": "300563", "name": "神宇股份", "exchange": "sz", "product": "高频线缆"},
+        {"code": "688629", "name": "华丰科技", "exchange": "sh", "product": "高速连接器"}
+      ]
+    },
+    {
+      "name": "2.4 高密度高层数PCB板",
+      "layer": "components",
+      "desc": "AI服务器主板/加速卡板(UBB/OAM 20-30层+)、高速交换机板",
+      "color": "#e67e22",
+      "stocks": [
+        {"code": "002463", "name": "沪电股份", "exchange": "sz", "product": "AI高速PCB"},
+        {"code": "300476", "name": "胜宏科技", "exchange": "sz", "product": "AI加速卡PCB"},
+        {"code": "002916", "name": "深南电路", "exchange": "sz", "product": "PCB/IC载板"},
+        {"code": "688183", "name": "生益电子", "exchange": "sh", "product": "AI服务器PCB"},
+        {"code": "002436", "name": "兴森科技", "exchange": "sz", "product": "ABF载板"},
+        {"code": "603228", "name": "景旺电子", "exchange": "sh", "product": "高阶PCB"}
+      ]
+    },
+    {
+      "name": "2.5 能源管理与供电部件",
+      "layer": "components",
+      "desc": "CRPS服务器电源、PMIC电源管理芯片，AI算力电老虎动力源",
+      "color": "#f39c12",
+      "stocks": [
+        {"code": "300870", "name": "欧陆通", "exchange": "sz", "product": "服务器电源"},
+        {"code": "002851", "name": "麦格米特", "exchange": "sz", "product": "服务器电源"},
+        {"code": "002335", "name": "科华数据", "exchange": "sz", "product": "UPS/电源"},
+        {"code": "002518", "name": "科士达", "exchange": "sz", "product": "UPS"}
+      ]
+    },
+    {
+      "name": "3.1 半导体制造与检测设备",
+      "layer": "equipment",
+      "desc": "PCB钻孔/曝光/电镀设备，半导体检测设备，国产替代核心",
+      "color": "#9b59b6",
+      "stocks": [
+        {"code": "301200", "name": "大族数控", "exchange": "sz", "product": "PCB钻孔设备"},
+        {"code": "688630", "name": "芯碁微装", "exchange": "sh", "product": "PCB曝光设备"},
+        {"code": "688700", "name": "东威科技", "exchange": "sh", "product": "PCB电镀设备"},
+        {"code": "301377", "name": "鼎泰高科", "exchange": "sz", "product": "PCB钻针"},
+        {"code": "300802", "name": "矩子科技", "exchange": "sz", "product": "AOI检测"},
+        {"code": "000657", "name": "中钨高新", "exchange": "sz", "product": "PCB钻针"}
+      ]
+    },
+    {
+      "name": "3.3 算力网络系统整机",
+      "layer": "equipment",
+      "desc": "AI服务器整机、高速交换机/路由器，直接交付数据中心",
+      "color": "#8e44ad",
+      "stocks": [
+        {"code": "601138", "name": "工业富联", "exchange": "sh", "product": "AI服务器ODM"},
+        {"code": "000977", "name": "浪潮信息", "exchange": "sz", "product": "AI服务器"},
+        {"code": "000938", "name": "紫光股份", "exchange": "sz", "product": "数据中心交换机"},
+        {"code": "301165", "name": "锐捷网络", "exchange": "sz", "product": "数据中心交换机"},
+        {"code": "688702", "name": "盛科通信", "exchange": "sh", "product": "交换芯片"}
+      ]
+    },
+    {
+      "name": "3.4 智算温控与液冷设备",
+      "layer": "equipment",
+      "desc": "CDU液冷冷板/浸没式、精密空调，保障服务器不烧毁",
+      "color": "#2ecc71",
+      "stocks": [
+        {"code": "002837", "name": "英维克", "exchange": "sz", "product": "液冷温控"},
+        {"code": "301018", "name": "申菱环境", "exchange": "sz", "product": "液冷温控"},
+        {"code": "300990", "name": "同飞股份", "exchange": "sz", "product": "液冷温控"},
+        {"code": "300499", "name": "高澜股份", "exchange": "sz", "product": "液冷温控"}
+      ]
+    }
+  ]
+}

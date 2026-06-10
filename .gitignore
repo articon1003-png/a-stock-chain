@@ -1,0 +1,15 @@
+# 数据文件（运行 fetch_data.py 生成）
+data.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+
+# Claude Code
+.claude/
+
+# macOS
+.DS_Store
