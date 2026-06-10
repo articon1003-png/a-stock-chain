@@ -173,10 +173,14 @@
       "desc": "先进固晶机、临时键合机、TGV激光打孔、晶圆划片",
       "color": "#8e44ad",
       "stocks": [
-        {"code": "688383", "name": "新益昌", "exchange": "sh", "product": "固晶机"},
-        {"code": "688630", "name": "芯碁微装", "exchange": "sh", "product": "直写光刻"},
-        {"code": "300480", "name": "光力科技", "exchange": "sz", "product": "晶圆划片"},
-        {"code": "688329", "name": "凯格精机", "exchange": "sh", "product": "封装固晶"}
+        {"code": "300983", "name": "新易昌", "exchange": "sz", "product": "封装端精密设备"},
+        {"code": "300751", "name": "迈为股份", "exchange": "sz", "product": "封装/划片设备"},
+        {"code": "688037", "name": "芯源微", "exchange": "sh", "product": "涂胶显影设备"},
+        {"code": "300776", "name": "帝尔激光", "exchange": "sz", "product": "TGV激光打孔"},
+        {"code": "002008", "name": "大族激光", "exchange": "sz", "product": "激光加工设备"},
+        {"code": "688170", "name": "德龙激光", "exchange": "sh", "product": "TGV/划片激光"},
+        {"code": "688559", "name": "海目星", "exchange": "sh", "product": "激光微加工"},
+        {"code": "300480", "name": "光力科技", "exchange": "sz", "product": "晶圆划片"}
       ]
     },
     {
