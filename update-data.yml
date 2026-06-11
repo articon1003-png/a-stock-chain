@@ -1,0 +1,54 @@
+name: Update Stock Data
+
+on:
+  schedule:
+    # GitHub cron 使用 UTC，北京时间 = UTC+8
+    # 工作日 UTC 01:00-06:50 每10分钟（北京时间 09:00-14:50）
+    - cron: '*/10 1-6 * * 1-5'
+    # 收盘后两次：UTC 07:00 / 07:10（北京时间 15:00 / 15:10，锁定收盘数据）
+    - cron: '0,10 7 * * 1-5'
+  workflow_dispatch:  # 允许手动触发
+
+# 关键修复：默认 GITHUB_TOKEN 是只读的，没有这个声明 git push 会 403 失败
+permissions:
+  contents: write
+
+# 防止上一次还没跑完下一次又开始，互相冲突
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch latest data
+        run: python3 fetch_data.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          if git diff --staged --quiet; then
+            echo "数据无变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "Auto-update data $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          # push 前先 rebase，避免与本地手动 push 冲突；失败重试3次
+          for i in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "push 失败，rebase 后重试 ($i/3)..."
+            git pull --rebase -X theirs origin main
+          done
+          git push

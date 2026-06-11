@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 超级机柜产业链行情</title>
+<title>A股产业链行情</title>
 <style>
   :root {
     --up: #e74c3c;
@@ -75,6 +75,31 @@
   .rank-chip .rank-name { font-size: 13px; font-weight: 500; white-space: nowrap; }
   .rank-chip .rank-val { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .rank-chip .rank-sub { font-size: 11px; color: var(--text-muted); }
+
+  /* Chain tab bar (链切换) */
+  .chain-bar {
+    display: flex;
+    gap: 8px;
+    padding: 12px 32px 0;
+  }
+  .chain-btn {
+    padding: 10px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .chain-btn:hover { color: var(--text); }
+  .chain-btn.active {
+    color: #fff;
+    background: var(--accent);
+    border-color: var(--accent);
+  }
 
   /* Tab bar for period selection */
   .tab-bar {
@@ -257,7 +282,7 @@
 <body>
 
 <div class="header">
-  <h1><span>AI</span> 超级机柜产业链行情</h1>
+  <h1><span>A股</span>产业链行情</h1>
   <div class="header-right">
     <div class="auto-refresh">
       <input type="checkbox" id="autoRefreshToggle" checked>
@@ -267,6 +292,8 @@
     <div class="update-time" id="updateTime"></div>
   </div>
 </div>
+
+<div class="chain-bar" id="chainBar"></div>
 
 <div class="tab-bar" id="tabBar">
   <button class="tab-btn active" data-period="today">今日</button>
@@ -282,6 +309,7 @@
 
 <script>
 let DATA = null;
+let currentChain = (location.hash || '#').slice(1) || null;  // URL hash 记住所在链
 let currentPeriod = 'today';
 let refreshTimer = null;
 let countdownTimer = null;
@@ -294,6 +322,8 @@ const PERIOD_KEY = {
   '20d': 'cum_20d',
 };
 
+const LAYER_COLORS = ['#e74c3c', '#3498db', '#9b59b6', '#16a085'];
+
 function cc(val) {
   if (val > 0) return 'up';
   if (val < 0) return 'down';
@@ -305,9 +335,29 @@ function fmtPct(val) {
   return sign + val.toFixed(2) + '%';
 }
 
+function getChain() {
+  if (!DATA || !DATA.chains || DATA.chains.length === 0) return null;
+  return DATA.chains.find(c => c.id === currentChain) || DATA.chains[0];
+}
+
 function sortByPeriod(groups, period) {
   const key = PERIOD_KEY[period];
   return [...groups].sort((a, b) => (b[key] || 0) - (a[key] || 0));
+}
+
+function renderChainBar() {
+  const chain = getChain();
+  const bar = document.getElementById('chainBar');
+  bar.innerHTML = DATA.chains.map(c =>
+    `<button class="chain-btn ${chain && c.id === chain.id ? 'active' : ''}" onclick="switchChain('${c.id}')">${c.name}</button>`
+  ).join('');
+}
+
+function switchChain(id) {
+  currentChain = id;
+  location.hash = id;
+  render();
+  window.scrollTo({ top: 0 });
 }
 
 function renderRankBar(groups) {
@@ -325,34 +375,36 @@ function renderRankBar(groups) {
   }).join('');
 }
 
-function renderCards(groups) {
-  const sorted = sortByPeriod(groups, currentPeriod);
+function renderCards(chain) {
+  const sorted = sortByPeriod(chain.groups, currentPeriod);
   const key = PERIOD_KEY[currentPeriod];
   const grid = document.getElementById('grid');
 
-  // Group by layer
-  const LAYER_ORDER = ['materials', 'components', 'equipment'];
-  const LAYER_LABELS = { materials: '材料层', components: '部件层', equipment: '设备层' };
-  const LAYER_ICONS = { materials: 'M', components: 'C', equipment: 'E' };
+  // 每条链各自的层定义（key + label），来自 data.json
+  const layers = chain.layers || [
+    { key: 'materials', label: '材料层' },
+    { key: 'components', label: '部件层' },
+    { key: 'equipment', label: '设备层' },
+  ];
 
   const grouped = {};
   sorted.forEach(g => {
-    const layer = g.layer || 'materials';
+    const layer = g.layer || layers[0].key;
     if (!grouped[layer]) grouped[layer] = [];
     grouped[layer].push(g);
   });
 
   let html = '';
-  LAYER_ORDER.forEach(layer => {
-    const items = grouped[layer];
+  layers.forEach((layerDef, li) => {
+    const items = grouped[layerDef.key];
     if (!items || items.length === 0) return;
 
+    const iconColor = LAYER_COLORS[li % LAYER_COLORS.length];
     html += `<div class="layer-section">`;
-    html += `<div class="layer-title ${layer}"><span class="layer-icon">${LAYER_ICONS[layer]}</span>${LAYER_LABELS[layer]}</div>`;
+    html += `<div class="layer-title"><span class="layer-icon" style="background:${iconColor}">${layerDef.label.charAt(0)}</span>${layerDef.label}</div>`;
     html += `<div class="grid">`;
 
     items.forEach(g => {
-      const val = g[key] || 0;
       const todayVal = g.today_return;
       const stocksHtml = g.stocks.map(s => {
         const scc = cc(s.change_pct);
@@ -436,19 +488,21 @@ function scrollToCard(name) {
 
 function render() {
   if (!DATA) return;
+  const chain = getChain();
+  if (!chain) return;
+  currentChain = chain.id;
 
-  // Remember which cards are expanded before re-render
+  // 记住展开状态
   const expanded = new Set();
   document.querySelectorAll('.card-body.open').forEach(el => {
-    const name = el.id.replace('body-', '');
-    expanded.add(name);
+    expanded.add(el.id.replace('body-', ''));
   });
 
   document.getElementById('updateTime').textContent = '更新: ' + DATA.update_time;
-  renderRankBar(DATA.groups);
-  renderCards(DATA.groups);
+  renderChainBar();
+  renderRankBar(chain.groups);
+  renderCards(chain);
 
-  // Restore expanded state
   expanded.forEach(name => {
     const body = document.getElementById('body-' + name);
     const icon = document.getElementById('icon-' + name);
@@ -461,6 +515,10 @@ function loadData() {
   fetch('data.json?t=' + Date.now())
     .then(r => r.json())
     .then(data => {
+      // 兼容旧版单链 data.json（{"groups": [...]}）
+      if (!data.chains && data.groups) {
+        data = { update_time: data.update_time, chains: [{ id: 'main', name: '产业链', layers: null, groups: data.groups }] };
+      }
       DATA = data;
       render();
       resetCountdown();
@@ -494,7 +552,7 @@ function stopAutoRefresh() {
   document.getElementById('countdown').textContent = '';
 }
 
-// Tab switching
+// 周期 tab 切换
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -504,7 +562,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
   });
 });
 
-// Auto-refresh toggle
+// 自动刷新开关
 document.getElementById('autoRefreshToggle').addEventListener('change', (e) => {
   if (e.target.checked) {
     startAutoRefresh();
@@ -514,7 +572,7 @@ document.getElementById('autoRefreshToggle').addEventListener('change', (e) => {
   }
 });
 
-// Init
+// 初始化
 loadData();
 startAutoRefresh();
 </script>

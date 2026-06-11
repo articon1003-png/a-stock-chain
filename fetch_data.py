@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-AI 超级机柜产业链行情数据拉取
+A股产业链行情数据拉取（多链版：AI / 储能 / 消费电子）
 数据源：腾讯行情 API
 输出：data.json 供仪表盘使用
 """
@@ -17,9 +17,24 @@ CONFIG_PATH = os.path.join(SCRIPT_DIR, "config.json")
 DATA_PATH = os.path.join(SCRIPT_DIR, "data.json")
 
 
+DEFAULT_LAYERS = [
+    {"key": "materials", "label": "材料层"},
+    {"key": "components", "label": "部件层"},
+    {"key": "equipment", "label": "设备层"},
+]
+
+
 def load_config():
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+        cfg = json.load(f)
+    # 兼容旧版单链格式 {"groups": [...]}
+    if "chains" not in cfg:
+        cfg = {"chains": [{
+            "id": "main", "name": "产业链",
+            "layers": DEFAULT_LAYERS,
+            "groups": cfg.get("groups", []),
+        }]}
+    return cfg
 
 
 def tencent_prefix(exchange, code):
@@ -214,74 +229,100 @@ def compute_group_metrics(group_stocks, realtime_data, history_cache):
 
 
 def main():
-    print("=== AI 超级机柜产业链行情数据拉取 ===")
+    print("=== A股产业链行情数据拉取（多链版）===")
     print(f"时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
     config = load_config()
-    groups = config["groups"]
+    chains = config["chains"]
 
-    # Collect all unique stocks
+    # 跨链收集全部去重个股（同一只股票可出现在多条链/多个组）
     all_stocks = []
     seen_codes = set()
-    for g in groups:
-        for s in g["stocks"]:
-            if s["code"] not in seen_codes:
-                all_stocks.append(s)
-                seen_codes.add(s["code"])
+    for chain in chains:
+        for g in chain["groups"]:
+            for s in g["stocks"]:
+                if s["code"] not in seen_codes:
+                    all_stocks.append(s)
+                    seen_codes.add(s["code"])
 
-    print(f"\n共 {len(groups)} 组，{len(all_stocks)} 只个股")
+    n_groups = sum(len(c["groups"]) for c in chains)
+    print(f"\n共 {len(chains)} 条链，{n_groups} 组，去重后 {len(all_stocks)} 只个股")
 
-    # Fetch real-time data
+    # 拉取实时行情（全链只拉一次）
     print("\n[1/2] 拉取实时行情...")
     realtime = fetch_realtime(all_stocks)
     fetched_count = len(realtime)
     print(f"  成功获取 {fetched_count}/{len(all_stocks)} 只个股实时数据")
 
-    # Fetch historical K-lines (parallel-ish with rate limiting)
+    if fetched_count == 0:
+        print("  [错误] 未获取到任何行情数据（接口异常或非交易环境），保留旧 data.json，本次不更新", file=sys.stderr)
+        return None
+
+    # 校验 config 中的代码与名称是否匹配，防止填错股票代码
+    def _norm(name):
+        for p in ("XD", "XR", "DR", "*ST", "ST"):
+            if name.startswith(p):
+                name = name[len(p):]
+        return name.replace(" ", "").strip()
+
+    for s in all_stocks:
+        rt = realtime.get(s["code"])
+        if not rt or not rt.get("name"):
+            print(f"  [警告] {s['code']} {s['name']} 未返回行情，请确认代码/交易所是否正确")
+            continue
+        api_name = _norm(rt["name"])
+        cfg_name = _norm(s["name"])
+        if not (cfg_name.startswith(api_name) or api_name.startswith(cfg_name)
+                or cfg_name in api_name or api_name in cfg_name):
+            print(f"  [警告] 代码可能填错！{s['code']}: config 名称「{s['name']}」 vs 行情名称「{rt['name']}」")
+
+    # 拉取历史K线（全链只拉一次）
     print("\n[2/2] 拉取历史K线（30日）...")
     history_cache = {}
     for i, s in enumerate(all_stocks):
         code = s["code"]
         hist = fetch_history(code, s["exchange"], days=30)
         history_cache[code] = hist
-        if (i + 1) % 10 == 0:
+        if (i + 1) % 20 == 0:
             print(f"  已获取 {i+1}/{len(all_stocks)}...")
         time.sleep(0.15)
-    print(f"  历史K线获取完成")
+    print("  历史K线获取完成")
 
-    # Compute group metrics
+    # 逐链计算组级指标
     print("\n计算组级指标...")
     results = {
         "update_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "groups": [],
+        "chains": [],
     }
 
-    for g in groups:
-        if g["stocks"]:
-            metrics = compute_group_metrics(g["stocks"], realtime, history_cache)
-        else:
-            metrics = {
-                "today_return": 0,
-                "cum_5d": 0,
-                "cum_20d": 0,
-                "valid_count": 0,
-                "total_market_cap": 0,
-                "stocks": [],
-            }
-        group_result = {
-            "name": g["name"],
-            "desc": g["desc"],
-            "color": g["color"],
-            "layer": g.get("layer", "materials"),
-            **metrics,
+    for chain in chains:
+        chain_result = {
+            "id": chain["id"],
+            "name": chain["name"],
+            "layers": chain.get("layers", DEFAULT_LAYERS),
+            "groups": [],
         }
-        results["groups"].append(group_result)
-        print(f"  {g['name']}: 今日 {metrics['today_return']:+.2f}%, 5日 {metrics['cum_5d']:+.2f}%, 20日 {metrics['cum_20d']:+.2f}%")
+        print(f"\n--- {chain['name']} ---")
+        for g in chain["groups"]:
+            if g["stocks"]:
+                metrics = compute_group_metrics(g["stocks"], realtime, history_cache)
+            else:
+                metrics = {
+                    "today_return": 0, "cum_5d": 0, "cum_20d": 0,
+                    "valid_count": 0, "total_market_cap": 0, "stocks": [],
+                }
+            chain_result["groups"].append({
+                "name": g["name"],
+                "desc": g["desc"],
+                "color": g["color"],
+                "layer": g.get("layer", "materials"),
+                **metrics,
+            })
+            print(f"  {g['name']}: 今日 {metrics['today_return']:+.2f}%, 5日 {metrics['cum_5d']:+.2f}%, 20日 {metrics['cum_20d']:+.2f}%")
 
-    # Sort groups by today_return descending
-    results["groups"].sort(key=lambda x: -x["today_return"])
+        chain_result["groups"].sort(key=lambda x: -x["today_return"])
+        results["chains"].append(chain_result)
 
-    # Save
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
