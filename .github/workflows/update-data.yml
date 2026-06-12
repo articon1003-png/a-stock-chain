@@ -2,8 +2,35 @@ name: Update Stock Data
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Every 5 minutes
-  workflow_dispatch:  # Allow manual trigger
+    # 交易日 9:25-15:05 每10分钟 (UTC+8 对应 UTC 1:25-7:05)
+    # 9:25 开盘前预热
+    - cron: '25 1 * * 1-5'
+    # 9:35 - 14:55 每10分钟
+    - cron: '35 1 * * 1-5'
+    - cron: '45 1 * * 1-5'
+    - cron: '55 1 * * 1-5'
+    - cron: '5 2 * * 1-5'
+    - cron: '15 2 * * 1-5'
+    - cron: '25 2 * * 1-5'
+    - cron: '35 2 * * 1-5'
+    - cron: '45 2 * * 1-5'
+    - cron: '55 2 * * 1-5'
+    - cron: '5 3 * * 1-5'
+    - cron: '15 3 * * 1-5'
+    - cron: '25 3 * * 1-5'
+    - cron: '35 3 * * 1-5'
+    - cron: '45 3 * * 1-5'
+    - cron: '55 3 * * 1-5'
+    - cron: '5 4 * * 1-5'
+    - cron: '15 4 * * 1-5'
+    - cron: '25 4 * * 1-5'
+    - cron: '35 4 * * 1-5'
+    # 15:05 最后一次
+    - cron: '5 7 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
