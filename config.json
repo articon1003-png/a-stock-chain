@@ -180,7 +180,7 @@
           "stocks": [
             {
               "code": "000725",
-              "name": "京东方A",
+              "name": "京东方Ａ",
               "exchange": "sz",
               "product": "玻璃基载板"
             },
@@ -198,7 +198,7 @@
             },
             {
               "code": "000012",
-              "name": "南玻A",
+              "name": "南玻Ａ",
               "exchange": "sz",
               "product": "半导体玻璃"
             },
@@ -233,7 +233,7 @@
               "product": "TGV电镀液"
             },
             {
-              "code": "688075",
+              "code": "688079",
               "name": "美迪凯",
               "exchange": "sh",
               "product": "玻璃载板代工"
@@ -414,7 +414,7 @@
             },
             {
               "code": "300548",
-              "name": "博创科技",
+              "name": "长芯博创",
               "exchange": "sz",
               "product": "硅光模块"
             },
@@ -457,7 +457,7 @@
               "product": "高频同轴电缆"
             },
             {
-              "code": "301113",
+              "code": "300913",
               "name": "兆龙互连",
               "exchange": "sz",
               "product": "DAC高速组件"
@@ -469,7 +469,7 @@
               "product": "224G背板连接器"
             },
             {
-              "code": "688410",
+              "code": "688668",
               "name": "鼎通科技",
               "exchange": "sh",
               "product": "连接器精密组件"
@@ -602,7 +602,7 @@
             },
             {
               "code": "600641",
-              "name": "万业企业",
+              "name": "先导基电",
               "exchange": "sh",
               "product": "离子注入机"
             },
@@ -1040,7 +1040,7 @@
             },
             {
               "code": "002960",
-              "name": "青鸟消防",
+              "name": "青鸟智控",
               "exchange": "sz",
               "product": "储能消防"
             }
@@ -1074,7 +1074,7 @@
           "stocks": [
             {
               "code": "603501",
-              "name": "韦尔股份",
+              "name": "豪威集团",
               "exchange": "sh",
               "product": "CIS图像传感器"
             },
@@ -1098,7 +1098,7 @@
             },
             {
               "code": "000725",
-              "name": "京东方A",
+              "name": "京东方Ａ",
               "exchange": "sz",
               "product": "面板"
             },
