@@ -10,7 +10,7 @@ ai_chain/
 ├── data.json            # 拉取后的行情数据（自动生成）
 ├── dashboard.html       # 仪表盘前端（单文件，纯静态）
 ├── fetch_data.py        # 数据拉取脚本（腾讯行情 API）
-├── serve.py             # 本地 HTTP 服务器
+├── serve.py             # 本地 HTTP 服务器（网页触发更新）
 ├── rebuild.py           # 一键重建脚本
 └── CLAUDE.md            # 本文件
 ```
@@ -77,7 +77,7 @@ ai_chain/
 
 ## 数据流
 ```
-config.json → fetch_data.py → data.json → dashboard.html 读取渲染
+dashboard.html 刷新 → 请求 /fetch → serve.py 执行 fetch_data.py → data.json 更新 → dashboard.html 读取渲染
 ```
 
 ## 常用操作
@@ -91,7 +91,8 @@ python3 fetch_data.py
 ```bash
 python3 serve.py
 # 浏览器自动打开 http://127.0.0.1:8765/dashboard.html
-# 每 5 分钟自动刷新数据
+# 网页每次刷新时自动拉取最新数据（通过 /fetch 接口）
+# 关闭网页后服务器静默，不消耗资源
 ```
 
 ### 推送到 GitHub
@@ -99,6 +100,18 @@ python3 serve.py
 git add -A && git commit -m "更新说明" && git push -u origin main --force
 ```
 仓库：https://github.com/articon1003-png/a-stock-chain
+
+> **代理配置（家里的电脑也要用）**：
+> GitHub 在国内需要代理访问，本机使用 Clash，代理地址 `http://127.0.0.1:7890`。
+> 已配置全局 git 代理，如推送失败可手动指定：
+> ```bash
+> git -c http.proxy=http://127.0.0.1:7890 -c https.proxy=http://127.0.0.1:7890 push
+> ```
+> 首次使用需配置全局代理：
+> ```bash
+> git config --global http.proxy http://127.0.0.1:7890
+> git config --global https.proxy http://127.0.0.1:7890
+> ```
 
 ### 增删个股
 编辑 `config.json` 的 `groups` 数组，在对应组的 `stocks` 中增删即可。
@@ -120,8 +133,9 @@ git add -A && git commit -m "更新说明" && git push -u origin main --force
 - 前端单文件，无依赖，纯原生 JS
 - 数据来源：腾讯行情 API（免费，无需 key）
 - 涨跌计算：流通市值加权平均
-- 刷新间隔：5 分钟（dashboard.html 中 `REFRESH_INTERVAL` 常量）
+- 刷新机制：dashboard.html 每 5 分钟请求 `/fetch` 接口 → 服务器执行 fetch_data.py → 更新 data.json → 页面重新读取
 - 层级分组：dashboard.html 中 `LAYER_ORDER` / `LAYER_LABELS` 常量控制显示顺序和名称
+- GitHub Pages 静态托管：网页本身不触发 /fetch，需手动运行 `python3 fetch_data.py` 并推送
 
 ## 已安装工具
 - **uv**: Python 包管理器（`~/.local/bin/uv`）

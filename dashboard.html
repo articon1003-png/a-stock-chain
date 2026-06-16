@@ -512,7 +512,10 @@ function render() {
 }
 
 function loadData() {
-  fetch('data.json?t=' + Date.now())
+  // 先请求服务器更新数据，再读取
+  fetch('/fetch?t=' + Date.now())
+    .catch(() => {})  // 服务器不可用时忽略，直接读本地数据
+    .then(() => fetch('data.json?t=' + Date.now()))
     .then(r => r.json())
     .then(data => {
       // 兼容旧版单链 data.json（{"groups": [...]}）
@@ -525,7 +528,7 @@ function loadData() {
     })
     .catch(() => {
       document.getElementById('grid').innerHTML =
-        '<div style="padding:40px;text-align:center;color:#e74c3c">数据加载失败，先运行 python3 fetch_data.py</div>';
+        '<div style="padding:40px;text-align:center;color:#e74c3c">数据加载失败，先运行 python3 serve.py</div>';
     });
 }
 
