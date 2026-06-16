@@ -1,0 +1,1332 @@
+{
+  "chains": [
+    {
+      "id": "ai",
+      "name": "AI 超级机柜",
+      "layers": [
+        {
+          "key": "materials",
+          "label": "材料层"
+        },
+        {
+          "key": "components",
+          "label": "部件层"
+        },
+        {
+          "key": "equipment",
+          "label": "设备层"
+        }
+      ],
+      "groups": [
+        {
+          "name": "1.1 芯片制造材料",
+          "layer": "materials",
+          "desc": "特种气体、前驱体、光刻胶、电子级硅片、CMP抛光液",
+          "color": "#c0392b",
+          "stocks": [
+            {
+              "code": "688146",
+              "name": "中船特气",
+              "exchange": "sh",
+              "product": "含氟特气"
+            },
+            {
+              "code": "688268",
+              "name": "华特气体",
+              "exchange": "sh",
+              "product": "光刻气"
+            },
+            {
+              "code": "688106",
+              "name": "金宏气体",
+              "exchange": "sh",
+              "product": "电子特气"
+            },
+            {
+              "code": "002409",
+              "name": "雅克科技",
+              "exchange": "sz",
+              "product": "前驱体"
+            },
+            {
+              "code": "300346",
+              "name": "南大光电",
+              "exchange": "sz",
+              "product": "前驱体/MO源"
+            },
+            {
+              "code": "603650",
+              "name": "彤程新材",
+              "exchange": "sh",
+              "product": "KrF/ArF光刻胶"
+            },
+            {
+              "code": "603306",
+              "name": "华懋科技",
+              "exchange": "sh",
+              "product": "光刻胶全产业链"
+            },
+            {
+              "code": "300236",
+              "name": "上海新阳",
+              "exchange": "sz",
+              "product": "ArF光刻胶"
+            },
+            {
+              "code": "300655",
+              "name": "晶瑞电材",
+              "exchange": "sz",
+              "product": "KrF光刻胶"
+            },
+            {
+              "code": "688126",
+              "name": "沪硅产业",
+              "exchange": "sh",
+              "product": "12寸大硅片"
+            },
+            {
+              "code": "002129",
+              "name": "TCL中环",
+              "exchange": "sz",
+              "product": "半导体硅片"
+            },
+            {
+              "code": "605358",
+              "name": "立昂微",
+              "exchange": "sh",
+              "product": "重掺硅片"
+            },
+            {
+              "code": "688019",
+              "name": "安集科技",
+              "exchange": "sh",
+              "product": "CMP抛光液"
+            },
+            {
+              "code": "300054",
+              "name": "鼎龙股份",
+              "exchange": "sz",
+              "product": "CMP抛光垫"
+            }
+          ]
+        },
+        {
+          "name": "1.2 先进封装专用材料",
+          "layer": "materials",
+          "desc": "GMC环氧模塑料、底填胶、临时键合胶、TIM散热材料",
+          "color": "#d35400",
+          "stocks": [
+            {
+              "code": "688535",
+              "name": "华海诚科",
+              "exchange": "sh",
+              "product": "GMC/EMC"
+            },
+            {
+              "code": "603002",
+              "name": "宏昌电子",
+              "exchange": "sh",
+              "product": "封装用树脂"
+            },
+            {
+              "code": "688035",
+              "name": "德邦科技",
+              "exchange": "sh",
+              "product": "Underfill/键合胶"
+            },
+            {
+              "code": "300398",
+              "name": "飞凯材料",
+              "exchange": "sz",
+              "product": "底填胶"
+            },
+            {
+              "code": "300054",
+              "name": "鼎龙股份",
+              "exchange": "sz",
+              "product": "临时键合胶"
+            },
+            {
+              "code": "300429",
+              "name": "强力新材",
+              "exchange": "sz",
+              "product": "临时键合胶"
+            },
+            {
+              "code": "688603",
+              "name": "天承科技",
+              "exchange": "sh",
+              "product": "TSV电镀液"
+            },
+            {
+              "code": "301489",
+              "name": "思泉新材",
+              "exchange": "sz",
+              "product": "导热材料"
+            },
+            {
+              "code": "300602",
+              "name": "飞荣达",
+              "exchange": "sz",
+              "product": "TIM散热材料"
+            }
+          ]
+        },
+        {
+          "name": "1.3 玻璃基板新型材料",
+          "layer": "materials",
+          "desc": "半导体级玻璃载板、TGV玻璃通孔专用材料",
+          "color": "#e67e22",
+          "stocks": [
+            {
+              "code": "000725",
+              "name": "京东方A",
+              "exchange": "sz",
+              "product": "玻璃基载板"
+            },
+            {
+              "code": "600707",
+              "name": "彩虹股份",
+              "exchange": "sh",
+              "product": "芯片级玻璃"
+            },
+            {
+              "code": "600552",
+              "name": "凯盛科技",
+              "exchange": "sh",
+              "product": "电子玻璃"
+            },
+            {
+              "code": "000012",
+              "name": "南玻A",
+              "exchange": "sz",
+              "product": "半导体玻璃"
+            },
+            {
+              "code": "603773",
+              "name": "沃格光电",
+              "exchange": "sh",
+              "product": "TGV全制程"
+            },
+            {
+              "code": "300433",
+              "name": "蓝思科技",
+              "exchange": "sz",
+              "product": "TGV玻璃基板"
+            },
+            {
+              "code": "300776",
+              "name": "帝尔激光",
+              "exchange": "sz",
+              "product": "TGV激光设备"
+            },
+            {
+              "code": "688170",
+              "name": "德龙激光",
+              "exchange": "sh",
+              "product": "TGV激光设备"
+            },
+            {
+              "code": "688603",
+              "name": "天承科技",
+              "exchange": "sh",
+              "product": "TGV电镀液"
+            },
+            {
+              "code": "688075",
+              "name": "美迪凯",
+              "exchange": "sh",
+              "product": "玻璃载板代工"
+            }
+          ]
+        },
+        {
+          "name": "1.4 高速传输/PCB基材",
+          "layer": "materials",
+          "desc": "CCL M8/M9、HVLP铜箔、特种树脂、极薄电子布/石英布",
+          "color": "#e74c3c",
+          "stocks": [
+            {
+              "code": "600183",
+              "name": "生益科技",
+              "exchange": "sh",
+              "product": "M9级CCL"
+            },
+            {
+              "code": "603186",
+              "name": "华正新材",
+              "exchange": "sh",
+              "product": "高速CCL"
+            },
+            {
+              "code": "605589",
+              "name": "圣泉集团",
+              "exchange": "sh",
+              "product": "PPO特种树脂"
+            },
+            {
+              "code": "601208",
+              "name": "东材科技",
+              "exchange": "sh",
+              "product": "特种PPO树脂"
+            },
+            {
+              "code": "603002",
+              "name": "宏昌电子",
+              "exchange": "sh",
+              "product": "高速树脂"
+            },
+            {
+              "code": "301511",
+              "name": "德福科技",
+              "exchange": "sz",
+              "product": "HVLP铜箔"
+            },
+            {
+              "code": "301217",
+              "name": "铜冠铜箔",
+              "exchange": "sz",
+              "product": "高速铜箔"
+            },
+            {
+              "code": "301150",
+              "name": "中一科技",
+              "exchange": "sz",
+              "product": "极薄铜箔"
+            },
+            {
+              "code": "603256",
+              "name": "宏和科技",
+              "exchange": "sh",
+              "product": "极薄电子布"
+            },
+            {
+              "code": "300395",
+              "name": "菲利华",
+              "exchange": "sz",
+              "product": "石英布"
+            },
+            {
+              "code": "301526",
+              "name": "国际复材",
+              "exchange": "sz",
+              "product": "LDK电子布"
+            },
+            {
+              "code": "600176",
+              "name": "中国巨石",
+              "exchange": "sh",
+              "product": "电子纱/布"
+            }
+          ]
+        },
+        {
+          "name": "2.1 算力与核心存储核心部件",
+          "layer": "components",
+          "desc": "GPU/ASIC加速芯片、HBM高带宽内存、DPU智能网卡",
+          "color": "#2980b9",
+          "stocks": [
+            {
+              "code": "688041",
+              "name": "海光信息",
+              "exchange": "sh",
+              "product": "DCU/GPU"
+            },
+            {
+              "code": "688256",
+              "name": "寒武纪",
+              "exchange": "sh",
+              "product": "AI芯片"
+            },
+            {
+              "code": "300474",
+              "name": "景嘉微",
+              "exchange": "sz",
+              "product": "国产GPU"
+            },
+            {
+              "code": "002156",
+              "name": "通富微电",
+              "exchange": "sz",
+              "product": "先进封装"
+            },
+            {
+              "code": "603986",
+              "name": "兆易创新",
+              "exchange": "sh",
+              "product": "存储芯片"
+            },
+            {
+              "code": "000063",
+              "name": "中兴通讯",
+              "exchange": "sz",
+              "product": "DPU芯片"
+            }
+          ]
+        },
+        {
+          "name": "2.2 高速光通信传输模组",
+          "layer": "components",
+          "desc": "800G/1.6T光模块、光芯片、硅光/CPO，万卡集群光互联核心",
+          "color": "#3498db",
+          "stocks": [
+            {
+              "code": "300308",
+              "name": "中际旭创",
+              "exchange": "sz",
+              "product": "800G光模块"
+            },
+            {
+              "code": "300502",
+              "name": "新易盛",
+              "exchange": "sz",
+              "product": "高速光模块"
+            },
+            {
+              "code": "300394",
+              "name": "天孚通信",
+              "exchange": "sz",
+              "product": "光器件"
+            },
+            {
+              "code": "002281",
+              "name": "光迅科技",
+              "exchange": "sz",
+              "product": "光通信"
+            },
+            {
+              "code": "000988",
+              "name": "华工科技",
+              "exchange": "sz",
+              "product": "激光/光模块"
+            },
+            {
+              "code": "688498",
+              "name": "源杰科技",
+              "exchange": "sh",
+              "product": "激光芯片"
+            },
+            {
+              "code": "603083",
+              "name": "剑桥科技",
+              "exchange": "sh",
+              "product": "光模块"
+            },
+            {
+              "code": "300548",
+              "name": "博创科技",
+              "exchange": "sz",
+              "product": "硅光模块"
+            },
+            {
+              "code": "301205",
+              "name": "联特科技",
+              "exchange": "sz",
+              "product": "高速光模块"
+            },
+            {
+              "code": "300570",
+              "name": "太辰光",
+              "exchange": "sz",
+              "product": "光器件"
+            },
+            {
+              "code": "688205",
+              "name": "德科立",
+              "exchange": "sh",
+              "product": "光器件"
+            }
+          ]
+        },
+        {
+          "name": "2.3 高速电互联与高频连接",
+          "layer": "components",
+          "desc": "DAC/ACC/AEC铜缆、高速背板连接器，机柜内部短距铜物理连接",
+          "color": "#1abc9c",
+          "stocks": [
+            {
+              "code": "002130",
+              "name": "沃尔核材",
+              "exchange": "sz",
+              "product": "224G高速铜缆"
+            },
+            {
+              "code": "300563",
+              "name": "神宇股份",
+              "exchange": "sz",
+              "product": "高频同轴电缆"
+            },
+            {
+              "code": "301113",
+              "name": "兆龙互连",
+              "exchange": "sz",
+              "product": "DAC高速组件"
+            },
+            {
+              "code": "688629",
+              "name": "华丰科技",
+              "exchange": "sh",
+              "product": "224G背板连接器"
+            },
+            {
+              "code": "688410",
+              "name": "鼎通科技",
+              "exchange": "sh",
+              "product": "连接器精密组件"
+            },
+            {
+              "code": "002475",
+              "name": "立讯精密",
+              "exchange": "sz",
+              "product": "高速背板/AEC"
+            },
+            {
+              "code": "002179",
+              "name": "中航光电",
+              "exchange": "sz",
+              "product": "高频高密度连接器"
+            }
+          ]
+        },
+        {
+          "name": "2.4 高密度高层数PCB板",
+          "layer": "components",
+          "desc": "AI服务器主板/加速卡板(UBB/OAM 28-40层)、1.6T高速交换机板",
+          "color": "#e67e22",
+          "stocks": [
+            {
+              "code": "002463",
+              "name": "沪电股份",
+              "exchange": "sz",
+              "product": "28层+UBB/交换机板"
+            },
+            {
+              "code": "300476",
+              "name": "胜宏科技",
+              "exchange": "sz",
+              "product": "GPU加速卡OAM板"
+            },
+            {
+              "code": "002916",
+              "name": "深南电路",
+              "exchange": "sz",
+              "product": "UBB/FBGA载板"
+            },
+            {
+              "code": "688183",
+              "name": "生益电子",
+              "exchange": "sh",
+              "product": "1.6T交换机板"
+            },
+            {
+              "code": "001389",
+              "name": "广合科技",
+              "exchange": "sz",
+              "product": "AI服务器PCB"
+            }
+          ]
+        },
+        {
+          "name": "2.5 能源管理与供电部件",
+          "layer": "components",
+          "desc": "CRPS服务器电源(3200W-8500W)、PMIC/DrMOS芯片级供电",
+          "color": "#f39c12",
+          "stocks": [
+            {
+              "code": "002851",
+              "name": "麦格米特",
+              "exchange": "sz",
+              "product": "英伟达链CRPS电源"
+            },
+            {
+              "code": "300870",
+              "name": "欧陆通",
+              "exchange": "sz",
+              "product": "国产替代CRPS电源"
+            },
+            {
+              "code": "000066",
+              "name": "中国长城",
+              "exchange": "sz",
+              "product": "信创大功率电源"
+            },
+            {
+              "code": "688141",
+              "name": "杰华特",
+              "exchange": "sh",
+              "product": "多相DC-DC/DrMOS"
+            },
+            {
+              "code": "688508",
+              "name": "芯朋微",
+              "exchange": "sh",
+              "product": "AC-DC电源芯片"
+            },
+            {
+              "code": "688601",
+              "name": "力芯微",
+              "exchange": "sh",
+              "product": "高精度LDO"
+            },
+            {
+              "code": "300661",
+              "name": "圣邦股份",
+              "exchange": "sz",
+              "product": "模拟/电源管理芯片"
+            }
+          ]
+        },
+        {
+          "name": "3.1 半导体制造与检测设备",
+          "layer": "equipment",
+          "desc": "ALD/CVD薄膜沉积、刻蚀机、离子注入、测试机/探针台",
+          "color": "#9b59b6",
+          "stocks": [
+            {
+              "code": "688072",
+              "name": "拓荆科技",
+              "exchange": "sh",
+              "product": "ALD/PECVD设备"
+            },
+            {
+              "code": "002371",
+              "name": "北方华创",
+              "exchange": "sz",
+              "product": "CVD/刻蚀/清洗"
+            },
+            {
+              "code": "688012",
+              "name": "中微公司",
+              "exchange": "sh",
+              "product": "介质刻蚀机"
+            },
+            {
+              "code": "600641",
+              "name": "万业企业",
+              "exchange": "sh",
+              "product": "离子注入机"
+            },
+            {
+              "code": "688200",
+              "name": "华峰测控",
+              "exchange": "sh",
+              "product": "模拟/混合信号ATE"
+            },
+            {
+              "code": "300604",
+              "name": "长川科技",
+              "exchange": "sz",
+              "product": "SoC测试机/探针台"
+            }
+          ]
+        },
+        {
+          "name": "3.2 先进封装与新型加工设备",
+          "layer": "equipment",
+          "desc": "先进固晶机、临时键合机、TGV激光打孔、晶圆划片",
+          "color": "#8e44ad",
+          "stocks": [
+            {
+              "code": "688383",
+              "name": "新益昌",
+              "exchange": "sh",
+              "product": "固晶机/键合设备"
+            },
+            {
+              "code": "300751",
+              "name": "迈为股份",
+              "exchange": "sz",
+              "product": "封装/划片设备"
+            },
+            {
+              "code": "688037",
+              "name": "芯源微",
+              "exchange": "sh",
+              "product": "涂胶显影设备"
+            },
+            {
+              "code": "300776",
+              "name": "帝尔激光",
+              "exchange": "sz",
+              "product": "TGV激光打孔"
+            },
+            {
+              "code": "002008",
+              "name": "大族激光",
+              "exchange": "sz",
+              "product": "激光加工设备"
+            },
+            {
+              "code": "688170",
+              "name": "德龙激光",
+              "exchange": "sh",
+              "product": "TGV/划片激光"
+            },
+            {
+              "code": "688559",
+              "name": "海目星",
+              "exchange": "sh",
+              "product": "激光微加工"
+            },
+            {
+              "code": "300480",
+              "name": "光力科技",
+              "exchange": "sz",
+              "product": "晶圆划片"
+            }
+          ]
+        },
+        {
+          "name": "3.3 算力网络系统整机",
+          "layer": "equipment",
+          "desc": "AI服务器整机、高速交换机/路由器，直接交付数据中心",
+          "color": "#8e44ad",
+          "stocks": [
+            {
+              "code": "601138",
+              "name": "工业富联",
+              "exchange": "sh",
+              "product": "AI服务器ODM"
+            },
+            {
+              "code": "000977",
+              "name": "浪潮信息",
+              "exchange": "sz",
+              "product": "AI服务器"
+            },
+            {
+              "code": "000938",
+              "name": "紫光股份",
+              "exchange": "sz",
+              "product": "数据中心交换机"
+            },
+            {
+              "code": "301165",
+              "name": "锐捷网络",
+              "exchange": "sz",
+              "product": "数据中心交换机"
+            },
+            {
+              "code": "688702",
+              "name": "盛科通信",
+              "exchange": "sh",
+              "product": "交换芯片"
+            }
+          ]
+        },
+        {
+          "name": "3.4 智算温控与液冷设备",
+          "layer": "equipment",
+          "desc": "CDU液冷冷板/浸没式、精密空调，保障服务器不烧毁",
+          "color": "#2ecc71",
+          "stocks": [
+            {
+              "code": "002837",
+              "name": "英维克",
+              "exchange": "sz",
+              "product": "液冷温控"
+            },
+            {
+              "code": "301018",
+              "name": "申菱环境",
+              "exchange": "sz",
+              "product": "液冷温控"
+            },
+            {
+              "code": "300990",
+              "name": "同飞股份",
+              "exchange": "sz",
+              "product": "液冷温控"
+            },
+            {
+              "code": "300499",
+              "name": "高澜股份",
+              "exchange": "sz",
+              "product": "液冷温控"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "储能电池",
+      "layers": [
+        {
+          "key": "upstream",
+          "label": "上游材料"
+        },
+        {
+          "key": "midstream",
+          "label": "电芯与变流"
+        },
+        {
+          "key": "downstream",
+          "label": "系统与配套"
+        }
+      ],
+      "groups": [
+        {
+          "name": "S1 正极/负极材料",
+          "layer": "upstream",
+          "desc": "磷酸铁锂正极、人造石墨负极",
+          "color": "#c0392b",
+          "stocks": [
+            {
+              "code": "301358",
+              "name": "湖南裕能",
+              "exchange": "sz",
+              "product": "磷酸铁锂正极"
+            },
+            {
+              "code": "300769",
+              "name": "德方纳米",
+              "exchange": "sz",
+              "product": "磷酸铁锂正极"
+            },
+            {
+              "code": "688275",
+              "name": "万润新能",
+              "exchange": "sh",
+              "product": "磷酸铁锂正极"
+            },
+            {
+              "code": "603659",
+              "name": "璞泰来",
+              "exchange": "sh",
+              "product": "负极/涂覆隔膜"
+            },
+            {
+              "code": "001301",
+              "name": "尚太科技",
+              "exchange": "sz",
+              "product": "人造石墨负极"
+            },
+            {
+              "code": "300035",
+              "name": "中科电气",
+              "exchange": "sz",
+              "product": "负极材料"
+            }
+          ]
+        },
+        {
+          "name": "S2 电解液/隔膜",
+          "layer": "upstream",
+          "desc": "电解液、六氟磷酸锂、湿法/干法隔膜",
+          "color": "#d35400",
+          "stocks": [
+            {
+              "code": "002709",
+              "name": "天赐材料",
+              "exchange": "sz",
+              "product": "电解液"
+            },
+            {
+              "code": "300037",
+              "name": "新宙邦",
+              "exchange": "sz",
+              "product": "电解液"
+            },
+            {
+              "code": "002407",
+              "name": "多氟多",
+              "exchange": "sz",
+              "product": "六氟磷酸锂"
+            },
+            {
+              "code": "002812",
+              "name": "恩捷股份",
+              "exchange": "sz",
+              "product": "湿法隔膜"
+            },
+            {
+              "code": "300568",
+              "name": "星源材质",
+              "exchange": "sz",
+              "product": "干法/湿法隔膜"
+            }
+          ]
+        },
+        {
+          "name": "S3 结构件/辅材",
+          "layer": "upstream",
+          "desc": "电池壳体、顶盖、精密结构件",
+          "color": "#e67e22",
+          "stocks": [
+            {
+              "code": "002850",
+              "name": "科达利",
+              "exchange": "sz",
+              "product": "电池结构件"
+            },
+            {
+              "code": "300953",
+              "name": "震裕科技",
+              "exchange": "sz",
+              "product": "顶盖/壳体"
+            }
+          ]
+        },
+        {
+          "name": "S4 储能电芯",
+          "layer": "midstream",
+          "desc": "大储/户储电芯，300Ah+大容量方向",
+          "color": "#2980b9",
+          "stocks": [
+            {
+              "code": "300750",
+              "name": "宁德时代",
+              "exchange": "sz",
+              "product": "储能电芯龙头"
+            },
+            {
+              "code": "300014",
+              "name": "亿纬锂能",
+              "exchange": "sz",
+              "product": "大圆柱/方形储能"
+            },
+            {
+              "code": "002074",
+              "name": "国轩高科",
+              "exchange": "sz",
+              "product": "储能电芯"
+            },
+            {
+              "code": "300207",
+              "name": "欣旺达",
+              "exchange": "sz",
+              "product": "储能电芯"
+            },
+            {
+              "code": "300438",
+              "name": "鹏辉能源",
+              "exchange": "sz",
+              "product": "户储电芯"
+            },
+            {
+              "code": "688063",
+              "name": "派能科技",
+              "exchange": "sh",
+              "product": "户储系统电芯"
+            }
+          ]
+        },
+        {
+          "name": "S5 PCS/变流器",
+          "layer": "midstream",
+          "desc": "储能变流器、SVG，电站与工商业",
+          "color": "#3498db",
+          "stocks": [
+            {
+              "code": "300274",
+              "name": "阳光电源",
+              "exchange": "sz",
+              "product": "储能PCS/系统"
+            },
+            {
+              "code": "300827",
+              "name": "上能电气",
+              "exchange": "sz",
+              "product": "储能PCS"
+            },
+            {
+              "code": "300693",
+              "name": "盛弘股份",
+              "exchange": "sz",
+              "product": "PCS/充电桩"
+            },
+            {
+              "code": "002335",
+              "name": "科华数据",
+              "exchange": "sz",
+              "product": "PCS/数据中心电源"
+            },
+            {
+              "code": "688663",
+              "name": "新风光",
+              "exchange": "sh",
+              "product": "SVG/储能变流"
+            }
+          ]
+        },
+        {
+          "name": "S6 大储系统集成",
+          "layer": "downstream",
+          "desc": "电网侧/电源侧储能系统集成",
+          "color": "#8e44ad",
+          "stocks": [
+            {
+              "code": "688411",
+              "name": "海博思创",
+              "exchange": "sh",
+              "product": "大储系统集成"
+            },
+            {
+              "code": "688248",
+              "name": "南网科技",
+              "exchange": "sh",
+              "product": "电网侧储能"
+            },
+            {
+              "code": "688676",
+              "name": "金盘科技",
+              "exchange": "sh",
+              "product": "干变/储能系统"
+            }
+          ]
+        },
+        {
+          "name": "S7 户储与出海",
+          "layer": "downstream",
+          "desc": "户储逆变器/便携储能，欧美澳新兴市场",
+          "color": "#9b59b6",
+          "stocks": [
+            {
+              "code": "605117",
+              "name": "德业股份",
+              "exchange": "sh",
+              "product": "户储逆变器"
+            },
+            {
+              "code": "300763",
+              "name": "锦浪科技",
+              "exchange": "sz",
+              "product": "组串逆变器"
+            },
+            {
+              "code": "688390",
+              "name": "固德威",
+              "exchange": "sh",
+              "product": "户储逆变器"
+            },
+            {
+              "code": "688717",
+              "name": "艾罗能源",
+              "exchange": "sh",
+              "product": "户储系统"
+            },
+            {
+              "code": "301327",
+              "name": "华宝新能",
+              "exchange": "sz",
+              "product": "便携储能"
+            }
+          ]
+        },
+        {
+          "name": "S8 温控与消防",
+          "layer": "downstream",
+          "desc": "储能液冷温控、Pack级消防（与AI链共振组）",
+          "color": "#16a085",
+          "stocks": [
+            {
+              "code": "002837",
+              "name": "英维克",
+              "exchange": "sz",
+              "product": "储能温控"
+            },
+            {
+              "code": "300990",
+              "name": "同飞股份",
+              "exchange": "sz",
+              "product": "储能温控"
+            },
+            {
+              "code": "300499",
+              "name": "高澜股份",
+              "exchange": "sz",
+              "product": "储能温控"
+            },
+            {
+              "code": "002960",
+              "name": "青鸟消防",
+              "exchange": "sz",
+              "product": "储能消防"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consumer",
+      "name": "消费电子",
+      "layers": [
+        {
+          "key": "upstream",
+          "label": "核心零部件"
+        },
+        {
+          "key": "midstream",
+          "label": "芯片与存储"
+        },
+        {
+          "key": "downstream",
+          "label": "整机与新终端"
+        }
+      ],
+      "groups": [
+        {
+          "name": "C1 光学与显示",
+          "layer": "upstream",
+          "desc": "CIS图像传感器、光学元件、盖板、面板",
+          "color": "#c0392b",
+          "stocks": [
+            {
+              "code": "603501",
+              "name": "韦尔股份",
+              "exchange": "sh",
+              "product": "CIS图像传感器"
+            },
+            {
+              "code": "688213",
+              "name": "思特威",
+              "exchange": "sh",
+              "product": "CIS图像传感器"
+            },
+            {
+              "code": "002273",
+              "name": "水晶光电",
+              "exchange": "sz",
+              "product": "光学元件/AR"
+            },
+            {
+              "code": "300433",
+              "name": "蓝思科技",
+              "exchange": "sz",
+              "product": "盖板玻璃"
+            },
+            {
+              "code": "000725",
+              "name": "京东方A",
+              "exchange": "sz",
+              "product": "面板"
+            },
+            {
+              "code": "002456",
+              "name": "欧菲光",
+              "exchange": "sz",
+              "product": "摄像头模组"
+            }
+          ]
+        },
+        {
+          "name": "C2 声学/连接/射频",
+          "layer": "upstream",
+          "desc": "声学器件、连接器、天线、射频前端",
+          "color": "#d35400",
+          "stocks": [
+            {
+              "code": "002241",
+              "name": "歌尔股份",
+              "exchange": "sz",
+              "product": "声学/XR整机"
+            },
+            {
+              "code": "002475",
+              "name": "立讯精密",
+              "exchange": "sz",
+              "product": "连接器/整机组装"
+            },
+            {
+              "code": "300679",
+              "name": "电连技术",
+              "exchange": "sz",
+              "product": "射频连接器"
+            },
+            {
+              "code": "300136",
+              "name": "信维通信",
+              "exchange": "sz",
+              "product": "天线/无线充电"
+            },
+            {
+              "code": "300782",
+              "name": "卓胜微",
+              "exchange": "sz",
+              "product": "射频前端"
+            }
+          ]
+        },
+        {
+          "name": "C3 结构件/折叠",
+          "layer": "upstream",
+          "desc": "精密结构件、MIM、折叠屏铰链",
+          "color": "#e67e22",
+          "stocks": [
+            {
+              "code": "002600",
+              "name": "领益智造",
+              "exchange": "sz",
+              "product": "精密功能件"
+            },
+            {
+              "code": "300115",
+              "name": "长盈精密",
+              "exchange": "sz",
+              "product": "结构件"
+            },
+            {
+              "code": "002384",
+              "name": "东山精密",
+              "exchange": "sz",
+              "product": "FPC/结构件"
+            },
+            {
+              "code": "688210",
+              "name": "统联精密",
+              "exchange": "sh",
+              "product": "MIM折叠件"
+            },
+            {
+              "code": "300709",
+              "name": "精研科技",
+              "exchange": "sz",
+              "product": "MIM/铰链"
+            }
+          ]
+        },
+        {
+          "name": "C4 电池与快充",
+          "layer": "upstream",
+          "desc": "消费电芯、电池Pack、快充",
+          "color": "#e74c3c",
+          "stocks": [
+            {
+              "code": "000049",
+              "name": "德赛电池",
+              "exchange": "sz",
+              "product": "手机电池Pack"
+            },
+            {
+              "code": "688772",
+              "name": "珠海冠宇",
+              "exchange": "sh",
+              "product": "消费电芯"
+            },
+            {
+              "code": "002993",
+              "name": "奥海科技",
+              "exchange": "sz",
+              "product": "充电器/快充"
+            }
+          ]
+        },
+        {
+          "name": "C5 终端SoC与存储",
+          "layer": "midstream",
+          "desc": "穿戴/AIoT SoC、存储模组",
+          "color": "#2980b9",
+          "stocks": [
+            {
+              "code": "688608",
+              "name": "恒玄科技",
+              "exchange": "sh",
+              "product": "TWS/穿戴SoC"
+            },
+            {
+              "code": "603893",
+              "name": "瑞芯微",
+              "exchange": "sh",
+              "product": "AIoT SoC"
+            },
+            {
+              "code": "688099",
+              "name": "晶晨股份",
+              "exchange": "sh",
+              "product": "多媒体SoC"
+            },
+            {
+              "code": "688018",
+              "name": "乐鑫科技",
+              "exchange": "sh",
+              "product": "WiFi MCU"
+            },
+            {
+              "code": "603986",
+              "name": "兆易创新",
+              "exchange": "sh",
+              "product": "NOR/MCU"
+            },
+            {
+              "code": "301308",
+              "name": "江波龙",
+              "exchange": "sz",
+              "product": "存储模组"
+            },
+            {
+              "code": "688525",
+              "name": "佰维存储",
+              "exchange": "sh",
+              "product": "存储模组"
+            }
+          ]
+        },
+        {
+          "name": "C6 整机与ODM",
+          "layer": "downstream",
+          "desc": "手机整机、ODM/EMS代工",
+          "color": "#8e44ad",
+          "stocks": [
+            {
+              "code": "688036",
+              "name": "传音控股",
+              "exchange": "sh",
+              "product": "新兴市场手机"
+            },
+            {
+              "code": "603296",
+              "name": "华勤技术",
+              "exchange": "sh",
+              "product": "智能硬件ODM"
+            },
+            {
+              "code": "603341",
+              "name": "龙旗科技",
+              "exchange": "sh",
+              "product": "智能硬件ODM"
+            },
+            {
+              "code": "300735",
+              "name": "光弘科技",
+              "exchange": "sz",
+              "product": "EMS代工"
+            }
+          ]
+        },
+        {
+          "name": "C7 AI新终端",
+          "layer": "downstream",
+          "desc": "AI眼镜、AI音频等新形态终端",
+          "color": "#16a085",
+          "stocks": [
+            {
+              "code": "300793",
+              "name": "佳禾智能",
+              "exchange": "sz",
+              "product": "AI眼镜ODM"
+            },
+            {
+              "code": "001314",
+              "name": "亿道信息",
+              "exchange": "sz",
+              "product": "AI硬件方案"
+            },
+            {
+              "code": "300622",
+              "name": "博士眼镜",
+              "exchange": "sz",
+              "product": "智能眼镜渠道"
+            },
+            {
+              "code": "002351",
+              "name": "漫步者",
+              "exchange": "sz",
+              "product": "AI音频"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
