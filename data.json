@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-18 11:11:27",
+  "update_time": "2026-06-19 06:19:34",
   "chains": [
     {
       "id": "ai",
@@ -25,8 +25,8 @@
           "color": "#2980b9",
           "layer": "components",
           "today_return": 9.03,
-          "cum_5d": 19.33,
-          "cum_20d": 17.75,
+          "cum_5d": 20.47,
+          "cum_20d": 15.24,
           "valid_count": 6,
           "total_market_cap": 24083.54,
           "stocks": [
@@ -86,8 +86,8 @@
           "color": "#8e44ad",
           "layer": "equipment",
           "today_return": 6.9,
-          "cum_5d": 13.1,
-          "cum_20d": 16.21,
+          "cum_5d": 12.53,
+          "cum_20d": 13.21,
           "valid_count": 5,
           "total_market_cap": 18681.61,
           "stocks": [
@@ -139,8 +139,8 @@
           "color": "#3498db",
           "layer": "components",
           "today_return": 5.66,
-          "cum_5d": 18.79,
-          "cum_20d": 38.76,
+          "cum_5d": 19.34,
+          "cum_20d": 31.91,
           "valid_count": 11,
           "total_market_cap": 34637.56,
           "stocks": [
@@ -240,8 +240,8 @@
           "color": "#1abc9c",
           "layer": "components",
           "today_return": 3.82,
-          "cum_5d": 8.69,
-          "cum_20d": 8.28,
+          "cum_5d": 9.62,
+          "cum_20d": 2.53,
           "valid_count": 7,
           "total_market_cap": 7251.86,
           "stocks": [
@@ -309,8 +309,8 @@
           "color": "#d35400",
           "layer": "materials",
           "today_return": 2.55,
-          "cum_5d": 19.98,
-          "cum_20d": 27.67,
+          "cum_5d": 20.97,
+          "cum_20d": 23.81,
           "valid_count": 9,
           "total_market_cap": 2012.27,
           "stocks": [
@@ -394,8 +394,8 @@
           "color": "#e67e22",
           "layer": "materials",
           "today_return": 2.18,
-          "cum_5d": 20.92,
-          "cum_20d": 44.94,
+          "cum_5d": 26.92,
+          "cum_20d": 36.36,
           "valid_count": 10,
           "total_market_cap": 6786.57,
           "stocks": [
@@ -487,8 +487,8 @@
           "color": "#e74c3c",
           "layer": "materials",
           "today_return": 2.01,
-          "cum_5d": 28.5,
-          "cum_20d": 79.57,
+          "cum_5d": 26.44,
+          "cum_20d": 63.93,
           "valid_count": 12,
           "total_market_cap": 14524.93,
           "stocks": [
@@ -596,8 +596,8 @@
           "color": "#9b59b6",
           "layer": "equipment",
           "today_return": 1.7,
-          "cum_5d": 14.99,
-          "cum_20d": 14.16,
+          "cum_5d": 13.89,
+          "cum_20d": 13.34,
           "valid_count": 6,
           "total_market_cap": 13026.38,
           "stocks": [
@@ -657,8 +657,8 @@
           "color": "#f39c12",
           "layer": "components",
           "today_return": 1.54,
-          "cum_5d": 24.98,
-          "cum_20d": 29.33,
+          "cum_5d": 24.65,
+          "cum_20d": 25.91,
           "valid_count": 7,
           "total_market_cap": 3618.69,
           "stocks": [
@@ -726,8 +726,8 @@
           "color": "#e67e22",
           "layer": "components",
           "today_return": 1.22,
-          "cum_5d": 17.06,
-          "cum_20d": 29.25,
+          "cum_5d": 16.14,
+          "cum_20d": 16.52,
           "valid_count": 5,
           "total_market_cap": 10512.04,
           "stocks": [
@@ -779,8 +779,8 @@
           "color": "#2ecc71",
           "layer": "equipment",
           "today_return": 0.95,
-          "cum_5d": 13.78,
-          "cum_20d": -1.32,
+          "cum_5d": 14.57,
+          "cum_20d": -6.58,
           "valid_count": 4,
           "total_market_cap": 1352.31,
           "stocks": [
@@ -823,11 +823,11 @@
           "desc": "特种气体、前驱体、光刻胶、电子级硅片、CMP抛光液",
           "color": "#c0392b",
           "layer": "materials",
-          "today_return": 0.26,
-          "cum_5d": 3.93,
-          "cum_20d": 28.55,
+          "today_return": 0.25,
+          "cum_5d": 10.42,
+          "cum_20d": 26.85,
           "valid_count": 14,
-          "total_market_cap": 6144.02,
+          "total_market_cap": 6166.24,
           "stocks": [
             {
               "code": "688146",
@@ -906,7 +906,7 @@
               "name": "立昂微",
               "price": 70.2,
               "change_pct": -1.06,
-              "market_cap": 519.86,
+              "market_cap": 542.08,
               "tier": "重掺硅片"
             },
             {
@@ -949,8 +949,8 @@
           "color": "#8e44ad",
           "layer": "equipment",
           "today_return": 0.25,
-          "cum_5d": 12.62,
-          "cum_20d": 1.03,
+          "cum_5d": 14.91,
+          "cum_20d": -1.66,
           "valid_count": 8,
           "total_market_cap": 3186.63,
           "stocks": [
@@ -1046,8 +1046,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": 0.77,
-          "cum_5d": 16.44,
-          "cum_20d": 2.66,
+          "cum_5d": 12.86,
+          "cum_20d": 0.77,
           "valid_count": 3,
           "total_market_cap": 1112.42,
           "stocks": [
@@ -1083,8 +1083,8 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": 0.41,
-          "cum_5d": 5.75,
-          "cum_20d": -7.44,
+          "cum_5d": 7.34,
+          "cum_20d": -8.03,
           "valid_count": 2,
           "total_market_cap": 680.61,
           "stocks": [
@@ -1112,8 +1112,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 0.41,
-          "cum_5d": 11.35,
-          "cum_20d": -3.35,
+          "cum_5d": 12.41,
+          "cum_20d": -7.33,
           "valid_count": 4,
           "total_market_cap": 1111.66,
           "stocks": [
@@ -1157,8 +1157,8 @@
           "color": "#c0392b",
           "layer": "upstream",
           "today_return": -0.38,
-          "cum_5d": 9.44,
-          "cum_20d": -9.31,
+          "cum_5d": 4.29,
+          "cum_20d": -9.95,
           "valid_count": 6,
           "total_market_cap": 1820.0,
           "stocks": [
@@ -1218,8 +1218,8 @@
           "color": "#9b59b6",
           "layer": "downstream",
           "today_return": -0.39,
-          "cum_5d": 1.27,
-          "cum_20d": -14.49,
+          "cum_5d": 0.31,
+          "cum_20d": -16.18,
           "valid_count": 5,
           "total_market_cap": 2064.04,
           "stocks": [
@@ -1271,8 +1271,8 @@
           "color": "#3498db",
           "layer": "midstream",
           "today_return": -0.95,
-          "cum_5d": 2.01,
-          "cum_20d": -10.64,
+          "cum_5d": 0.65,
+          "cum_20d": -10.78,
           "valid_count": 5,
           "total_market_cap": 2968.25,
           "stocks": [
@@ -1324,8 +1324,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": -1.69,
-          "cum_5d": 4.2,
-          "cum_20d": -4.71,
+          "cum_5d": 0.68,
+          "cum_20d": -4.73,
           "valid_count": 6,
           "total_market_cap": 19422.38,
           "stocks": [
@@ -1385,8 +1385,8 @@
           "color": "#d35400",
           "layer": "upstream",
           "today_return": -2.12,
-          "cum_5d": 8.23,
-          "cum_20d": -0.89,
+          "cum_5d": 4.25,
+          "cum_20d": -2.96,
           "valid_count": 5,
           "total_market_cap": 2448.43,
           "stocks": [
@@ -1458,8 +1458,8 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": 5.72,
-          "cum_5d": 26.03,
-          "cum_20d": 22.22,
+          "cum_5d": 22.6,
+          "cum_20d": 15.67,
           "valid_count": 5,
           "total_market_cap": 5586.75,
           "stocks": [
@@ -1511,10 +1511,10 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": 4.73,
-          "cum_5d": 21.26,
-          "cum_20d": 25.21,
+          "cum_5d": 21.3,
+          "cum_20d": 18.6,
           "valid_count": 7,
-          "total_market_cap": 9389.92,
+          "total_market_cap": 9393.37,
           "stocks": [
             {
               "code": "603986",
@@ -1545,7 +1545,7 @@
               "name": "瑞芯微",
               "price": 180.66,
               "change_pct": 2.68,
-              "market_cap": 760.42,
+              "market_cap": 763.87,
               "tier": "AIoT SoC"
             },
             {
@@ -1580,8 +1580,8 @@
           "color": "#d35400",
           "layer": "upstream",
           "today_return": 3.67,
-          "cum_5d": 9.27,
-          "cum_20d": 2.5,
+          "cum_5d": 10.59,
+          "cum_20d": -3.54,
           "valid_count": 5,
           "total_market_cap": 7461.67,
           "stocks": [
@@ -1633,8 +1633,8 @@
           "color": "#c0392b",
           "layer": "upstream",
           "today_return": 2.98,
-          "cum_5d": 18.42,
-          "cum_20d": 29.95,
+          "cum_5d": 21.86,
+          "cum_20d": 22.05,
           "valid_count": 6,
           "total_market_cap": 7320.07,
           "stocks": [
@@ -1694,8 +1694,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 0.41,
-          "cum_5d": 6.72,
-          "cum_20d": -3.63,
+          "cum_5d": 5.33,
+          "cum_20d": -5.24,
           "valid_count": 4,
           "total_market_cap": 204.94,
           "stocks": [
@@ -1739,8 +1739,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": -2.0,
-          "cum_5d": 7.12,
-          "cum_20d": 0.14,
+          "cum_5d": 7.41,
+          "cum_20d": -2.57,
           "valid_count": 4,
           "total_market_cap": 1534.55,
           "stocks": [
@@ -1784,8 +1784,8 @@
           "color": "#e74c3c",
           "layer": "upstream",
           "today_return": -3.29,
-          "cum_5d": 14.85,
-          "cum_20d": 16.39,
+          "cum_5d": 6.6,
+          "cum_20d": 8.22,
           "valid_count": 3,
           "total_market_cap": 484.67,
           "stocks": [
