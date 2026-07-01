@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-01 09:00:58",
+  "update_time": "2026-07-01 10:43:16",
   "chains": [
     {
       "id": "ai",
@@ -465,11 +465,11 @@
           "desc": "GMC环氧模塑料、底填胶、临时键合胶、TIM散热材料",
           "color": "#d35400",
           "layer": "materials",
-          "today_return": -3.39,
+          "today_return": -3.38,
           "cum_5d": 5.82,
-          "cum_20d": 42.12,
+          "cum_20d": 42.11,
           "valid_count": 9,
-          "total_market_cap": 2200.05,
+          "total_market_cap": 2202.51,
           "stocks": [
             {
               "code": "688035",
@@ -492,7 +492,7 @@
               "name": "强力新材",
               "price": 17.72,
               "change_pct": 0.0,
-              "market_cap": 71.33,
+              "market_cap": 73.79,
               "tier": "临时键合胶"
             },
             {
