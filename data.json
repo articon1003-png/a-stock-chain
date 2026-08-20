@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-20 07:31:15",
+  "update_time": "2026-08-20 07:41:34",
   "chains": [
     {
       "id": "ai",
@@ -325,8 +325,8 @@
           "color": "#8e44ad",
           "layer": "equipment",
           "today_return": 0.66,
-          "cum_5d": -5.98,
-          "cum_20d": -2.21,
+          "cum_5d": -5.95,
+          "cum_20d": -2.15,
           "valid_count": 5,
           "total_market_cap": 16580.5,
           "stocks": [
