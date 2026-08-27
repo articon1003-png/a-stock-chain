@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-27 10:56:19",
+  "update_time": "2026-08-27 18:08:21",
   "chains": [
     {
       "id": "ai",
@@ -373,7 +373,7 @@
           "cum_5d": 0.77,
           "cum_20d": 12.65,
           "valid_count": 14,
-          "total_market_cap": 5152.87,
+          "total_market_cap": 5156.27,
           "stocks": [
             {
               "code": "688146",
@@ -444,7 +444,7 @@
               "name": "南大光电",
               "price": 56.61,
               "change_pct": 3.93,
-              "market_cap": 371.36,
+              "market_cap": 374.76,
               "tier": "前驱体/MO源"
             },
             {
@@ -705,7 +705,7 @@
           "cum_5d": -1.24,
           "cum_20d": 20.58,
           "valid_count": 11,
-          "total_market_cap": 24211.46,
+          "total_market_cap": 24211.28,
           "stocks": [
             {
               "code": "300548",
@@ -736,7 +736,7 @@
               "name": "联特科技",
               "price": 329.5,
               "change_pct": 5.88,
-              "market_cap": 275.94,
+              "market_cap": 275.76,
               "tier": "高速光模块"
             },
             {
@@ -1174,9 +1174,9 @@
           "layer": "downstream",
           "today_return": -0.25,
           "cum_5d": 2.01,
-          "cum_20d": 12.06,
+          "cum_20d": 12.17,
           "valid_count": 5,
-          "total_market_cap": 1712.29,
+          "total_market_cap": 1698.28,
           "stocks": [
             {
               "code": "605117",
@@ -1199,7 +1199,7 @@
               "name": "华宝新能",
               "price": 44.31,
               "change_pct": -0.69,
-              "market_cap": 77.27,
+              "market_cap": 63.26,
               "tier": "便携储能"
             },
             {
@@ -1229,7 +1229,7 @@
           "cum_5d": -1.03,
           "cum_20d": 1.45,
           "valid_count": 6,
-          "total_market_cap": 1452.24,
+          "total_market_cap": 1452.25,
           "stocks": [
             {
               "code": "688275",
@@ -1252,7 +1252,7 @@
               "name": "德方纳米",
               "price": 46.97,
               "change_pct": 0.71,
-              "market_cap": 118.25,
+              "market_cap": 118.26,
               "tier": "磷酸铁锂正极"
             },
             {
@@ -1685,11 +1685,11 @@
           "desc": "AI眼镜、AI音频等新形态终端",
           "color": "#16a085",
           "layer": "downstream",
-          "today_return": 1.33,
+          "today_return": 1.32,
           "cum_5d": 0.09,
-          "cum_20d": 5.93,
+          "cum_20d": 5.91,
           "valid_count": 4,
-          "total_market_cap": 192.38,
+          "total_market_cap": 192.78,
           "stocks": [
             {
               "code": "001314",
@@ -1712,7 +1712,7 @@
               "name": "博士眼镜",
               "price": 14.82,
               "change_pct": -0.07,
-              "market_cap": 32.32,
+              "market_cap": 32.72,
               "tier": "智能眼镜渠道"
             },
             {
