@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-28 12:32:52",
+  "update_time": "2026-08-28 19:17:23",
   "chains": [
     {
       "id": "ai",
@@ -137,7 +137,7 @@
           "cum_5d": 0.84,
           "cum_20d": 12.02,
           "valid_count": 5,
-          "total_market_cap": 16941.35,
+          "total_market_cap": 16941.42,
           "stocks": [
             {
               "code": "601138",
@@ -160,7 +160,7 @@
               "name": "浪潮信息",
               "price": 77.44,
               "change_pct": -1.06,
-              "market_cap": 1135.91,
+              "market_cap": 1135.98,
               "tier": "AI服务器"
             },
             {
