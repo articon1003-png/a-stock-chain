@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-09 10:12:04",
+  "update_time": "2026-09-09 12:11:39",
   "chains": [
     {
       "id": "ai",
@@ -28,7 +28,7 @@
           "cum_5d": 0.72,
           "cum_20d": -1.53,
           "valid_count": 12,
-          "total_market_cap": 10065.96,
+          "total_market_cap": 10065.7,
           "stocks": [
             {
               "code": "603186",
@@ -43,7 +43,7 @@
               "name": "菲利华",
               "price": 98.39,
               "change_pct": 3.25,
-              "market_cap": 504.29,
+              "market_cap": 504.03,
               "tier": "石英布"
             },
             {
