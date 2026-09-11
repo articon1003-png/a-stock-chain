@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-10 12:05:57",
+  "update_time": "2026-09-11 05:39:42",
   "chains": [
     {
       "id": "ai",
@@ -20,889 +20,103 @@
       ],
       "groups": [
         {
-          "name": "1.4 高速传输/PCB基材",
-          "desc": "CCL M8/M9、HVLP铜箔、特种树脂、极薄电子布/石英布",
-          "color": "#e74c3c",
-          "layer": "materials",
-          "today_return": 1.02,
-          "cum_5d": 3.86,
-          "cum_20d": 1.31,
-          "valid_count": 12,
-          "total_market_cap": 10165.21,
-          "stocks": [
-            {
-              "code": "301526",
-              "name": "国际复材",
-              "price": 29.42,
-              "change_pct": 6.79,
-              "market_cap": 413.17,
-              "tier": "LDK电子布"
-            },
-            {
-              "code": "601208",
-              "name": "东材科技",
-              "price": 48.59,
-              "change_pct": 3.01,
-              "market_cap": 490.85,
-              "tier": "特种PPO树脂"
-            },
-            {
-              "code": "301511",
-              "name": "德福科技",
-              "price": 108.68,
-              "change_pct": 2.82,
-              "market_cap": 433.25,
-              "tier": "HVLP铜箔"
-            },
-            {
-              "code": "603186",
-              "name": "华正新材",
-              "price": 217.99,
-              "change_pct": 2.8,
-              "market_cap": 341.79,
-              "tier": "高速CCL"
-            },
-            {
-              "code": "603002",
-              "name": "宏昌电子",
-              "price": 16.81,
-              "change_pct": 2.44,
-              "market_cap": 190.64,
-              "tier": "高速树脂"
-            },
-            {
-              "code": "300395",
-              "name": "菲利华",
-              "price": 100.49,
-              "change_pct": 2.13,
-              "market_cap": 514.79,
-              "tier": "石英布"
-            },
-            {
-              "code": "301150",
-              "name": "中一科技",
-              "price": 38.71,
-              "change_pct": 1.9,
-              "market_cap": 117.62,
-              "tier": "极薄铜箔"
-            },
-            {
-              "code": "600176",
-              "name": "中国巨石",
-              "price": 43.46,
-              "change_pct": 1.85,
-              "market_cap": 1726.05,
-              "tier": "电子纱/布"
-            },
-            {
-              "code": "301217",
-              "name": "铜冠铜箔",
-              "price": 108.45,
-              "change_pct": 1.16,
-              "market_cap": 899.07,
-              "tier": "高速铜箔"
-            },
-            {
-              "code": "603256",
-              "name": "宏和科技",
-              "price": 129.1,
-              "change_pct": 0.66,
-              "market_cap": 1167.82,
-              "tier": "极薄电子布"
-            },
-            {
-              "code": "605589",
-              "name": "圣泉集团",
-              "price": 38.52,
-              "change_pct": -0.05,
-              "market_cap": 325.85,
-              "tier": "PPO特种树脂"
-            },
-            {
-              "code": "600183",
-              "name": "生益科技",
-              "price": 146.96,
-              "change_pct": -0.81,
-              "market_cap": 3544.31,
-              "tier": "M9级CCL"
-            }
-          ]
-        },
-        {
-          "name": "1.2 先进封装专用材料",
-          "desc": "GMC环氧模塑料、底填胶、临时键合胶、TIM散热材料",
-          "color": "#d35400",
-          "layer": "materials",
-          "today_return": 0.17,
-          "cum_5d": -1.79,
-          "cum_20d": 0.97,
-          "valid_count": 9,
-          "total_market_cap": 1555.4,
-          "stocks": [
-            {
-              "code": "688035",
-              "name": "德邦科技",
-              "price": 74.95,
-              "change_pct": 4.24,
-              "market_cap": 106.61,
-              "tier": "Underfill/键合胶"
-            },
-            {
-              "code": "688535",
-              "name": "华海诚科",
-              "price": 103.7,
-              "change_pct": 3.43,
-              "market_cap": 138.47,
-              "tier": "GMC/EMC"
-            },
-            {
-              "code": "603002",
-              "name": "宏昌电子",
-              "price": 16.81,
-              "change_pct": 2.44,
-              "market_cap": 190.64,
-              "tier": "封装用树脂"
-            },
-            {
-              "code": "688603",
-              "name": "天承科技",
-              "price": 114.9,
-              "change_pct": 1.33,
-              "market_cap": 143.31,
-              "tier": "TSV电镀液"
-            },
-            {
-              "code": "300398",
-              "name": "飞凯材料",
-              "price": 33.3,
-              "change_pct": -0.57,
-              "market_cap": 188.88,
-              "tier": "底填胶"
-            },
-            {
-              "code": "300054",
-              "name": "鼎龙股份",
-              "price": 67.32,
-              "change_pct": -0.59,
-              "market_cap": 501.15,
-              "tier": "临时键合胶"
-            },
-            {
-              "code": "300429",
-              "name": "强力新材",
-              "price": 10.89,
-              "change_pct": -1.45,
-              "market_cap": 45.5,
-              "tier": "临时键合胶"
-            },
-            {
-              "code": "300602",
-              "name": "飞荣达",
-              "price": 38.37,
-              "change_pct": -3.35,
-              "market_cap": 153.93,
-              "tier": "TIM散热材料"
-            },
-            {
-              "code": "301489",
-              "name": "思泉新材",
-              "price": 124.9,
-              "change_pct": -3.78,
-              "market_cap": 86.91,
-              "tier": "导热材料"
-            }
-          ]
-        },
-        {
-          "name": "2.4 高密度高层数PCB板",
-          "desc": "AI服务器主板/加速卡板(UBB/OAM 28-40层)、1.6T高速交换机板",
-          "color": "#e67e22",
-          "layer": "components",
-          "today_return": 0.17,
-          "cum_5d": 8.84,
-          "cum_20d": 1.16,
-          "valid_count": 5,
-          "total_market_cap": 8375.06,
-          "stocks": [
-            {
-              "code": "002916",
-              "name": "深南电路",
-              "price": 392.31,
-              "change_pct": 2.35,
-              "market_cap": 2608.94,
-              "tier": "UBB/FBGA载板"
-            },
-            {
-              "code": "002463",
-              "name": "沪电股份",
-              "price": 127.92,
-              "change_pct": 0.29,
-              "market_cap": 2459.71,
-              "tier": "28层+UBB/交换机板"
-            },
-            {
-              "code": "001389",
-              "name": "广合科技",
-              "price": 174.0,
-              "change_pct": 0.05,
-              "market_cap": 265.13,
-              "tier": "AI服务器PCB"
-            },
-            {
-              "code": "300476",
-              "name": "胜宏科技",
-              "price": 229.95,
-              "change_pct": -1.52,
-              "market_cap": 1989.52,
-              "tier": "GPU加速卡OAM板"
-            },
-            {
-              "code": "688183",
-              "name": "生益电子",
-              "price": 125.57,
-              "change_pct": -2.3,
-              "market_cap": 1051.76,
-              "tier": "1.6T交换机板"
-            }
-          ]
-        },
-        {
-          "name": "3.1 半导体制造与检测设备",
-          "desc": "ALD/CVD薄膜沉积、刻蚀机、离子注入、测试机/探针台",
-          "color": "#9b59b6",
-          "layer": "equipment",
-          "today_return": -0.16,
-          "cum_5d": -2.21,
-          "cum_20d": -10.63,
-          "valid_count": 6,
-          "total_market_cap": 11880.34,
-          "stocks": [
-            {
-              "code": "300604",
-              "name": "长川科技",
-              "price": 268.5,
-              "change_pct": 2.05,
-              "market_cap": 1314.25,
-              "tier": "SoC测试机/探针台"
-            },
-            {
-              "code": "688200",
-              "name": "华峰测控",
-              "price": 355.55,
-              "change_pct": 0.44,
-              "market_cap": 713.94,
-              "tier": "模拟/混合信号ATE"
-            },
-            {
-              "code": "688012",
-              "name": "中微公司",
-              "price": 334.19,
-              "change_pct": 0.36,
-              "market_cap": 3148.73,
-              "tier": "介质刻蚀机"
-            },
-            {
-              "code": "688072",
-              "name": "拓荆科技",
-              "price": 630.95,
-              "change_pct": -0.04,
-              "market_cap": 1793.08,
-              "tier": "ALD/PECVD设备"
-            },
-            {
-              "code": "002371",
-              "name": "北方华创",
-              "price": 638.64,
-              "change_pct": -1.2,
-              "market_cap": 4630.69,
-              "tier": "CVD/刻蚀/清洗"
-            },
-            {
-              "code": "600641",
-              "name": "先导基电",
-              "price": 30.05,
-              "change_pct": -1.51,
-              "market_cap": 279.65,
-              "tier": "离子注入机"
-            }
-          ]
-        },
-        {
           "name": "2.2 高速光通信传输模组",
           "desc": "800G/1.6T光模块、光芯片、硅光/CPO，万卡集群光互联核心",
           "color": "#3498db",
           "layer": "components",
-          "today_return": -0.5,
-          "cum_5d": 9.23,
-          "cum_20d": 1.98,
+          "today_return": 0.91,
+          "cum_5d": 10.75,
+          "cum_20d": -0.64,
           "valid_count": 11,
-          "total_market_cap": 24830.83,
+          "total_market_cap": 25037.37,
           "stocks": [
             {
-              "code": "603083",
-              "name": "剑桥科技",
-              "price": 234.43,
-              "change_pct": 7.05,
-              "market_cap": 646.06,
-              "tier": "光模块"
+              "code": "300308",
+              "name": "中际旭创",
+              "price": 918.53,
+              "change_pct": 3.19,
+              "market_cap": 10195.1,
+              "tier": "800G光模块"
             },
             {
-              "code": "300394",
-              "name": "天孚通信",
-              "price": 269.0,
-              "change_pct": 4.25,
-              "market_cap": 2927.76,
-              "tier": "光器件"
-            },
-            {
-              "code": "301205",
-              "name": "联特科技",
-              "price": 303.09,
-              "change_pct": 1.85,
-              "market_cap": 253.65,
+              "code": "300502",
+              "name": "新易盛",
+              "price": 421.9,
+              "change_pct": 2.68,
+              "market_cap": 5291.65,
               "tier": "高速光模块"
-            },
-            {
-              "code": "688205",
-              "name": "德科立",
-              "price": 227.25,
-              "change_pct": 1.77,
-              "market_cap": 361.87,
-              "tier": "光器件"
             },
             {
               "code": "300570",
               "name": "太辰光",
-              "price": 203.27,
-              "change_pct": 0.85,
-              "market_cap": 390.67,
+              "price": 201.49,
+              "change_pct": -0.88,
+              "market_cap": 387.25,
               "tier": "光器件"
             },
             {
               "code": "688498",
               "name": "源杰科技",
-              "price": 1719.0,
-              "change_pct": 0.06,
-              "market_cap": 2112.52,
+              "price": 1703.48,
+              "change_pct": -0.9,
+              "market_cap": 2093.44,
               "tier": "激光芯片"
-            },
-            {
-              "code": "300548",
-              "name": "长芯博创",
-              "price": 214.7,
-              "change_pct": -0.23,
-              "market_cap": 631.73,
-              "tier": "硅光模块"
-            },
-            {
-              "code": "300502",
-              "name": "新易盛",
-              "price": 410.9,
-              "change_pct": -0.94,
-              "market_cap": 5153.69,
-              "tier": "高速光模块"
             },
             {
               "code": "002281",
               "name": "光迅科技",
-              "price": 179.39,
-              "change_pct": -1.86,
-              "market_cap": 1410.06,
+              "price": 176.07,
+              "change_pct": -1.85,
+              "market_cap": 1383.96,
               "tier": "光通信"
-            },
-            {
-              "code": "300308",
-              "name": "中际旭创",
-              "price": 890.1,
-              "change_pct": -2.07,
-              "market_cap": 9879.55,
-              "tier": "800G光模块"
             },
             {
               "code": "000988",
               "name": "华工科技",
-              "price": 105.8,
-              "change_pct": -2.75,
-              "market_cap": 1063.27,
+              "price": 103.11,
+              "change_pct": -2.54,
+              "market_cap": 1036.24,
               "tier": "激光/光模块"
-            }
-          ]
-        },
-        {
-          "name": "3.2 先进封装与新型加工设备",
-          "desc": "先进固晶机、临时键合机、TGV激光打孔、晶圆划片",
-          "color": "#8e44ad",
-          "layer": "equipment",
-          "today_return": -0.61,
-          "cum_5d": 0.97,
-          "cum_20d": 3.62,
-          "valid_count": 8,
-          "total_market_cap": 2559.14,
-          "stocks": [
-            {
-              "code": "300751",
-              "name": "迈为股份",
-              "price": 195.0,
-              "change_pct": 1.77,
-              "market_cap": 376.06,
-              "tier": "封装/划片设备"
             },
             {
-              "code": "688559",
-              "name": "海目星",
-              "price": 59.6,
-              "change_pct": 0.97,
-              "market_cap": 147.66,
-              "tier": "激光微加工"
+              "code": "300394",
+              "name": "天孚通信",
+              "price": 261.56,
+              "change_pct": -2.77,
+              "market_cap": 2846.79,
+              "tier": "光器件"
             },
             {
-              "code": "002008",
-              "name": "大族激光",
-              "price": 94.78,
-              "change_pct": -0.07,
-              "market_cap": 906.79,
-              "tier": "激光加工设备"
+              "code": "688205",
+              "name": "德科立",
+              "price": 217.75,
+              "change_pct": -4.18,
+              "market_cap": 346.74,
+              "tier": "光器件"
             },
             {
-              "code": "300480",
-              "name": "光力科技",
-              "price": 29.82,
-              "change_pct": -0.53,
-              "market_cap": 77.23,
-              "tier": "晶圆划片"
+              "code": "300548",
+              "name": "长芯博创",
+              "price": 205.02,
+              "change_pct": -4.51,
+              "market_cap": 603.25,
+              "tier": "硅光模块"
             },
             {
-              "code": "300776",
-              "name": "帝尔激光",
-              "price": 112.35,
-              "change_pct": -1.33,
-              "market_cap": 201.46,
-              "tier": "TGV激光打孔"
+              "code": "603083",
+              "name": "剑桥科技",
+              "price": 222.5,
+              "change_pct": -5.09,
+              "market_cap": 613.18,
+              "tier": "光模块"
             },
             {
-              "code": "688037",
-              "name": "芯源微",
-              "price": 322.98,
-              "change_pct": -1.37,
-              "market_cap": 651.67,
-              "tier": "涂胶显影设备"
-            },
-            {
-              "code": "688170",
-              "name": "德龙激光",
-              "price": 65.45,
-              "change_pct": -1.99,
-              "market_cap": 67.65,
-              "tier": "TGV/划片激光"
-            },
-            {
-              "code": "688383",
-              "name": "新益昌",
-              "price": 128.5,
-              "change_pct": -7.42,
-              "market_cap": 130.62,
-              "tier": "固晶机/键合设备"
-            }
-          ]
-        },
-        {
-          "name": "1.1 芯片制造材料",
-          "desc": "特种气体、前驱体、光刻胶、电子级硅片、CMP抛光液",
-          "color": "#c0392b",
-          "layer": "materials",
-          "today_return": -0.71,
-          "cum_5d": -0.44,
-          "cum_20d": -8.2,
-          "valid_count": 14,
-          "total_market_cap": 4751.7,
-          "stocks": [
-            {
-              "code": "688106",
-              "name": "金宏气体",
-              "price": 26.34,
-              "change_pct": 2.57,
-              "market_cap": 139.75,
-              "tier": "电子特气"
-            },
-            {
-              "code": "603306",
-              "name": "华懋科技",
-              "price": 78.18,
-              "change_pct": 1.72,
-              "market_cap": 257.6,
-              "tier": "光刻胶全产业链"
-            },
-            {
-              "code": "002409",
-              "name": "雅克科技",
-              "price": 133.48,
-              "change_pct": 1.49,
-              "market_cap": 425.16,
-              "tier": "前驱体"
-            },
-            {
-              "code": "300236",
-              "name": "上海新阳",
-              "price": 83.39,
-              "change_pct": -0.16,
-              "market_cap": 232.41,
-              "tier": "ArF光刻胶"
-            },
-            {
-              "code": "688146",
-              "name": "中船特气",
-              "price": 224.8,
-              "change_pct": -0.4,
-              "market_cap": 325.89,
-              "tier": "含氟特气"
-            },
-            {
-              "code": "300054",
-              "name": "鼎龙股份",
-              "price": 67.32,
-              "change_pct": -0.59,
-              "market_cap": 501.15,
-              "tier": "CMP抛光垫"
-            },
-            {
-              "code": "688126",
-              "name": "沪硅产业",
-              "price": 22.39,
-              "change_pct": -0.84,
-              "market_cap": 639.82,
-              "tier": "12寸大硅片"
-            },
-            {
-              "code": "688268",
-              "name": "华特气体",
-              "price": 129.3,
-              "change_pct": -1.07,
-              "market_cap": 165.09,
-              "tier": "光刻气"
-            },
-            {
-              "code": "603650",
-              "name": "彤程新材",
-              "price": 64.51,
-              "change_pct": -1.09,
-              "market_cap": 396.47,
-              "tier": "KrF/ArF光刻胶"
-            },
-            {
-              "code": "300655",
-              "name": "晶瑞电材",
-              "price": 12.45,
-              "change_pct": -1.35,
-              "market_cap": 139.63,
-              "tier": "KrF光刻胶"
-            },
-            {
-              "code": "300346",
-              "name": "南大光电",
-              "price": 51.86,
-              "change_pct": -1.52,
-              "market_cap": 343.31,
-              "tier": "前驱体/MO源"
-            },
-            {
-              "code": "688019",
-              "name": "安集科技",
-              "price": 222.58,
-              "change_pct": -1.81,
-              "market_cap": 508.28,
-              "tier": "CMP抛光液"
-            },
-            {
-              "code": "605358",
-              "name": "立昂微",
-              "price": 41.34,
-              "change_pct": -1.88,
-              "market_cap": 319.23,
-              "tier": "重掺硅片"
-            },
-            {
-              "code": "002129",
-              "name": "TCL中环",
-              "price": 8.86,
-              "change_pct": -2.74,
-              "market_cap": 357.91,
-              "tier": "半导体硅片"
-            }
-          ]
-        },
-        {
-          "name": "2.1 算力与核心存储核心部件",
-          "desc": "GPU/ASIC加速芯片、HBM高带宽内存、DPU智能网卡",
-          "color": "#2980b9",
-          "layer": "components",
-          "today_return": -1.09,
-          "cum_5d": -4.22,
-          "cum_20d": -10.08,
-          "valid_count": 6,
-          "total_market_cap": 16907.29,
-          "stocks": [
-            {
-              "code": "002156",
-              "name": "通富微电",
-              "price": 58.34,
-              "change_pct": -0.02,
-              "market_cap": 885.28,
-              "tier": "先进封装"
-            },
-            {
-              "code": "603986",
-              "name": "兆易创新",
-              "price": 380.64,
-              "change_pct": -0.32,
-              "market_cap": 2553.02,
-              "tier": "存储芯片"
-            },
-            {
-              "code": "688256",
-              "name": "寒武纪",
-              "price": 1043.84,
-              "change_pct": -1.05,
-              "market_cap": 6564.23,
-              "tier": "AI芯片"
-            },
-            {
-              "code": "688041",
-              "name": "海光信息",
-              "price": 232.37,
-              "change_pct": -1.45,
-              "market_cap": 5401.06,
-              "tier": "DCU/GPU"
-            },
-            {
-              "code": "000063",
-              "name": "中兴通讯",
-              "price": 32.45,
-              "change_pct": -1.93,
-              "market_cap": 1306.96,
-              "tier": "DPU芯片"
-            },
-            {
-              "code": "300474",
-              "name": "景嘉微",
-              "price": 48.4,
-              "change_pct": -2.02,
-              "market_cap": 196.74,
-              "tier": "国产GPU"
-            }
-          ]
-        },
-        {
-          "name": "3.3 算力网络系统整机",
-          "desc": "AI服务器整机、高速交换机/路由器，直接交付数据中心",
-          "color": "#8e44ad",
-          "layer": "equipment",
-          "today_return": -1.91,
-          "cum_5d": -2.13,
-          "cum_20d": -5.97,
-          "valid_count": 5,
-          "total_market_cap": 16494.33,
-          "stocks": [
-            {
-              "code": "000977",
-              "name": "浪潮信息",
-              "price": 70.43,
-              "change_pct": -1.33,
-              "market_cap": 1033.15,
-              "tier": "AI服务器"
-            },
-            {
-              "code": "301165",
-              "name": "锐捷网络",
-              "price": 108.56,
-              "change_pct": -1.36,
-              "market_cap": 1208.96,
-              "tier": "数据中心交换机"
-            },
-            {
-              "code": "000938",
-              "name": "紫光股份",
-              "price": 33.1,
-              "change_pct": -1.4,
-              "market_cap": 946.68,
-              "tier": "数据中心交换机"
-            },
-            {
-              "code": "688702",
-              "name": "盛科通信",
-              "price": 307.0,
-              "change_pct": -1.95,
-              "market_cap": 623.18,
-              "tier": "交换芯片"
-            },
-            {
-              "code": "601138",
-              "name": "工业富联",
-              "price": 63.91,
-              "change_pct": -2.04,
-              "market_cap": 12682.36,
-              "tier": "AI服务器ODM"
-            }
-          ]
-        },
-        {
-          "name": "2.5 能源管理与供电部件",
-          "desc": "CRPS服务器电源(3200W-8500W)、PMIC/DrMOS芯片级供电",
-          "color": "#f39c12",
-          "layer": "components",
-          "today_return": -2.02,
-          "cum_5d": -2.78,
-          "cum_20d": -7.07,
-          "valid_count": 7,
-          "total_market_cap": 2731.85,
-          "stocks": [
-            {
-              "code": "002851",
-              "name": "麦格米特",
-              "price": 127.8,
-              "change_pct": 0.58,
-              "market_cap": 628.38,
-              "tier": "英伟达链CRPS电源"
-            },
-            {
-              "code": "300661",
-              "name": "圣邦股份",
-              "price": 106.69,
-              "change_pct": -0.98,
-              "market_cap": 642.15,
-              "tier": "模拟/电源管理芯片"
-            },
-            {
-              "code": "300870",
-              "name": "欧陆通",
-              "price": 206.14,
-              "change_pct": -1.84,
-              "market_cap": 314.62,
-              "tier": "国产替代CRPS电源"
-            },
-            {
-              "code": "688601",
-              "name": "力芯微",
-              "price": 59.7,
-              "change_pct": -1.92,
-              "market_cap": 79.81,
-              "tier": "高精度LDO"
-            },
-            {
-              "code": "688508",
-              "name": "芯朋微",
-              "price": 82.5,
-              "change_pct": -2.48,
-              "market_cap": 109.25,
-              "tier": "AC-DC电源芯片"
-            },
-            {
-              "code": "000066",
-              "name": "中国长城",
-              "price": 14.11,
-              "change_pct": -3.02,
-              "market_cap": 455.13,
-              "tier": "信创大功率电源"
-            },
-            {
-              "code": "688141",
-              "name": "杰华特",
-              "price": 111.59,
-              "change_pct": -5.75,
-              "market_cap": 502.51,
-              "tier": "多相DC-DC/DrMOS"
-            }
-          ]
-        },
-        {
-          "name": "1.3 玻璃基板新型材料",
-          "desc": "半导体级玻璃载板、TGV玻璃通孔专用材料",
-          "color": "#e67e22",
-          "layer": "materials",
-          "today_return": -2.07,
-          "cum_5d": -3.83,
-          "cum_20d": -3.88,
-          "valid_count": 10,
-          "total_market_cap": 4817.83,
-          "stocks": [
-            {
-              "code": "688603",
-              "name": "天承科技",
-              "price": 114.9,
-              "change_pct": 1.33,
-              "market_cap": 143.31,
-              "tier": "TGV电镀液"
-            },
-            {
-              "code": "603773",
-              "name": "沃格光电",
-              "price": 87.11,
-              "change_pct": 1.28,
-              "market_cap": 195.72,
-              "tier": "TGV全制程"
-            },
-            {
-              "code": "000012",
-              "name": "南玻Ａ",
-              "price": 3.78,
-              "change_pct": 0.27,
-              "market_cap": 74.06,
-              "tier": "半导体玻璃"
-            },
-            {
-              "code": "600552",
-              "name": "凯盛科技",
-              "price": 16.81,
-              "change_pct": -0.88,
-              "market_cap": 158.79,
-              "tier": "电子玻璃"
-            },
-            {
-              "code": "600707",
-              "name": "彩虹股份",
-              "price": 8.54,
-              "change_pct": -1.16,
-              "market_cap": 306.39,
-              "tier": "芯片级玻璃"
-            },
-            {
-              "code": "300776",
-              "name": "帝尔激光",
-              "price": 112.35,
-              "change_pct": -1.33,
-              "market_cap": 201.46,
-              "tier": "TGV激光设备"
-            },
-            {
-              "code": "000725",
-              "name": "京东方Ａ",
-              "price": 5.46,
-              "change_pct": -1.62,
-              "market_cap": 1931.05,
-              "tier": "玻璃基载板"
-            },
-            {
-              "code": "688170",
-              "name": "德龙激光",
-              "price": 65.45,
-              "change_pct": -1.99,
-              "market_cap": 67.65,
-              "tier": "TGV激光设备"
-            },
-            {
-              "code": "688079",
-              "name": "美迪凯",
-              "price": 14.79,
-              "change_pct": -2.12,
-              "market_cap": 59.99,
-              "tier": "玻璃载板代工"
-            },
-            {
-              "code": "300433",
-              "name": "蓝思科技",
-              "price": 33.81,
-              "change_pct": -3.73,
-              "market_cap": 1679.41,
-              "tier": "TGV玻璃基板"
+              "code": "301205",
+              "name": "联特科技",
+              "price": 286.5,
+              "change_pct": -5.47,
+              "market_cap": 239.77,
+              "tier": "高速光模块"
             }
           ]
         },
@@ -911,67 +125,497 @@
           "desc": "DAC/ACC/AEC铜缆、高速背板连接器，机柜内部短距铜物理连接",
           "color": "#1abc9c",
           "layer": "components",
-          "today_return": -2.12,
-          "cum_5d": -2.29,
-          "cum_20d": -3.24,
+          "today_return": 0.49,
+          "cum_5d": 1.4,
+          "cum_20d": -3.9,
           "valid_count": 7,
-          "total_market_cap": 5986.46,
+          "total_market_cap": 6012.36,
           "stocks": [
-            {
-              "code": "002179",
-              "name": "中航光电",
-              "price": 34.83,
-              "change_pct": 0.66,
-              "market_cap": 730.18,
-              "tier": "高频高密度连接器"
-            },
-            {
-              "code": "688629",
-              "name": "华丰科技",
-              "price": 123.6,
-              "change_pct": -2.13,
-              "market_cap": 569.79,
-              "tier": "224G背板连接器"
-            },
-            {
-              "code": "002130",
-              "name": "沃尔核材",
-              "price": 17.17,
-              "change_pct": -2.28,
-              "market_cap": 198.23,
-              "tier": "224G高速铜缆"
-            },
-            {
-              "code": "002475",
-              "name": "立讯精密",
-              "price": 54.45,
-              "change_pct": -2.52,
-              "market_cap": 3988.53,
-              "tier": "高速背板/AEC"
-            },
-            {
-              "code": "688668",
-              "name": "鼎通科技",
-              "price": 256.55,
-              "change_pct": -2.64,
-              "market_cap": 357.3,
-              "tier": "连接器精密组件"
-            },
             {
               "code": "300563",
               "name": "神宇股份",
-              "price": 23.27,
-              "change_pct": -3.44,
-              "market_cap": 29.49,
+              "price": 27.92,
+              "change_pct": 19.98,
+              "market_cap": 35.38,
               "tier": "高频同轴电缆"
             },
             {
               "code": "300913",
               "name": "兆龙互连",
-              "price": 39.51,
-              "change_pct": -3.82,
-              "market_cap": 112.94,
+              "price": 42.79,
+              "change_pct": 8.3,
+              "market_cap": 122.32,
               "tier": "DAC高速组件"
+            },
+            {
+              "code": "002130",
+              "name": "沃尔核材",
+              "price": 17.85,
+              "change_pct": 3.96,
+              "market_cap": 206.08,
+              "tier": "224G高速铜缆"
+            },
+            {
+              "code": "002475",
+              "name": "立讯精密",
+              "price": 54.93,
+              "change_pct": 0.88,
+              "market_cap": 4023.7,
+              "tier": "高速背板/AEC"
+            },
+            {
+              "code": "002179",
+              "name": "中航光电",
+              "price": 34.91,
+              "change_pct": 0.23,
+              "market_cap": 731.86,
+              "tier": "高频高密度连接器"
+            },
+            {
+              "code": "688629",
+              "name": "华丰科技",
+              "price": 119.12,
+              "change_pct": -3.62,
+              "market_cap": 549.13,
+              "tier": "224G背板连接器"
+            },
+            {
+              "code": "688668",
+              "name": "鼎通科技",
+              "price": 246.92,
+              "change_pct": -3.75,
+              "market_cap": 343.89,
+              "tier": "连接器精密组件"
+            }
+          ]
+        },
+        {
+          "name": "3.3 算力网络系统整机",
+          "desc": "AI服务器整机、高速交换机/路由器，直接交付数据中心",
+          "color": "#8e44ad",
+          "layer": "equipment",
+          "today_return": -0.42,
+          "cum_5d": -1.37,
+          "cum_20d": -7.36,
+          "valid_count": 5,
+          "total_market_cap": 16424.4,
+          "stocks": [
+            {
+              "code": "601138",
+              "name": "工业富联",
+              "price": 63.93,
+              "change_pct": 0.03,
+              "market_cap": 12686.33,
+              "tier": "AI服务器ODM"
+            },
+            {
+              "code": "000977",
+              "name": "浪潮信息",
+              "price": 69.53,
+              "change_pct": -1.28,
+              "market_cap": 1019.95,
+              "tier": "AI服务器"
+            },
+            {
+              "code": "000938",
+              "name": "紫光股份",
+              "price": 32.51,
+              "change_pct": -1.78,
+              "market_cap": 929.81,
+              "tier": "数据中心交换机"
+            },
+            {
+              "code": "301165",
+              "name": "锐捷网络",
+              "price": 106.0,
+              "change_pct": -2.36,
+              "market_cap": 1180.45,
+              "tier": "数据中心交换机"
+            },
+            {
+              "code": "688702",
+              "name": "盛科通信",
+              "price": 299.45,
+              "change_pct": -2.46,
+              "market_cap": 607.86,
+              "tier": "交换芯片"
+            }
+          ]
+        },
+        {
+          "name": "2.4 高密度高层数PCB板",
+          "desc": "AI服务器主板/加速卡板(UBB/OAM 28-40层)、1.6T高速交换机板",
+          "color": "#e67e22",
+          "layer": "components",
+          "today_return": -0.43,
+          "cum_5d": 11.86,
+          "cum_20d": 0.0,
+          "valid_count": 5,
+          "total_market_cap": 8338.38,
+          "stocks": [
+            {
+              "code": "002916",
+              "name": "深南电路",
+              "price": 395.81,
+              "change_pct": 0.89,
+              "market_cap": 2632.22,
+              "tier": "UBB/FBGA载板"
+            },
+            {
+              "code": "002463",
+              "name": "沪电股份",
+              "price": 127.2,
+              "change_pct": -0.56,
+              "market_cap": 2445.87,
+              "tier": "28层+UBB/交换机板"
+            },
+            {
+              "code": "688183",
+              "name": "生益电子",
+              "price": 124.13,
+              "change_pct": -1.15,
+              "market_cap": 1039.7,
+              "tier": "1.6T交换机板"
+            },
+            {
+              "code": "001389",
+              "name": "广合科技",
+              "price": 171.92,
+              "change_pct": -1.2,
+              "market_cap": 261.96,
+              "tier": "AI服务器PCB"
+            },
+            {
+              "code": "300476",
+              "name": "胜宏科技",
+              "price": 226.38,
+              "change_pct": -1.55,
+              "market_cap": 1958.63,
+              "tier": "GPU加速卡OAM板"
+            }
+          ]
+        },
+        {
+          "name": "3.1 半导体制造与检测设备",
+          "desc": "ALD/CVD薄膜沉积、刻蚀机、离子注入、测试机/探针台",
+          "color": "#9b59b6",
+          "layer": "equipment",
+          "today_return": -1.39,
+          "cum_5d": -0.6,
+          "cum_20d": -12.2,
+          "valid_count": 6,
+          "total_market_cap": 11714.97,
+          "stocks": [
+            {
+              "code": "002371",
+              "name": "北方华创",
+              "price": 633.99,
+              "change_pct": -0.73,
+              "market_cap": 4596.97,
+              "tier": "CVD/刻蚀/清洗"
+            },
+            {
+              "code": "688012",
+              "name": "中微公司",
+              "price": 330.9,
+              "change_pct": -0.98,
+              "market_cap": 3117.73,
+              "tier": "介质刻蚀机"
+            },
+            {
+              "code": "688200",
+              "name": "华峰测控",
+              "price": 350.28,
+              "change_pct": -1.48,
+              "market_cap": 704.47,
+              "tier": "模拟/混合信号ATE"
+            },
+            {
+              "code": "688072",
+              "name": "拓荆科技",
+              "price": 619.51,
+              "change_pct": -1.81,
+              "market_cap": 1760.57,
+              "tier": "ALD/PECVD设备"
+            },
+            {
+              "code": "600641",
+              "name": "先导基电",
+              "price": 29.11,
+              "change_pct": -3.13,
+              "market_cap": 270.91,
+              "tier": "离子注入机"
+            },
+            {
+              "code": "300604",
+              "name": "长川科技",
+              "price": 258.3,
+              "change_pct": -3.8,
+              "market_cap": 1264.32,
+              "tier": "SoC测试机/探针台"
+            }
+          ]
+        },
+        {
+          "name": "1.4 高速传输/PCB基材",
+          "desc": "CCL M8/M9、HVLP铜箔、特种树脂、极薄电子布/石英布",
+          "color": "#e74c3c",
+          "layer": "materials",
+          "today_return": -1.43,
+          "cum_5d": 7.59,
+          "cum_20d": -2.96,
+          "valid_count": 12,
+          "total_market_cap": 10018.57,
+          "stocks": [
+            {
+              "code": "600176",
+              "name": "中国巨石",
+              "price": 43.24,
+              "change_pct": -0.51,
+              "market_cap": 1717.31,
+              "tier": "电子纱/布"
+            },
+            {
+              "code": "603002",
+              "name": "宏昌电子",
+              "price": 16.7,
+              "change_pct": -0.65,
+              "market_cap": 189.39,
+              "tier": "高速树脂"
+            },
+            {
+              "code": "603256",
+              "name": "宏和科技",
+              "price": 128.2,
+              "change_pct": -0.7,
+              "market_cap": 1159.68,
+              "tier": "极薄电子布"
+            },
+            {
+              "code": "603186",
+              "name": "华正新材",
+              "price": 215.96,
+              "change_pct": -0.93,
+              "market_cap": 338.6,
+              "tier": "高速CCL"
+            },
+            {
+              "code": "301526",
+              "name": "国际复材",
+              "price": 29.1,
+              "change_pct": -1.09,
+              "market_cap": 408.68,
+              "tier": "LDK电子布"
+            },
+            {
+              "code": "600183",
+              "name": "生益科技",
+              "price": 145.21,
+              "change_pct": -1.19,
+              "market_cap": 3502.1,
+              "tier": "M9级CCL"
+            },
+            {
+              "code": "605589",
+              "name": "圣泉集团",
+              "price": 37.79,
+              "change_pct": -1.9,
+              "market_cap": 319.67,
+              "tier": "PPO特种树脂"
+            },
+            {
+              "code": "301150",
+              "name": "中一科技",
+              "price": 37.9,
+              "change_pct": -2.09,
+              "market_cap": 115.15,
+              "tier": "极薄铜箔"
+            },
+            {
+              "code": "301511",
+              "name": "德福科技",
+              "price": 106.0,
+              "change_pct": -2.47,
+              "market_cap": 422.57,
+              "tier": "HVLP铜箔"
+            },
+            {
+              "code": "601208",
+              "name": "东材科技",
+              "price": 47.25,
+              "change_pct": -2.76,
+              "market_cap": 477.31,
+              "tier": "特种PPO树脂"
+            },
+            {
+              "code": "301217",
+              "name": "铜冠铜箔",
+              "price": 105.1,
+              "change_pct": -3.09,
+              "market_cap": 871.3,
+              "tier": "高速铜箔"
+            },
+            {
+              "code": "300395",
+              "name": "菲利华",
+              "price": 96.98,
+              "change_pct": -3.49,
+              "market_cap": 496.81,
+              "tier": "石英布"
+            }
+          ]
+        },
+        {
+          "name": "2.1 算力与核心存储核心部件",
+          "desc": "GPU/ASIC加速芯片、HBM高带宽内存、DPU智能网卡",
+          "color": "#2980b9",
+          "layer": "components",
+          "today_return": -1.49,
+          "cum_5d": -3.67,
+          "cum_20d": -10.99,
+          "valid_count": 6,
+          "total_market_cap": 16655.13,
+          "stocks": [
+            {
+              "code": "002156",
+              "name": "通富微电",
+              "price": 57.81,
+              "change_pct": -0.91,
+              "market_cap": 877.24,
+              "tier": "先进封装"
+            },
+            {
+              "code": "688256",
+              "name": "寒武纪",
+              "price": 1032.59,
+              "change_pct": -1.08,
+              "market_cap": 6493.48,
+              "tier": "AI芯片"
+            },
+            {
+              "code": "000063",
+              "name": "中兴通讯",
+              "price": 32.05,
+              "change_pct": -1.23,
+              "market_cap": 1290.85,
+              "tier": "DPU芯片"
+            },
+            {
+              "code": "688041",
+              "name": "海光信息",
+              "price": 229.13,
+              "change_pct": -1.39,
+              "market_cap": 5325.76,
+              "tier": "DCU/GPU"
+            },
+            {
+              "code": "300474",
+              "name": "景嘉微",
+              "price": 47.18,
+              "change_pct": -2.52,
+              "market_cap": 191.78,
+              "tier": "国产GPU"
+            },
+            {
+              "code": "603986",
+              "name": "兆易创新",
+              "price": 369.16,
+              "change_pct": -3.02,
+              "market_cap": 2476.02,
+              "tier": "存储芯片"
+            }
+          ]
+        },
+        {
+          "name": "1.3 玻璃基板新型材料",
+          "desc": "半导体级玻璃载板、TGV玻璃通孔专用材料",
+          "color": "#e67e22",
+          "layer": "materials",
+          "today_return": -1.87,
+          "cum_5d": -3.77,
+          "cum_20d": -7.07,
+          "valid_count": 10,
+          "total_market_cap": 4727.06,
+          "stocks": [
+            {
+              "code": "000012",
+              "name": "南玻Ａ",
+              "price": 3.77,
+              "change_pct": -0.26,
+              "market_cap": 73.87,
+              "tier": "半导体玻璃"
+            },
+            {
+              "code": "300433",
+              "name": "蓝思科技",
+              "price": 33.54,
+              "change_pct": -0.8,
+              "market_cap": 1666.0,
+              "tier": "TGV玻璃基板"
+            },
+            {
+              "code": "600707",
+              "name": "彩虹股份",
+              "price": 8.43,
+              "change_pct": -1.29,
+              "market_cap": 302.44,
+              "tier": "芯片级玻璃"
+            },
+            {
+              "code": "600552",
+              "name": "凯盛科技",
+              "price": 16.46,
+              "change_pct": -2.08,
+              "market_cap": 155.48,
+              "tier": "电子玻璃"
+            },
+            {
+              "code": "688170",
+              "name": "德龙激光",
+              "price": 64.06,
+              "change_pct": -2.12,
+              "market_cap": 66.21,
+              "tier": "TGV激光设备"
+            },
+            {
+              "code": "000725",
+              "name": "京东方Ａ",
+              "price": 5.32,
+              "change_pct": -2.56,
+              "market_cap": 1881.53,
+              "tier": "玻璃基载板"
+            },
+            {
+              "code": "688079",
+              "name": "美迪凯",
+              "price": 14.4,
+              "change_pct": -2.64,
+              "market_cap": 58.41,
+              "tier": "玻璃载板代工"
+            },
+            {
+              "code": "688603",
+              "name": "天承科技",
+              "price": 111.5,
+              "change_pct": -2.96,
+              "market_cap": 139.07,
+              "tier": "TGV电镀液"
+            },
+            {
+              "code": "300776",
+              "name": "帝尔激光",
+              "price": 108.95,
+              "change_pct": -3.03,
+              "market_cap": 195.36,
+              "tier": "TGV激光设备"
+            },
+            {
+              "code": "603773",
+              "name": "沃格光电",
+              "price": 83.98,
+              "change_pct": -3.59,
+              "market_cap": 188.69,
+              "tier": "TGV全制程"
             }
           ]
         },
@@ -980,43 +624,399 @@
           "desc": "CDU液冷冷板/浸没式、精密空调，保障服务器不烧毁",
           "color": "#2ecc71",
           "layer": "equipment",
-          "today_return": -2.43,
-          "cum_5d": -10.35,
-          "cum_20d": 12.21,
+          "today_return": -2.06,
+          "cum_5d": -5.59,
+          "cum_20d": 6.53,
           "valid_count": 4,
-          "total_market_cap": 1140.74,
+          "total_market_cap": 1118.06,
           "stocks": [
-            {
-              "code": "300499",
-              "name": "高澜股份",
-              "price": 36.53,
-              "change_pct": -0.79,
-              "market_cap": 99.26,
-              "tier": "液冷温控"
-            },
             {
               "code": "002837",
               "name": "英维克",
-              "price": 61.08,
-              "change_pct": -2.16,
-              "market_cap": 692.18,
+              "price": 60.28,
+              "change_pct": -1.31,
+              "market_cap": 684.14,
               "tier": "液冷温控"
             },
             {
               "code": "301018",
               "name": "申菱环境",
-              "price": 97.27,
-              "change_pct": -3.41,
-              "market_cap": 275.1,
+              "price": 95.08,
+              "change_pct": -2.25,
+              "market_cap": 268.91,
               "tier": "液冷温控"
             },
             {
               "code": "300990",
               "name": "同飞股份",
-              "price": 89.56,
-              "change_pct": -3.44,
-              "market_cap": 74.2,
+              "price": 85.49,
+              "change_pct": -4.54,
+              "market_cap": 70.83,
               "tier": "液冷温控"
+            },
+            {
+              "code": "300499",
+              "name": "高澜股份",
+              "price": 34.66,
+              "change_pct": -5.12,
+              "market_cap": 94.18,
+              "tier": "液冷温控"
+            }
+          ]
+        },
+        {
+          "name": "2.5 能源管理与供电部件",
+          "desc": "CRPS服务器电源(3200W-8500W)、PMIC/DrMOS芯片级供电",
+          "color": "#f39c12",
+          "layer": "components",
+          "today_return": -2.1,
+          "cum_5d": -1.36,
+          "cum_20d": -10.99,
+          "valid_count": 7,
+          "total_market_cap": 2673.64,
+          "stocks": [
+            {
+              "code": "300661",
+              "name": "圣邦股份",
+              "price": 107.26,
+              "change_pct": 0.53,
+              "market_cap": 645.58,
+              "tier": "模拟/电源管理芯片"
+            },
+            {
+              "code": "688508",
+              "name": "芯朋微",
+              "price": 81.21,
+              "change_pct": -1.56,
+              "market_cap": 107.54,
+              "tier": "AC-DC电源芯片"
+            },
+            {
+              "code": "000066",
+              "name": "中国长城",
+              "price": 13.85,
+              "change_pct": -1.84,
+              "market_cap": 446.74,
+              "tier": "信创大功率电源"
+            },
+            {
+              "code": "002851",
+              "name": "麦格米特",
+              "price": 124.71,
+              "change_pct": -2.42,
+              "market_cap": 613.19,
+              "tier": "英伟达链CRPS电源"
+            },
+            {
+              "code": "300870",
+              "name": "欧陆通",
+              "price": 200.7,
+              "change_pct": -2.64,
+              "market_cap": 306.32,
+              "tier": "国产替代CRPS电源"
+            },
+            {
+              "code": "688141",
+              "name": "杰华特",
+              "price": 106.6,
+              "change_pct": -4.47,
+              "market_cap": 480.04,
+              "tier": "多相DC-DC/DrMOS"
+            },
+            {
+              "code": "688601",
+              "name": "力芯微",
+              "price": 55.52,
+              "change_pct": -7.0,
+              "market_cap": 74.23,
+              "tier": "高精度LDO"
+            }
+          ]
+        },
+        {
+          "name": "1.1 芯片制造材料",
+          "desc": "特种气体、前驱体、光刻胶、电子级硅片、CMP抛光液",
+          "color": "#c0392b",
+          "layer": "materials",
+          "today_return": -2.14,
+          "cum_5d": 0.79,
+          "cum_20d": -11.82,
+          "valid_count": 14,
+          "total_market_cap": 4649.68,
+          "stocks": [
+            {
+              "code": "688146",
+              "name": "中船特气",
+              "price": 223.08,
+              "change_pct": -0.77,
+              "market_cap": 323.4,
+              "tier": "含氟特气"
+            },
+            {
+              "code": "002129",
+              "name": "TCL中环",
+              "price": 8.74,
+              "change_pct": -1.35,
+              "market_cap": 353.06,
+              "tier": "半导体硅片"
+            },
+            {
+              "code": "300054",
+              "name": "鼎龙股份",
+              "price": 66.21,
+              "change_pct": -1.65,
+              "market_cap": 492.89,
+              "tier": "CMP抛光垫"
+            },
+            {
+              "code": "688019",
+              "name": "安集科技",
+              "price": 218.69,
+              "change_pct": -1.75,
+              "market_cap": 499.39,
+              "tier": "CMP抛光液"
+            },
+            {
+              "code": "300236",
+              "name": "上海新阳",
+              "price": 81.83,
+              "change_pct": -1.87,
+              "market_cap": 228.06,
+              "tier": "ArF光刻胶"
+            },
+            {
+              "code": "300655",
+              "name": "晶瑞电材",
+              "price": 12.19,
+              "change_pct": -2.09,
+              "market_cap": 136.71,
+              "tier": "KrF光刻胶"
+            },
+            {
+              "code": "605358",
+              "name": "立昂微",
+              "price": 40.46,
+              "change_pct": -2.13,
+              "market_cap": 312.43,
+              "tier": "重掺硅片"
+            },
+            {
+              "code": "603650",
+              "name": "彤程新材",
+              "price": 63.12,
+              "change_pct": -2.15,
+              "market_cap": 387.93,
+              "tier": "KrF/ArF光刻胶"
+            },
+            {
+              "code": "688126",
+              "name": "沪硅产业",
+              "price": 21.89,
+              "change_pct": -2.23,
+              "market_cap": 625.53,
+              "tier": "12寸大硅片"
+            },
+            {
+              "code": "300346",
+              "name": "南大光电",
+              "price": 50.67,
+              "change_pct": -2.29,
+              "market_cap": 335.43,
+              "tier": "前驱体/MO源"
+            },
+            {
+              "code": "688268",
+              "name": "华特气体",
+              "price": 126.25,
+              "change_pct": -2.36,
+              "market_cap": 161.2,
+              "tier": "光刻气"
+            },
+            {
+              "code": "688106",
+              "name": "金宏气体",
+              "price": 25.51,
+              "change_pct": -3.15,
+              "market_cap": 135.34,
+              "tier": "电子特气"
+            },
+            {
+              "code": "002409",
+              "name": "雅克科技",
+              "price": 128.99,
+              "change_pct": -3.36,
+              "market_cap": 410.86,
+              "tier": "前驱体"
+            },
+            {
+              "code": "603306",
+              "name": "华懋科技",
+              "price": 75.1,
+              "change_pct": -3.94,
+              "market_cap": 247.45,
+              "tier": "光刻胶全产业链"
+            }
+          ]
+        },
+        {
+          "name": "1.2 先进封装专用材料",
+          "desc": "GMC环氧模塑料、底填胶、临时键合胶、TIM散热材料",
+          "color": "#d35400",
+          "layer": "materials",
+          "today_return": -2.63,
+          "cum_5d": 0.04,
+          "cum_20d": -5.39,
+          "valid_count": 9,
+          "total_market_cap": 1514.19,
+          "stocks": [
+            {
+              "code": "603002",
+              "name": "宏昌电子",
+              "price": 16.7,
+              "change_pct": -0.65,
+              "market_cap": 189.39,
+              "tier": "封装用树脂"
+            },
+            {
+              "code": "300429",
+              "name": "强力新材",
+              "price": 10.78,
+              "change_pct": -1.01,
+              "market_cap": 45.04,
+              "tier": "临时键合胶"
+            },
+            {
+              "code": "300054",
+              "name": "鼎龙股份",
+              "price": 66.21,
+              "change_pct": -1.65,
+              "market_cap": 492.89,
+              "tier": "临时键合胶"
+            },
+            {
+              "code": "300398",
+              "name": "飞凯材料",
+              "price": 32.48,
+              "change_pct": -2.46,
+              "market_cap": 184.23,
+              "tier": "底填胶"
+            },
+            {
+              "code": "688603",
+              "name": "天承科技",
+              "price": 111.5,
+              "change_pct": -2.96,
+              "market_cap": 139.07,
+              "tier": "TSV电镀液"
+            },
+            {
+              "code": "300602",
+              "name": "飞荣达",
+              "price": 36.7,
+              "change_pct": -4.35,
+              "market_cap": 147.23,
+              "tier": "TIM散热材料"
+            },
+            {
+              "code": "688535",
+              "name": "华海诚科",
+              "price": 99.16,
+              "change_pct": -4.38,
+              "market_cap": 132.41,
+              "tier": "GMC/EMC"
+            },
+            {
+              "code": "301489",
+              "name": "思泉新材",
+              "price": 119.12,
+              "change_pct": -4.63,
+              "market_cap": 82.88,
+              "tier": "导热材料"
+            },
+            {
+              "code": "688035",
+              "name": "德邦科技",
+              "price": 71.04,
+              "change_pct": -5.22,
+              "market_cap": 101.05,
+              "tier": "Underfill/键合胶"
+            }
+          ]
+        },
+        {
+          "name": "3.2 先进封装与新型加工设备",
+          "desc": "先进固晶机、临时键合机、TGV激光打孔、晶圆划片",
+          "color": "#8e44ad",
+          "layer": "equipment",
+          "today_return": -3.32,
+          "cum_5d": 1.82,
+          "cum_20d": -3.19,
+          "valid_count": 8,
+          "total_market_cap": 2474.08,
+          "stocks": [
+            {
+              "code": "688170",
+              "name": "德龙激光",
+              "price": 64.06,
+              "change_pct": -2.12,
+              "market_cap": 66.21,
+              "tier": "TGV/划片激光"
+            },
+            {
+              "code": "002008",
+              "name": "大族激光",
+              "price": 92.31,
+              "change_pct": -2.61,
+              "market_cap": 883.16,
+              "tier": "激光加工设备"
+            },
+            {
+              "code": "300776",
+              "name": "帝尔激光",
+              "price": 108.95,
+              "change_pct": -3.03,
+              "market_cap": 195.36,
+              "tier": "TGV激光打孔"
+            },
+            {
+              "code": "300480",
+              "name": "光力科技",
+              "price": 28.86,
+              "change_pct": -3.22,
+              "market_cap": 74.75,
+              "tier": "晶圆划片"
+            },
+            {
+              "code": "688037",
+              "name": "芯源微",
+              "price": 312.0,
+              "change_pct": -3.4,
+              "market_cap": 629.51,
+              "tier": "涂胶显影设备"
+            },
+            {
+              "code": "300751",
+              "name": "迈为股份",
+              "price": 188.13,
+              "change_pct": -3.52,
+              "market_cap": 362.81,
+              "tier": "封装/划片设备"
+            },
+            {
+              "code": "688383",
+              "name": "新益昌",
+              "price": 121.49,
+              "change_pct": -5.46,
+              "market_cap": 123.49,
+              "tier": "固晶机/键合设备"
+            },
+            {
+              "code": "688559",
+              "name": "海目星",
+              "price": 56.02,
+              "change_pct": -6.01,
+              "market_cap": 138.79,
+              "tier": "激光微加工"
             }
           ]
         }
@@ -1045,51 +1045,178 @@
           "desc": "户储逆变器/便携储能，欧美澳新兴市场",
           "color": "#9b59b6",
           "layer": "downstream",
-          "today_return": 0.85,
-          "cum_5d": -3.49,
-          "cum_20d": -9.82,
+          "today_return": -0.17,
+          "cum_5d": -3.77,
+          "cum_20d": -9.2,
           "valid_count": 5,
-          "total_market_cap": 1487.58,
+          "total_market_cap": 1484.31,
           "stocks": [
-            {
-              "code": "300763",
-              "name": "锦浪科技",
-              "price": 56.84,
-              "change_pct": 1.68,
-              "market_cap": 182.79,
-              "tier": "组串逆变器"
-            },
             {
               "code": "605117",
               "name": "德业股份",
-              "price": 83.11,
-              "change_pct": 1.11,
-              "market_cap": 1058.22,
+              "price": 84.08,
+              "change_pct": 1.17,
+              "market_cap": 1070.58,
+              "tier": "户储逆变器"
+            },
+            {
+              "code": "688390",
+              "name": "固德威",
+              "price": 57.0,
+              "change_pct": -3.52,
+              "market_cap": 138.58,
               "tier": "户储逆变器"
             },
             {
               "code": "688717",
               "name": "艾罗能源",
-              "price": 43.81,
-              "change_pct": -0.61,
-              "market_cap": 43.39,
+              "price": 42.26,
+              "change_pct": -3.54,
+              "market_cap": 41.86,
               "tier": "户储系统"
             },
             {
-              "code": "688390",
-              "name": "固德威",
-              "price": 59.08,
-              "change_pct": -0.71,
-              "market_cap": 143.64,
-              "tier": "户储逆变器"
+              "code": "300763",
+              "name": "锦浪科技",
+              "price": 54.72,
+              "change_pct": -3.73,
+              "market_cap": 175.98,
+              "tier": "组串逆变器"
             },
             {
               "code": "301327",
               "name": "华宝新能",
-              "price": 41.7,
-              "change_pct": -1.44,
-              "market_cap": 59.54,
+              "price": 40.14,
+              "change_pct": -3.74,
+              "market_cap": 57.31,
               "tier": "便携储能"
+            }
+          ]
+        },
+        {
+          "name": "S3 结构件/辅材",
+          "desc": "电池壳体、顶盖、精密结构件",
+          "color": "#e67e22",
+          "layer": "upstream",
+          "today_return": -0.63,
+          "cum_5d": -1.63,
+          "cum_20d": -10.59,
+          "valid_count": 2,
+          "total_market_cap": 507.85,
+          "stocks": [
+            {
+              "code": "002850",
+              "name": "科达利",
+              "price": 170.73,
+              "change_pct": 0.23,
+              "market_cap": 357.95,
+              "tier": "电池结构件"
+            },
+            {
+              "code": "300953",
+              "name": "震裕科技",
+              "price": 85.65,
+              "change_pct": -2.69,
+              "market_cap": 149.9,
+              "tier": "顶盖/壳体"
+            }
+          ]
+        },
+        {
+          "name": "S5 PCS/变流器",
+          "desc": "储能变流器、SVG，电站与工商业",
+          "color": "#3498db",
+          "layer": "midstream",
+          "today_return": -1.96,
+          "cum_5d": -4.18,
+          "cum_20d": -23.36,
+          "valid_count": 5,
+          "total_market_cap": 1841.0,
+          "stocks": [
+            {
+              "code": "688663",
+              "name": "新风光",
+              "price": 53.79,
+              "change_pct": -1.34,
+              "market_cap": 106.1,
+              "tier": "SVG/储能变流"
+            },
+            {
+              "code": "300274",
+              "name": "阳光电源",
+              "price": 84.39,
+              "change_pct": -1.79,
+              "market_cap": 1339.71,
+              "tier": "储能PCS/系统"
+            },
+            {
+              "code": "002335",
+              "name": "科华数据",
+              "price": 28.68,
+              "change_pct": -2.55,
+              "market_cap": 189.21,
+              "tier": "PCS/数据中心电源"
+            },
+            {
+              "code": "300693",
+              "name": "盛弘股份",
+              "price": 37.73,
+              "change_pct": -2.78,
+              "market_cap": 101.73,
+              "tier": "PCS/充电桩"
+            },
+            {
+              "code": "300827",
+              "name": "上能电气",
+              "price": 23.88,
+              "change_pct": -2.89,
+              "market_cap": 104.25,
+              "tier": "储能PCS"
+            }
+          ]
+        },
+        {
+          "name": "S8 温控与消防",
+          "desc": "储能液冷温控、Pack级消防（与AI链共振组）",
+          "color": "#16a085",
+          "layer": "downstream",
+          "today_return": -2.03,
+          "cum_5d": -5.16,
+          "cum_20d": 7.03,
+          "valid_count": 4,
+          "total_market_cap": 927.79,
+          "stocks": [
+            {
+              "code": "002837",
+              "name": "英维克",
+              "price": 60.28,
+              "change_pct": -1.31,
+              "market_cap": 684.14,
+              "tier": "储能温控"
+            },
+            {
+              "code": "002960",
+              "name": "青鸟智控",
+              "price": 8.12,
+              "change_pct": -2.29,
+              "market_cap": 78.64,
+              "tier": "储能消防"
+            },
+            {
+              "code": "300990",
+              "name": "同飞股份",
+              "price": 85.49,
+              "change_pct": -4.54,
+              "market_cap": 70.83,
+              "tier": "储能温控"
+            },
+            {
+              "code": "300499",
+              "name": "高澜股份",
+              "price": 34.66,
+              "change_pct": -5.12,
+              "market_cap": 94.18,
+              "tier": "储能温控"
             }
           ]
         },
@@ -1098,59 +1225,112 @@
           "desc": "大储/户储电芯，300Ah+大容量方向",
           "color": "#2980b9",
           "layer": "midstream",
-          "today_return": 0.24,
-          "cum_5d": -3.08,
-          "cum_20d": -14.05,
+          "today_return": -2.22,
+          "cum_5d": -5.5,
+          "cum_20d": -15.55,
           "valid_count": 6,
-          "total_market_cap": 16517.32,
+          "total_market_cap": 16148.67,
           "stocks": [
             {
               "code": "300207",
               "name": "欣旺达",
-              "price": 17.87,
-              "change_pct": 2.41,
-              "market_cap": 306.28,
+              "price": 18.62,
+              "change_pct": 4.2,
+              "market_cap": 319.13,
+              "tier": "储能电芯"
+            },
+            {
+              "code": "002074",
+              "name": "国轩高科",
+              "price": 25.16,
+              "change_pct": -1.22,
+              "market_cap": 436.94,
               "tier": "储能电芯"
             },
             {
               "code": "300750",
               "name": "宁德时代",
-              "price": 338.06,
-              "change_pct": 0.36,
-              "market_cap": 14402.02,
+              "price": 330.15,
+              "change_pct": -2.34,
+              "market_cap": 14065.04,
               "tier": "储能电芯龙头"
             },
             {
               "code": "300014",
               "name": "亿纬锂能",
-              "price": 49.87,
-              "change_pct": -0.74,
-              "market_cap": 1053.74,
+              "price": 48.5,
+              "change_pct": -2.75,
+              "market_cap": 1024.8,
               "tier": "大圆柱/方形储能"
-            },
-            {
-              "code": "688063",
-              "name": "派能科技",
-              "price": 41.05,
-              "change_pct": -0.82,
-              "market_cap": 100.72,
-              "tier": "户储系统电芯"
-            },
-            {
-              "code": "002074",
-              "name": "国轩高科",
-              "price": 25.47,
-              "change_pct": -1.43,
-              "market_cap": 442.33,
-              "tier": "储能电芯"
             },
             {
               "code": "300438",
               "name": "鹏辉能源",
-              "price": 52.51,
-              "change_pct": -2.34,
-              "market_cap": 212.23,
+              "price": 50.82,
+              "change_pct": -3.22,
+              "market_cap": 205.4,
               "tier": "户储电芯"
+            },
+            {
+              "code": "688063",
+              "name": "派能科技",
+              "price": 39.68,
+              "change_pct": -3.34,
+              "market_cap": 97.36,
+              "tier": "户储系统电芯"
+            }
+          ]
+        },
+        {
+          "name": "S2 电解液/隔膜",
+          "desc": "电解液、六氟磷酸锂、湿法/干法隔膜",
+          "color": "#d35400",
+          "layer": "upstream",
+          "today_return": -2.52,
+          "cum_5d": 0.06,
+          "cum_20d": -12.14,
+          "valid_count": 5,
+          "total_market_cap": 1768.09,
+          "stocks": [
+            {
+              "code": "300037",
+              "name": "新宙邦",
+              "price": 69.99,
+              "change_pct": 0.36,
+              "market_cap": 382.69,
+              "tier": "电解液"
+            },
+            {
+              "code": "002812",
+              "name": "恩捷股份",
+              "price": 47.1,
+              "change_pct": -3.07,
+              "market_cap": 387.45,
+              "tier": "湿法隔膜"
+            },
+            {
+              "code": "002709",
+              "name": "天赐材料",
+              "price": 32.09,
+              "change_pct": -3.2,
+              "market_cap": 484.24,
+              "tier": "电解液"
+            },
+            {
+              "code": "002407",
+              "name": "多氟多",
+              "price": 31.66,
+              "change_pct": -3.53,
+              "market_cap": 342.22,
+              "tier": "六氟磷酸锂"
+            },
+            {
+              "code": "300568",
+              "name": "星源材质",
+              "price": 14.19,
+              "change_pct": -3.73,
+              "market_cap": 171.49,
+              "tier": "干法/湿法隔膜"
             }
           ]
         },
@@ -1159,34 +1339,34 @@
           "desc": "电网侧/电源侧储能系统集成",
           "color": "#8e44ad",
           "layer": "downstream",
-          "today_return": -0.16,
-          "cum_5d": 4.44,
-          "cum_20d": -6.25,
+          "today_return": -2.94,
+          "cum_5d": 0.57,
+          "cum_20d": -7.62,
           "valid_count": 3,
-          "total_market_cap": 812.34,
+          "total_market_cap": 788.37,
           "stocks": [
             {
               "code": "688248",
               "name": "南网科技",
-              "price": 51.4,
-              "change_pct": 5.33,
-              "market_cap": 290.26,
+              "price": 50.37,
+              "change_pct": -2.0,
+              "market_cap": 284.44,
               "tier": "电网侧储能"
             },
             {
               "code": "688411",
               "name": "海博思创",
-              "price": 168.03,
-              "change_pct": -2.82,
-              "market_cap": 222.76,
+              "price": 162.48,
+              "change_pct": -3.3,
+              "market_cap": 215.41,
               "tier": "大储系统集成"
             },
             {
               "code": "688676",
               "name": "金盘科技",
-              "price": 65.1,
-              "change_pct": -3.5,
-              "market_cap": 299.32,
+              "price": 62.75,
+              "change_pct": -3.61,
+              "market_cap": 288.52,
               "tier": "干变/储能系统"
             }
           ]
@@ -1196,239 +1376,59 @@
           "desc": "磷酸铁锂正极、人造石墨负极",
           "color": "#c0392b",
           "layer": "upstream",
-          "today_return": -0.93,
-          "cum_5d": -3.81,
-          "cum_20d": -10.76,
+          "today_return": -3.32,
+          "cum_5d": -4.88,
+          "cum_20d": -15.65,
           "valid_count": 6,
-          "total_market_cap": 1298.54,
+          "total_market_cap": 1255.41,
           "stocks": [
             {
               "code": "603659",
               "name": "璞泰来",
-              "price": 21.97,
-              "change_pct": -0.45,
-              "market_cap": 471.08,
+              "price": 21.32,
+              "change_pct": -2.96,
+              "market_cap": 457.14,
               "tier": "负极/涂覆隔膜"
-            },
-            {
-              "code": "688275",
-              "name": "万润新能",
-              "price": 70.88,
-              "change_pct": -0.52,
-              "market_cap": 87.93,
-              "tier": "磷酸铁锂正极"
-            },
-            {
-              "code": "301358",
-              "name": "湖南裕能",
-              "price": 55.41,
-              "change_pct": -0.61,
-              "market_cap": 423.52,
-              "tier": "磷酸铁锂正极"
             },
             {
               "code": "300035",
               "name": "中科电气",
-              "price": 12.67,
-              "change_pct": -1.63,
-              "market_cap": 74.33,
+              "price": 12.26,
+              "change_pct": -3.24,
+              "market_cap": 71.92,
               "tier": "负极材料"
             },
             {
-              "code": "300769",
-              "name": "德方纳米",
-              "price": 40.88,
-              "change_pct": -1.64,
-              "market_cap": 102.93,
+              "code": "301358",
+              "name": "湖南裕能",
+              "price": 53.56,
+              "change_pct": -3.34,
+              "market_cap": 409.37,
               "tier": "磷酸铁锂正极"
             },
             {
               "code": "001301",
               "name": "尚太科技",
-              "price": 53.34,
-              "change_pct": -2.89,
-              "market_cap": 138.75,
+              "price": 51.48,
+              "change_pct": -3.49,
+              "market_cap": 133.91,
               "tier": "人造石墨负极"
-            }
-          ]
-        },
-        {
-          "name": "S2 电解液/隔膜",
-          "desc": "电解液、六氟磷酸锂、湿法/干法隔膜",
-          "color": "#d35400",
-          "layer": "upstream",
-          "today_return": -0.95,
-          "cum_5d": -0.84,
-          "cum_20d": -8.75,
-          "valid_count": 5,
-          "total_market_cap": 1814.17,
-          "stocks": [
-            {
-              "code": "300037",
-              "name": "新宙邦",
-              "price": 69.74,
-              "change_pct": 1.83,
-              "market_cap": 381.32,
-              "tier": "电解液"
             },
             {
-              "code": "002812",
-              "name": "恩捷股份",
-              "price": 48.59,
-              "change_pct": -1.16,
-              "market_cap": 399.71,
-              "tier": "湿法隔膜"
+              "code": "300769",
+              "name": "德方纳米",
+              "price": 39.25,
+              "change_pct": -3.99,
+              "market_cap": 98.82,
+              "tier": "磷酸铁锂正极"
             },
             {
-              "code": "002709",
-              "name": "天赐材料",
-              "price": 33.15,
-              "change_pct": -1.52,
-              "market_cap": 500.24,
-              "tier": "电解液"
-            },
-            {
-              "code": "300568",
-              "name": "星源材质",
-              "price": 14.74,
-              "change_pct": -1.54,
-              "market_cap": 178.14,
-              "tier": "干法/湿法隔膜"
-            },
-            {
-              "code": "002407",
-              "name": "多氟多",
-              "price": 32.82,
-              "change_pct": -2.58,
-              "market_cap": 354.76,
-              "tier": "六氟磷酸锂"
-            }
-          ]
-        },
-        {
-          "name": "S5 PCS/变流器",
-          "desc": "储能变流器、SVG，电站与工商业",
-          "color": "#3498db",
-          "layer": "midstream",
-          "today_return": -1.49,
-          "cum_5d": -1.5,
-          "cum_20d": -22.23,
-          "valid_count": 5,
-          "total_market_cap": 1877.85,
-          "stocks": [
-            {
-              "code": "300274",
-              "name": "阳光电源",
-              "price": 85.93,
-              "change_pct": -1.23,
-              "market_cap": 1364.16,
-              "tier": "储能PCS/系统"
-            },
-            {
-              "code": "300693",
-              "name": "盛弘股份",
-              "price": 38.81,
-              "change_pct": -1.77,
-              "market_cap": 104.64,
-              "tier": "PCS/充电桩"
-            },
-            {
-              "code": "002335",
-              "name": "科华数据",
-              "price": 29.43,
-              "change_pct": -2.1,
-              "market_cap": 194.16,
-              "tier": "PCS/数据中心电源"
-            },
-            {
-              "code": "300827",
-              "name": "上能电气",
-              "price": 24.59,
-              "change_pct": -2.34,
-              "market_cap": 107.35,
-              "tier": "储能PCS"
-            },
-            {
-              "code": "688663",
-              "name": "新风光",
-              "price": 54.52,
-              "change_pct": -2.61,
-              "market_cap": 107.54,
-              "tier": "SVG/储能变流"
-            }
-          ]
-        },
-        {
-          "name": "S8 温控与消防",
-          "desc": "储能液冷温控、Pack级消防（与AI链共振组）",
-          "color": "#16a085",
-          "layer": "downstream",
-          "today_return": -1.97,
-          "cum_5d": -8.78,
-          "cum_20d": 12.35,
-          "valid_count": 4,
-          "total_market_cap": 946.12,
-          "stocks": [
-            {
-              "code": "002960",
-              "name": "青鸟智控",
-              "price": 8.31,
-              "change_pct": -0.48,
-              "market_cap": 80.48,
-              "tier": "储能消防"
-            },
-            {
-              "code": "300499",
-              "name": "高澜股份",
-              "price": 36.53,
-              "change_pct": -0.79,
-              "market_cap": 99.26,
-              "tier": "储能温控"
-            },
-            {
-              "code": "002837",
-              "name": "英维克",
-              "price": 61.08,
-              "change_pct": -2.16,
-              "market_cap": 692.18,
-              "tier": "储能温控"
-            },
-            {
-              "code": "300990",
-              "name": "同飞股份",
-              "price": 89.56,
-              "change_pct": -3.44,
-              "market_cap": 74.2,
-              "tier": "储能温控"
-            }
-          ]
-        },
-        {
-          "name": "S3 结构件/辅材",
-          "desc": "电池壳体、顶盖、精密结构件",
-          "color": "#e67e22",
-          "layer": "upstream",
-          "today_return": -2.47,
-          "cum_5d": -3.17,
-          "cum_20d": -12.13,
-          "valid_count": 2,
-          "total_market_cap": 511.19,
-          "stocks": [
-            {
-              "code": "300953",
-              "name": "震裕科技",
-              "price": 88.02,
-              "change_pct": -1.23,
-              "market_cap": 154.05,
-              "tier": "顶盖/壳体"
-            },
-            {
-              "code": "002850",
-              "name": "科达利",
-              "price": 170.34,
-              "change_pct": -3.0,
-              "market_cap": 357.14,
-              "tier": "电池结构件"
+              "code": "688275",
+              "name": "万润新能",
+              "price": 67.91,
+              "change_pct": -4.19,
+              "market_cap": 84.25,
+              "tier": "磷酸铁锂正极"
             }
           ]
         }
@@ -1453,275 +1453,47 @@
       ],
       "groups": [
         {
-          "name": "C3 结构件/折叠",
-          "desc": "精密结构件、MIM、折叠屏铰链",
-          "color": "#e67e22",
-          "layer": "upstream",
-          "today_return": -0.42,
-          "cum_5d": 4.56,
-          "cum_20d": -3.08,
-          "valid_count": 5,
-          "total_market_cap": 4033.28,
-          "stocks": [
-            {
-              "code": "002600",
-              "name": "领益智造",
-              "price": 12.84,
-              "change_pct": 3.22,
-              "market_cap": 924.48,
-              "tier": "精密功能件"
-            },
-            {
-              "code": "002384",
-              "name": "东山精密",
-              "price": 193.74,
-              "change_pct": -1.18,
-              "market_cap": 2685.86,
-              "tier": "FPC/结构件"
-            },
-            {
-              "code": "300115",
-              "name": "长盈精密",
-              "price": 23.49,
-              "change_pct": -2.17,
-              "market_cap": 318.85,
-              "tier": "结构件"
-            },
-            {
-              "code": "688210",
-              "name": "统联精密",
-              "price": 28.27,
-              "change_pct": -6.91,
-              "market_cap": 45.98,
-              "tier": "MIM折叠件"
-            },
-            {
-              "code": "300709",
-              "name": "精研科技",
-              "price": 38.78,
-              "change_pct": -8.41,
-              "market_cap": 58.11,
-              "tier": "MIM/铰链"
-            }
-          ]
-        },
-        {
-          "name": "C5 终端SoC与存储",
-          "desc": "穿戴/AIoT SoC、存储模组",
-          "color": "#2980b9",
-          "layer": "midstream",
-          "today_return": -0.63,
-          "cum_5d": -2.81,
-          "cum_20d": -8.37,
-          "valid_count": 7,
-          "total_market_cap": 6179.53,
-          "stocks": [
-            {
-              "code": "688525",
-              "name": "佰维存储",
-              "price": 218.79,
-              "change_pct": 0.5,
-              "market_cap": 1043.26,
-              "tier": "存储模组"
-            },
-            {
-              "code": "688608",
-              "name": "恒玄科技",
-              "price": 93.1,
-              "change_pct": 0.0,
-              "market_cap": 220.54,
-              "tier": "TWS/穿戴SoC"
-            },
-            {
-              "code": "301308",
-              "name": "江波龙",
-              "price": 347.0,
-              "change_pct": -0.3,
-              "market_cap": 978.03,
-              "tier": "存储模组"
-            },
-            {
-              "code": "603986",
-              "name": "兆易创新",
-              "price": 380.64,
-              "change_pct": -0.32,
-              "market_cap": 2553.02,
-              "tier": "NOR/MCU"
-            },
-            {
-              "code": "688099",
-              "name": "晶晨股份",
-              "price": 86.17,
-              "change_pct": -1.82,
-              "market_cap": 364.77,
-              "tier": "多媒体SoC"
-            },
-            {
-              "code": "603893",
-              "name": "瑞芯微",
-              "price": 182.66,
-              "change_pct": -2.51,
-              "market_cap": 772.82,
-              "tier": "AIoT SoC"
-            },
-            {
-              "code": "688018",
-              "name": "乐鑫科技",
-              "price": 105.42,
-              "change_pct": -2.73,
-              "market_cap": 247.09,
-              "tier": "WiFi MCU"
-            }
-          ]
-        },
-        {
           "name": "C6 整机与ODM",
           "desc": "手机整机、ODM/EMS代工",
           "color": "#8e44ad",
           "layer": "downstream",
-          "today_return": -1.5,
-          "cum_5d": -6.57,
-          "cum_20d": -8.28,
+          "today_return": 0.66,
+          "cum_5d": -3.89,
+          "cum_20d": -7.81,
           "valid_count": 4,
-          "total_market_cap": 1436.52,
+          "total_market_cap": 1445.76,
           "stocks": [
-            {
-              "code": "688036",
-              "name": "传音控股",
-              "price": 52.33,
-              "change_pct": -1.08,
-              "market_cap": 602.41,
-              "tier": "新兴市场手机"
-            },
             {
               "code": "603296",
               "name": "华勤技术",
-              "price": 75.19,
-              "change_pct": -1.75,
-              "market_cap": 600.46,
+              "price": 76.59,
+              "change_pct": 1.86,
+              "market_cap": 611.64,
               "tier": "智能硬件ODM"
+            },
+            {
+              "code": "688036",
+              "name": "传音控股",
+              "price": 52.66,
+              "change_pct": 0.63,
+              "market_cap": 606.21,
+              "tier": "新兴市场手机"
             },
             {
               "code": "603341",
               "name": "龙旗科技",
-              "price": 35.81,
-              "change_pct": -1.78,
-              "market_cap": 95.76,
+              "price": 35.09,
+              "change_pct": -2.01,
+              "market_cap": 93.83,
               "tier": "智能硬件ODM"
             },
             {
               "code": "300735",
               "name": "光弘科技",
-              "price": 18.13,
-              "change_pct": -2.05,
-              "market_cap": 137.89,
+              "price": 17.63,
+              "change_pct": -2.76,
+              "market_cap": 134.08,
               "tier": "EMS代工"
-            }
-          ]
-        },
-        {
-          "name": "C7 AI新终端",
-          "desc": "AI眼镜、AI音频等新形态终端",
-          "color": "#16a085",
-          "layer": "downstream",
-          "today_return": -1.54,
-          "cum_5d": -4.49,
-          "cum_20d": -4.14,
-          "valid_count": 4,
-          "total_market_cap": 187.55,
-          "stocks": [
-            {
-              "code": "002351",
-              "name": "漫步者",
-              "price": 9.84,
-              "change_pct": -0.91,
-              "market_cap": 51.9,
-              "tier": "AI音频"
-            },
-            {
-              "code": "001314",
-              "name": "亿道信息",
-              "price": 49.33,
-              "change_pct": -1.3,
-              "market_cap": 61.22,
-              "tier": "AI硬件方案"
-            },
-            {
-              "code": "300793",
-              "name": "佳禾智能",
-              "price": 11.22,
-              "change_pct": -1.75,
-              "market_cap": 41.75,
-              "tier": "AI眼镜ODM"
-            },
-            {
-              "code": "300622",
-              "name": "博士眼镜",
-              "price": 14.8,
-              "change_pct": -2.7,
-              "market_cap": 32.68,
-              "tier": "智能眼镜渠道"
-            }
-          ]
-        },
-        {
-          "name": "C1 光学与显示",
-          "desc": "CIS图像传感器、光学元件、盖板、面板",
-          "color": "#c0392b",
-          "layer": "upstream",
-          "today_return": -2.2,
-          "cum_5d": -3.91,
-          "cum_20d": -5.95,
-          "valid_count": 6,
-          "total_market_cap": 5438.59,
-          "stocks": [
-            {
-              "code": "688213",
-              "name": "思特威",
-              "price": 91.4,
-              "change_pct": -1.2,
-              "market_cap": 295.69,
-              "tier": "CIS图像传感器"
-            },
-            {
-              "code": "603501",
-              "name": "豪威集团",
-              "price": 78.93,
-              "change_pct": -1.35,
-              "market_cap": 952.73,
-              "tier": "CIS图像传感器"
-            },
-            {
-              "code": "002273",
-              "name": "水晶光电",
-              "price": 25.12,
-              "change_pct": -1.45,
-              "market_cap": 343.16,
-              "tier": "光学元件/AR"
-            },
-            {
-              "code": "000725",
-              "name": "京东方Ａ",
-              "price": 5.46,
-              "change_pct": -1.62,
-              "market_cap": 1931.05,
-              "tier": "面板"
-            },
-            {
-              "code": "002456",
-              "name": "欧菲光",
-              "price": 7.13,
-              "change_pct": -1.93,
-              "market_cap": 236.55,
-              "tier": "摄像头模组"
-            },
-            {
-              "code": "300433",
-              "name": "蓝思科技",
-              "price": 33.81,
-              "change_pct": -3.73,
-              "market_cap": 1679.41,
-              "tier": "盖板玻璃"
             }
           ]
         },
@@ -1730,51 +1502,165 @@
           "desc": "声学器件、连接器、天线、射频前端",
           "color": "#d35400",
           "layer": "upstream",
-          "today_return": -2.25,
-          "cum_5d": -3.11,
-          "cum_20d": -3.45,
+          "today_return": 0.13,
+          "cum_5d": 0.02,
+          "cum_20d": -3.97,
           "valid_count": 5,
-          "total_market_cap": 5652.46,
+          "total_market_cap": 5659.16,
           "stocks": [
             {
-              "code": "300136",
-              "name": "信维通信",
-              "price": 56.96,
-              "change_pct": -0.16,
-              "market_cap": 469.93,
-              "tier": "天线/无线充电"
-            },
-            {
-              "code": "300679",
-              "name": "电连技术",
-              "price": 42.76,
-              "change_pct": -1.66,
-              "market_cap": 153.71,
-              "tier": "射频连接器"
+              "code": "002475",
+              "name": "立讯精密",
+              "price": 54.93,
+              "change_pct": 0.88,
+              "market_cap": 4023.7,
+              "tier": "连接器/整机组装"
             },
             {
               "code": "002241",
               "name": "歌尔股份",
-              "price": 22.53,
-              "change_pct": -2.09,
-              "market_cap": 710.03,
+              "price": 22.2,
+              "change_pct": -1.46,
+              "market_cap": 699.63,
               "tier": "声学/XR整机"
             },
             {
-              "code": "002475",
-              "name": "立讯精密",
-              "price": 54.45,
-              "change_pct": -2.52,
-              "market_cap": 3988.53,
-              "tier": "连接器/整机组装"
+              "code": "300136",
+              "name": "信维通信",
+              "price": 56.02,
+              "change_pct": -1.65,
+              "market_cap": 462.17,
+              "tier": "天线/无线充电"
             },
             {
               "code": "300782",
               "name": "卓胜微",
-              "price": 72.02,
-              "change_pct": -2.53,
-              "market_cap": 330.26,
+              "price": 70.69,
+              "change_pct": -1.85,
+              "market_cap": 324.16,
               "tier": "射频前端"
+            },
+            {
+              "code": "300679",
+              "name": "电连技术",
+              "price": 41.59,
+              "change_pct": -2.74,
+              "market_cap": 149.5,
+              "tier": "射频连接器"
+            }
+          ]
+        },
+        {
+          "name": "C3 结构件/折叠",
+          "desc": "精密结构件、MIM、折叠屏铰链",
+          "color": "#e67e22",
+          "layer": "upstream",
+          "today_return": -0.12,
+          "cum_5d": 5.59,
+          "cum_20d": -4.46,
+          "valid_count": 5,
+          "total_market_cap": 4027.86,
+          "stocks": [
+            {
+              "code": "002600",
+              "name": "领益智造",
+              "price": 13.1,
+              "change_pct": 2.02,
+              "market_cap": 943.2,
+              "tier": "精密功能件"
+            },
+            {
+              "code": "002384",
+              "name": "东山精密",
+              "price": 192.99,
+              "change_pct": -0.39,
+              "market_cap": 2675.46,
+              "tier": "FPC/结构件"
+            },
+            {
+              "code": "300115",
+              "name": "长盈精密",
+              "price": 22.82,
+              "change_pct": -2.85,
+              "market_cap": 309.76,
+              "tier": "结构件"
+            },
+            {
+              "code": "300709",
+              "name": "精研科技",
+              "price": 37.13,
+              "change_pct": -4.25,
+              "market_cap": 55.64,
+              "tier": "MIM/铰链"
+            },
+            {
+              "code": "688210",
+              "name": "统联精密",
+              "price": 26.93,
+              "change_pct": -4.74,
+              "market_cap": 43.8,
+              "tier": "MIM折叠件"
+            }
+          ]
+        },
+        {
+          "name": "C1 光学与显示",
+          "desc": "CIS图像传感器、光学元件、盖板、面板",
+          "color": "#c0392b",
+          "layer": "upstream",
+          "today_return": -1.79,
+          "cum_5d": -4.38,
+          "cum_20d": -8.54,
+          "valid_count": 6,
+          "total_market_cap": 5340.32,
+          "stocks": [
+            {
+              "code": "688213",
+              "name": "思特威",
+              "price": 92.32,
+              "change_pct": 1.01,
+              "market_cap": 298.66,
+              "tier": "CIS图像传感器"
+            },
+            {
+              "code": "300433",
+              "name": "蓝思科技",
+              "price": 33.54,
+              "change_pct": -0.8,
+              "market_cap": 1666.0,
+              "tier": "盖板玻璃"
+            },
+            {
+              "code": "002456",
+              "name": "欧菲光",
+              "price": 6.99,
+              "change_pct": -1.96,
+              "market_cap": 231.9,
+              "tier": "摄像头模组"
+            },
+            {
+              "code": "002273",
+              "name": "水晶光电",
+              "price": 24.6,
+              "change_pct": -2.07,
+              "market_cap": 336.06,
+              "tier": "光学元件/AR"
+            },
+            {
+              "code": "000725",
+              "name": "京东方Ａ",
+              "price": 5.32,
+              "change_pct": -2.56,
+              "market_cap": 1881.53,
+              "tier": "面板"
+            },
+            {
+              "code": "603501",
+              "name": "豪威集团",
+              "price": 76.73,
+              "change_pct": -2.79,
+              "market_cap": 926.17,
+              "tier": "CIS图像传感器"
             }
           ]
         },
@@ -1783,35 +1669,149 @@
           "desc": "消费电芯、电池Pack、快充",
           "color": "#e74c3c",
           "layer": "upstream",
-          "today_return": -3.02,
-          "cum_5d": -4.88,
-          "cum_20d": -3.61,
+          "today_return": -2.19,
+          "cum_5d": -6.68,
+          "cum_20d": -7.45,
           "valid_count": 3,
-          "total_market_cap": 337.33,
+          "total_market_cap": 329.94,
           "stocks": [
             {
-              "code": "000049",
-              "name": "德赛电池",
-              "price": 22.58,
-              "change_pct": -0.92,
-              "market_cap": 86.83,
-              "tier": "手机电池Pack"
+              "code": "688772",
+              "name": "珠海冠宇",
+              "price": 14.15,
+              "change_pct": -1.6,
+              "market_cap": 161.07,
+              "tier": "消费电芯"
             },
             {
               "code": "002993",
               "name": "奥海科技",
-              "price": 36.41,
-              "change_pct": -2.07,
-              "market_cap": 86.82,
+              "price": 35.47,
+              "change_pct": -2.58,
+              "market_cap": 84.58,
               "tier": "充电器/快充"
             },
             {
-              "code": "688772",
-              "name": "珠海冠宇",
-              "price": 14.38,
-              "change_pct": -4.64,
-              "market_cap": 163.68,
-              "tier": "消费电芯"
+              "code": "000049",
+              "name": "德赛电池",
+              "price": 21.92,
+              "change_pct": -2.92,
+              "market_cap": 84.29,
+              "tier": "手机电池Pack"
+            }
+          ]
+        },
+        {
+          "name": "C7 AI新终端",
+          "desc": "AI眼镜、AI音频等新形态终端",
+          "color": "#16a085",
+          "layer": "downstream",
+          "today_return": -2.21,
+          "cum_5d": -5.82,
+          "cum_20d": -5.9,
+          "valid_count": 4,
+          "total_market_cap": 183.38,
+          "stocks": [
+            {
+              "code": "002351",
+              "name": "漫步者",
+              "price": 9.77,
+              "change_pct": -0.71,
+              "market_cap": 51.53,
+              "tier": "AI音频"
+            },
+            {
+              "code": "001314",
+              "name": "亿道信息",
+              "price": 48.12,
+              "change_pct": -2.45,
+              "market_cap": 59.72,
+              "tier": "AI硬件方案"
+            },
+            {
+              "code": "300793",
+              "name": "佳禾智能",
+              "price": 10.94,
+              "change_pct": -2.5,
+              "market_cap": 40.71,
+              "tier": "AI眼镜ODM"
+            },
+            {
+              "code": "300622",
+              "name": "博士眼镜",
+              "price": 14.23,
+              "change_pct": -3.85,
+              "market_cap": 31.42,
+              "tier": "智能眼镜渠道"
+            }
+          ]
+        },
+        {
+          "name": "C5 终端SoC与存储",
+          "desc": "穿戴/AIoT SoC、存储模组",
+          "color": "#2980b9",
+          "layer": "midstream",
+          "today_return": -2.69,
+          "cum_5d": -2.63,
+          "cum_20d": -12.53,
+          "valid_count": 7,
+          "total_market_cap": 6013.27,
+          "stocks": [
+            {
+              "code": "688608",
+              "name": "恒玄科技",
+              "price": 92.5,
+              "change_pct": -0.64,
+              "market_cap": 219.12,
+              "tier": "TWS/穿戴SoC"
+            },
+            {
+              "code": "688099",
+              "name": "晶晨股份",
+              "price": 84.61,
+              "change_pct": -1.81,
+              "market_cap": 358.17,
+              "tier": "多媒体SoC"
+            },
+            {
+              "code": "603893",
+              "name": "瑞芯微",
+              "price": 179.31,
+              "change_pct": -1.83,
+              "market_cap": 758.64,
+              "tier": "AIoT SoC"
+            },
+            {
+              "code": "688018",
+              "name": "乐鑫科技",
+              "price": 103.01,
+              "change_pct": -2.29,
+              "market_cap": 241.44,
+              "tier": "WiFi MCU"
+            },
+            {
+              "code": "688525",
+              "name": "佰维存储",
+              "price": 212.2,
+              "change_pct": -3.01,
+              "market_cap": 1011.84,
+              "tier": "存储模组"
+            },
+            {
+              "code": "603986",
+              "name": "兆易创新",
+              "price": 369.16,
+              "change_pct": -3.02,
+              "market_cap": 2476.02,
+              "tier": "NOR/MCU"
+            },
+            {
+              "code": "301308",
+              "name": "江波龙",
+              "price": 336.36,
+              "change_pct": -3.07,
+              "market_cap": 948.04,
+              "tier": "存储模组"
             }
           ]
         }
