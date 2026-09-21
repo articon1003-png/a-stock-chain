@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-21 12:01:31",
+  "update_time": "2026-09-21 13:39:44",
   "chains": [
     {
       "id": "ai",
@@ -1290,7 +1290,7 @@
           "cum_5d": -9.74,
           "cum_20d": -21.0,
           "valid_count": 6,
-          "total_market_cap": 14823.94,
+          "total_market_cap": 14823.96,
           "stocks": [
             {
               "code": "002074",
@@ -1313,7 +1313,7 @@
               "name": "宁德时代",
               "price": 297.1,
               "change_pct": -1.61,
-              "market_cap": 12658.25,
+              "market_cap": 12658.27,
               "tier": "储能电芯龙头"
             },
             {
