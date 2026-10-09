@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-09 07:10:17",
+  "update_time": "2026-10-09 14:09:59",
   "chains": [
     {
       "id": "ai",
@@ -429,7 +429,7 @@
           "cum_5d": -9.13,
           "cum_20d": -14.93,
           "valid_count": 7,
-          "total_market_cap": 5189.21,
+          "total_market_cap": 5189.34,
           "stocks": [
             {
               "code": "002179",
@@ -452,7 +452,7 @@
               "name": "立讯精密",
               "price": 47.59,
               "change_pct": -1.73,
-              "market_cap": 3488.25,
+              "market_cap": 3488.38,
               "tier": "高速背板/AEC"
             },
             {
@@ -1718,7 +1718,7 @@
           "cum_5d": -9.84,
           "cum_20d": -14.27,
           "valid_count": 5,
-          "total_market_cap": 4996.75,
+          "total_market_cap": 4996.88,
           "stocks": [
             {
               "code": "300679",
@@ -1741,7 +1741,7 @@
               "name": "立讯精密",
               "price": 47.59,
               "change_pct": -1.73,
-              "market_cap": 3488.25,
+              "market_cap": 3488.38,
               "tier": "连接器/整机组装"
             },
             {
