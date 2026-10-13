@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-13 07:23:12",
+  "update_time": "2026-10-13 14:49:52",
   "chains": [
     {
       "id": "ai",
@@ -291,7 +291,7 @@
           "cum_5d": -10.98,
           "cum_20d": -11.59,
           "valid_count": 9,
-          "total_market_cap": 1381.13,
+          "total_market_cap": 1381.14,
           "stocks": [
             {
               "code": "688603",
@@ -338,7 +338,7 @@
               "name": "鼎龙股份",
               "price": 62.45,
               "change_pct": 0.0,
-              "market_cap": 464.95,
+              "market_cap": 464.96,
               "tier": "临时键合胶"
             },
             {
@@ -774,7 +774,7 @@
           "cum_5d": -9.82,
           "cum_20d": -10.4,
           "valid_count": 14,
-          "total_market_cap": 4245.23,
+          "total_market_cap": 4245.24,
           "stocks": [
             {
               "code": "603306",
@@ -829,7 +829,7 @@
               "name": "鼎龙股份",
               "price": 62.45,
               "change_pct": 0.0,
-              "market_cap": 464.95,
+              "market_cap": 464.96,
               "tier": "CMP抛光垫"
             },
             {
@@ -1461,7 +1461,7 @@
           "cum_5d": -15.04,
           "cum_20d": -22.53,
           "valid_count": 5,
-          "total_market_cap": 3088.6,
+          "total_market_cap": 3088.67,
           "stocks": [
             {
               "code": "002384",
@@ -1492,7 +1492,7 @@
               "name": "领益智造",
               "price": 10.77,
               "change_pct": -1.01,
-              "market_cap": 780.4,
+              "market_cap": 780.47,
               "tier": "精密功能件"
             },
             {
