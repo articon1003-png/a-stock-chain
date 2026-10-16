@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-16 10:05:22",
+  "update_time": "2026-10-16 12:08:23",
   "chains": [
     {
       "id": "ai",
@@ -1612,7 +1612,7 @@
           "cum_5d": -8.28,
           "cum_20d": -12.56,
           "valid_count": 6,
-          "total_market_cap": 4710.74,
+          "total_market_cap": 4710.91,
           "stocks": [
             {
               "code": "000725",
@@ -1651,7 +1651,7 @@
               "name": "豪威集团",
               "price": 71.53,
               "change_pct": -2.13,
-              "market_cap": 863.66,
+              "market_cap": 863.83,
               "tier": "CIS图像传感器"
             },
             {
