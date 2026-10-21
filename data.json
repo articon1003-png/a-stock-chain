@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-21 10:40:40",
+  "update_time": "2026-10-21 12:45:02",
   "chains": [
     {
       "id": "ai",
@@ -1458,8 +1458,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": 2.94,
-          "cum_5d": -1.55,
-          "cum_20d": -20.68,
+          "cum_5d": 1.57,
+          "cum_20d": -8.11,
           "valid_count": 7,
           "total_market_cap": 5279.13,
           "stocks": [
@@ -1527,8 +1527,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 1.16,
-          "cum_5d": 0,
-          "cum_20d": 0,
+          "cum_5d": 2.79,
+          "cum_20d": 2.02,
           "valid_count": 4,
           "total_market_cap": 186.96,
           "stocks": [
@@ -1572,8 +1572,8 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": 0.56,
-          "cum_5d": 0.52,
-          "cum_20d": -22.32,
+          "cum_5d": 0.7,
+          "cum_20d": -22.04,
           "valid_count": 5,
           "total_market_cap": 2943.81,
           "stocks": [
@@ -1681,7 +1681,7 @@
           "cum_5d": 2.13,
           "cum_20d": -6.56,
           "valid_count": 6,
-          "total_market_cap": 4892.82,
+          "total_market_cap": 4892.78,
           "stocks": [
             {
               "code": "002273",
@@ -1696,7 +1696,7 @@
               "name": "欧菲光",
               "price": 6.23,
               "change_pct": 0.81,
-              "market_cap": 206.69,
+              "market_cap": 206.65,
               "tier": "摄像头模组"
             },
             {
@@ -1739,8 +1739,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": 0.09,
-          "cum_5d": 0,
-          "cum_20d": 0,
+          "cum_5d": 8.44,
+          "cum_20d": 0.19,
           "valid_count": 4,
           "total_market_cap": 1426.15,
           "stocks": [
@@ -1784,8 +1784,8 @@
           "color": "#e74c3c",
           "layer": "upstream",
           "today_return": -1.1,
-          "cum_5d": 5.97,
-          "cum_20d": 0.79,
+          "cum_5d": 4.41,
+          "cum_20d": -3.35,
           "valid_count": 3,
           "total_market_cap": 311.67,
           "stocks": [
