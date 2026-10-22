@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-22 10:44:21",
+  "update_time": "2026-10-22 12:48:32",
   "chains": [
     {
       "id": "ai",
@@ -875,7 +875,7 @@
           "cum_5d": -8.25,
           "cum_20d": -23.19,
           "valid_count": 5,
-          "total_market_cap": 6392.73,
+          "total_market_cap": 6392.21,
           "stocks": [
             {
               "code": "001389",
@@ -906,7 +906,7 @@
               "name": "深南电路",
               "price": 284.3,
               "change_pct": -6.97,
-              "market_cap": 1890.66,
+              "market_cap": 1890.14,
               "tier": "UBB/FBGA载板"
             },
             {
