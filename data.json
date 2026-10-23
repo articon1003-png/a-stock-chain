@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-23 10:36:07",
+  "update_time": "2026-10-23 12:26:47",
   "chains": [
     {
       "id": "ai",
@@ -859,7 +859,7 @@
           "cum_5d": -3.67,
           "cum_20d": -26.62,
           "valid_count": 12,
-          "total_market_cap": 7693.64,
+          "total_market_cap": 7693.65,
           "stocks": [
             {
               "code": "603186",
@@ -874,7 +874,7 @@
               "name": "菲利华",
               "price": 76.81,
               "change_pct": 2.52,
-              "market_cap": 393.48,
+              "market_cap": 393.49,
               "tier": "石英布"
             },
             {
@@ -1457,11 +1457,11 @@
           "desc": "声学器件、连接器、天线、射频前端",
           "color": "#d35400",
           "layer": "upstream",
-          "today_return": 7.07,
-          "cum_5d": 12.3,
-          "cum_20d": -4.69,
+          "today_return": 7.08,
+          "cum_5d": 12.31,
+          "cum_20d": -4.67,
           "valid_count": 5,
-          "total_market_cap": 5202.08,
+          "total_market_cap": 5197.46,
           "stocks": [
             {
               "code": "002241",
@@ -1484,7 +1484,7 @@
               "name": "卓胜微",
               "price": 57.86,
               "change_pct": 4.55,
-              "market_cap": 265.33,
+              "market_cap": 260.71,
               "tier": "射频前端"
             },
             {
