@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-26 11:37:05",
+  "update_time": "2026-10-26 13:55:04",
   "chains": [
     {
       "id": "ai",
@@ -782,7 +782,7 @@
           "cum_5d": -11.07,
           "cum_20d": -28.07,
           "valid_count": 6,
-          "total_market_cap": 9244.07,
+          "total_market_cap": 9244.0,
           "stocks": [
             {
               "code": "002371",
@@ -829,7 +829,7 @@
               "name": "长川科技",
               "price": 180.49,
               "change_pct": -10.65,
-              "market_cap": 889.51,
+              "market_cap": 889.44,
               "tier": "SoC测试机/探针台"
             }
           ]
@@ -1046,8 +1046,8 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": 1.54,
-          "cum_5d": 8.84,
-          "cum_20d": -8.32,
+          "cum_5d": 6.39,
+          "cum_20d": -12.64,
           "valid_count": 2,
           "total_market_cap": 490.71,
           "stocks": [
@@ -1136,8 +1136,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": 0.66,
-          "cum_5d": -8.9,
-          "cum_20d": -18.99,
+          "cum_5d": -10.12,
+          "cum_20d": -19.97,
           "valid_count": 6,
           "total_market_cap": 12159.05,
           "stocks": [
@@ -1250,8 +1250,8 @@
           "color": "#9b59b6",
           "layer": "downstream",
           "today_return": -0.67,
-          "cum_5d": -2.08,
-          "cum_20d": -15.78,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 5,
           "total_market_cap": 1252.61,
           "stocks": [
@@ -1303,8 +1303,8 @@
           "color": "#3498db",
           "layer": "midstream",
           "today_return": -2.54,
-          "cum_5d": -7.66,
-          "cum_20d": -17.6,
+          "cum_5d": -9.59,
+          "cum_20d": -19.51,
           "valid_count": 5,
           "total_market_cap": 1566.82,
           "stocks": [
@@ -1356,8 +1356,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": -4.15,
-          "cum_5d": -3.36,
-          "cum_20d": -27.23,
+          "cum_5d": -4.83,
+          "cum_20d": -30.25,
           "valid_count": 4,
           "total_market_cap": 711.47,
           "stocks": [
@@ -1401,8 +1401,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": -7.73,
-          "cum_5d": -7.94,
-          "cum_20d": -23.47,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 3,
           "total_market_cap": 635.38,
           "stocks": [
@@ -1458,8 +1458,8 @@
           "color": "#e74c3c",
           "layer": "upstream",
           "today_return": 2.28,
-          "cum_5d": 7.12,
-          "cum_20d": 0.24,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 3,
           "total_market_cap": 325.31,
           "stocks": [
@@ -1495,8 +1495,8 @@
           "color": "#c0392b",
           "layer": "upstream",
           "today_return": 0.01,
-          "cum_5d": 5.76,
-          "cum_20d": -10.22,
+          "cum_5d": 1.8,
+          "cum_20d": -16.9,
           "valid_count": 6,
           "total_market_cap": 4994.41,
           "stocks": [
@@ -1556,8 +1556,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": -0.71,
-          "cum_5d": 7.93,
-          "cum_20d": -2.34,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 191.01,
           "stocks": [
@@ -1601,8 +1601,8 @@
           "color": "#d35400",
           "layer": "upstream",
           "today_return": -1.02,
-          "cum_5d": 8.52,
-          "cum_20d": -9.04,
+          "cum_5d": 8.07,
+          "cum_20d": -7.74,
           "valid_count": 5,
           "total_market_cap": 5143.47,
           "stocks": [
@@ -1654,8 +1654,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": -3.46,
-          "cum_5d": 8.65,
-          "cum_20d": -1.12,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 1449.36,
           "stocks": [
@@ -1699,8 +1699,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": -4.28,
-          "cum_5d": 6.06,
-          "cum_20d": -15.06,
+          "cum_5d": -2.12,
+          "cum_20d": -28.78,
           "valid_count": 7,
           "total_market_cap": 5176.78,
           "stocks": [
@@ -1768,8 +1768,8 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": -4.41,
-          "cum_5d": 0.9,
-          "cum_20d": -27.56,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 5,
           "total_market_cap": 2788.41,
           "stocks": [
