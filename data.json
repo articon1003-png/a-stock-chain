@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-02 07:15:02",
+  "update_time": "2026-11-02 16:51:45",
   "chains": [
     {
       "id": "ai",
@@ -289,9 +289,9 @@
           "layer": "materials",
           "today_return": 3.2,
           "cum_5d": -2.72,
-          "cum_20d": -23.28,
+          "cum_20d": -23.29,
           "valid_count": 9,
-          "total_market_cap": 1191.56,
+          "total_market_cap": 1191.97,
           "stocks": [
             {
               "code": "300398",
@@ -330,7 +330,7 @@
               "name": "强力新材",
               "price": 8.36,
               "change_pct": 3.59,
-              "market_cap": 35.57,
+              "market_cap": 35.98,
               "tier": "临时键合胶"
             },
             {
@@ -1332,8 +1332,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 1.49,
-          "cum_5d": -9.35,
-          "cum_20d": -25.41,
+          "cum_5d": -10.2,
+          "cum_20d": -28.44,
           "valid_count": 4,
           "total_market_cap": 644.33,
           "stocks": [
@@ -1380,7 +1380,7 @@
           "cum_5d": -0.26,
           "cum_20d": -5.4,
           "valid_count": 6,
-          "total_market_cap": 1157.51,
+          "total_market_cap": 1157.52,
           "stocks": [
             {
               "code": "300769",
@@ -1395,7 +1395,7 @@
               "name": "璞泰来",
               "price": 20.24,
               "change_pct": 0.95,
-              "market_cap": 432.03,
+              "market_cap": 432.04,
               "tier": "负极/涂覆隔膜"
             },
             {
@@ -1458,8 +1458,8 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": 5.29,
-          "cum_5d": -7.19,
-          "cum_20d": -23.93,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 5,
           "total_market_cap": 2577.19,
           "stocks": [
@@ -1511,8 +1511,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 4.9,
-          "cum_5d": -3.15,
-          "cum_20d": -2.38,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 184.19,
           "stocks": [
@@ -1556,8 +1556,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": 2.49,
-          "cum_5d": -4.87,
-          "cum_20d": -3.73,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 1373.03,
           "stocks": [
@@ -1601,8 +1601,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": 2.33,
-          "cum_5d": -8.61,
-          "cum_20d": -20.21,
+          "cum_5d": -3.9,
+          "cum_20d": -25.9,
           "valid_count": 7,
           "total_market_cap": 4718.0,
           "stocks": [
@@ -1670,8 +1670,8 @@
           "color": "#e74c3c",
           "layer": "upstream",
           "today_return": 0.21,
-          "cum_5d": -6.24,
-          "cum_20d": -3.49,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 3,
           "total_market_cap": 304.4,
           "stocks": [
@@ -1707,8 +1707,8 @@
           "color": "#d35400",
           "layer": "upstream",
           "today_return": -0.02,
-          "cum_5d": -7.73,
-          "cum_20d": -9.97,
+          "cum_5d": -8.88,
+          "cum_20d": -9.34,
           "valid_count": 5,
           "total_market_cap": 4761.47,
           "stocks": [
