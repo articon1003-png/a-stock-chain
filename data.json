@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-04 07:17:33",
+  "update_time": "2026-11-04 15:07:24",
   "chains": [
     {
       "id": "ai",
@@ -25,8 +25,8 @@
           "color": "#9b59b6",
           "layer": "equipment",
           "today_return": 14.43,
-          "cum_5d": 1.45,
-          "cum_20d": -20.82,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 6,
           "total_market_cap": 9156.17,
           "stocks": [
@@ -86,8 +86,8 @@
           "color": "#8e44ad",
           "layer": "equipment",
           "today_return": 14.1,
-          "cum_5d": -4.51,
-          "cum_20d": -30.59,
+          "cum_5d": -3.45,
+          "cum_20d": -36.07,
           "valid_count": 8,
           "total_market_cap": 1639.04,
           "stocks": [
@@ -251,7 +251,7 @@
           "cum_5d": -20.35,
           "cum_20d": -41.4,
           "valid_count": 11,
-          "total_market_cap": 13286.26,
+          "total_market_cap": 13284.64,
           "stocks": [
             {
               "code": "300502",
@@ -306,7 +306,7 @@
               "name": "太辰光",
               "price": 111.75,
               "change_pct": 8.98,
-              "market_cap": 214.78,
+              "market_cap": 213.16,
               "tier": "光器件"
             },
             {
@@ -349,8 +349,8 @@
           "color": "#f39c12",
           "layer": "components",
           "today_return": 10.49,
-          "cum_5d": -6.12,
-          "cum_20d": -26.55,
+          "cum_5d": -6.2,
+          "cum_20d": -28.1,
           "valid_count": 7,
           "total_market_cap": 1865.11,
           "stocks": [
@@ -766,8 +766,8 @@
           "color": "#2ecc71",
           "layer": "equipment",
           "today_return": 8.26,
-          "cum_5d": -9.67,
-          "cum_20d": -27.15,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 746.67,
           "stocks": [
@@ -811,8 +811,8 @@
           "color": "#8e44ad",
           "layer": "equipment",
           "today_return": 8.15,
-          "cum_5d": -6.52,
-          "cum_20d": -22.94,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 5,
           "total_market_cap": 11609.48,
           "stocks": [
@@ -867,7 +867,7 @@
           "cum_5d": 0.46,
           "cum_20d": -3.64,
           "valid_count": 7,
-          "total_market_cap": 5107.9,
+          "total_market_cap": 5107.91,
           "stocks": [
             {
               "code": "688668",
@@ -890,7 +890,7 @@
               "name": "立讯精密",
               "price": 49.51,
               "change_pct": 8.93,
-              "market_cap": 3629.34,
+              "market_cap": 3629.35,
               "tier": "高速背板/AEC"
             },
             {
@@ -1046,8 +1046,8 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": 10.62,
-          "cum_5d": 6.45,
-          "cum_20d": 9.72,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 2,
           "total_market_cap": 535.17,
           "stocks": [
@@ -1075,8 +1075,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": 9.0,
-          "cum_5d": 13.81,
-          "cum_20d": -7.16,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 3,
           "total_market_cap": 708.77,
           "stocks": [
@@ -1112,8 +1112,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 7.87,
-          "cum_5d": -9.4,
-          "cum_20d": -23.71,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 650.95,
           "stocks": [
@@ -1157,8 +1157,8 @@
           "color": "#3498db",
           "layer": "midstream",
           "today_return": 7.23,
-          "cum_5d": 14.28,
-          "cum_20d": -3.55,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 5,
           "total_market_cap": 1745.18,
           "stocks": [
@@ -1210,8 +1210,8 @@
           "color": "#9b59b6",
           "layer": "downstream",
           "today_return": 4.83,
-          "cum_5d": 11.21,
-          "cum_20d": -0.22,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 5,
           "total_market_cap": 1373.98,
           "stocks": [
@@ -1263,8 +1263,8 @@
           "color": "#d35400",
           "layer": "upstream",
           "today_return": 4.6,
-          "cum_5d": 3.54,
-          "cum_20d": -9.37,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 5,
           "total_market_cap": 1526.77,
           "stocks": [
@@ -1316,8 +1316,8 @@
           "color": "#c0392b",
           "layer": "upstream",
           "today_return": 3.16,
-          "cum_5d": 4.27,
-          "cum_20d": -3.75,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 6,
           "total_market_cap": 1212.23,
           "stocks": [
@@ -1377,8 +1377,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": 1.56,
-          "cum_5d": 9.3,
-          "cum_20d": -12.28,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 6,
           "total_market_cap": 12814.15,
           "stocks": [
@@ -1458,8 +1458,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": 9.84,
-          "cum_5d": -5.24,
-          "cum_20d": -15.04,
+          "cum_5d": -6.38,
+          "cum_20d": -23.32,
           "valid_count": 7,
           "total_market_cap": 4974.31,
           "stocks": [
@@ -1528,16 +1528,16 @@
           "layer": "upstream",
           "today_return": 8.27,
           "cum_5d": -0.38,
-          "cum_20d": -1.69,
+          "cum_20d": 0.39,
           "valid_count": 5,
-          "total_market_cap": 5127.96,
+          "total_market_cap": 5127.97,
           "stocks": [
             {
               "code": "002475",
               "name": "立讯精密",
               "price": 49.51,
               "change_pct": 8.93,
-              "market_cap": 3629.34,
+              "market_cap": 3629.35,
               "tier": "连接器/整机组装"
             },
             {
@@ -1580,8 +1580,8 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": 6.3,
-          "cum_5d": -4.04,
-          "cum_20d": -20.27,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 5,
           "total_market_cap": 2670.15,
           "stocks": [
@@ -1633,8 +1633,8 @@
           "color": "#c0392b",
           "layer": "upstream",
           "today_return": 5.21,
-          "cum_5d": -1.9,
-          "cum_20d": -9.98,
+          "cum_5d": -3.66,
+          "cum_20d": -17.46,
           "valid_count": 6,
           "total_market_cap": 4881.19,
           "stocks": [
@@ -1694,8 +1694,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 3.9,
-          "cum_5d": 2.59,
-          "cum_20d": 1.87,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 188.65,
           "stocks": [
@@ -1739,8 +1739,8 @@
           "color": "#e74c3c",
           "layer": "upstream",
           "today_return": 3.8,
-          "cum_5d": 0.62,
-          "cum_20d": -1.06,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 3,
           "total_market_cap": 319.93,
           "stocks": [
@@ -1776,8 +1776,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": 1.93,
-          "cum_5d": 1.78,
-          "cum_20d": -0.22,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 1421.03,
           "stocks": [
