@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-05 07:44:11",
+  "update_time": "2026-11-05 15:11:57",
   "chains": [
     {
       "id": "ai",
@@ -445,7 +445,7 @@
           "cum_5d": 0.1,
           "cum_20d": -19.97,
           "valid_count": 7,
-          "total_market_cap": 1891.16,
+          "total_market_cap": 1891.85,
           "stocks": [
             {
               "code": "688601",
@@ -492,7 +492,7 @@
               "name": "圣邦股份",
               "price": 85.2,
               "change_pct": 0.11,
-              "market_cap": 514.1,
+              "market_cap": 514.79,
               "tier": "模拟/电源管理芯片"
             },
             {
@@ -514,7 +514,7 @@
           "cum_5d": -3.39,
           "cum_20d": -23.13,
           "valid_count": 4,
-          "total_market_cap": 756.8,
+          "total_market_cap": 756.79,
           "stocks": [
             {
               "code": "002837",
@@ -545,7 +545,7 @@
               "name": "同飞股份",
               "price": 69.46,
               "change_pct": -1.74,
-              "market_cap": 57.55,
+              "market_cap": 57.54,
               "tier": "液冷温控"
             }
           ]
@@ -1335,7 +1335,7 @@
           "cum_5d": 15.09,
           "cum_20d": -7.3,
           "valid_count": 6,
-          "total_market_cap": 13405.68,
+          "total_market_cap": 13405.64,
           "stocks": [
             {
               "code": "300438",
@@ -1358,7 +1358,7 @@
               "name": "亿纬锂能",
               "price": 52.87,
               "change_pct": 5.93,
-              "market_cap": 1117.13,
+              "market_cap": 1117.09,
               "tier": "大圆柱/方形储能"
             },
             {
@@ -1396,7 +1396,7 @@
           "cum_5d": -3.11,
           "cum_20d": -20.05,
           "valid_count": 4,
-          "total_market_cap": 660.45,
+          "total_market_cap": 660.44,
           "stocks": [
             {
               "code": "002837",
@@ -1427,7 +1427,7 @@
               "name": "同飞股份",
               "price": 69.46,
               "change_pct": -1.74,
-              "market_cap": 57.55,
+              "market_cap": 57.54,
               "tier": "储能温控"
             }
           ]
@@ -1540,8 +1540,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 3.57,
-          "cum_5d": 8.95,
-          "cum_20d": 8.17,
+          "cum_5d": 8.16,
+          "cum_20d": 0.02,
           "valid_count": 4,
           "total_market_cap": 195.39,
           "stocks": [
@@ -1769,9 +1769,9 @@
           "layer": "upstream",
           "today_return": -1.71,
           "cum_5d": 1.68,
-          "cum_20d": -14.9,
+          "cum_20d": -14.89,
           "valid_count": 5,
-          "total_market_cap": 2619.11,
+          "total_market_cap": 2619.51,
           "stocks": [
             {
               "code": "300709",
@@ -1794,7 +1794,7 @@
               "name": "领益智造",
               "price": 11.92,
               "change_pct": 1.27,
-              "market_cap": 863.8,
+              "market_cap": 864.2,
               "tier": "精密功能件"
             },
             {
