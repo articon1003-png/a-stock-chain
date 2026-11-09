@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-09 07:42:12",
+  "update_time": "2026-11-09 17:10:49",
   "chains": [
     {
       "id": "ai",
@@ -26,9 +26,9 @@
           "layer": "components",
           "today_return": 3.92,
           "cum_5d": -7.67,
-          "cum_20d": -33.59,
+          "cum_20d": -33.58,
           "valid_count": 5,
-          "total_market_cap": 4634.07,
+          "total_market_cap": 4638.35,
           "stocks": [
             {
               "code": "300476",
@@ -43,7 +43,7 @@
               "name": "沪电股份",
               "price": 77.1,
               "change_pct": 5.31,
-              "market_cap": 1485.75,
+              "market_cap": 1490.03,
               "tier": "28层+UBB/交换机板"
             },
             {
@@ -1075,8 +1075,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 0.46,
-          "cum_5d": -3.42,
-          "cum_20d": -22.99,
+          "cum_5d": -1.92,
+          "cum_20d": -19.16,
           "valid_count": 4,
           "total_market_cap": 630.78,
           "stocks": [
@@ -1458,8 +1458,8 @@
           "color": "#d35400",
           "layer": "upstream",
           "today_return": 2.18,
-          "cum_5d": 12.17,
-          "cum_20d": 9.89,
+          "cum_5d": 11.21,
+          "cum_20d": 9.27,
           "valid_count": 5,
           "total_market_cap": 5284.25,
           "stocks": [
@@ -1511,8 +1511,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 1.8,
-          "cum_5d": 0,
-          "cum_20d": 0,
+          "cum_5d": 7.36,
+          "cum_20d": 8.46,
           "valid_count": 4,
           "total_market_cap": 197.38,
           "stocks": [
@@ -1556,8 +1556,8 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": 1.78,
-          "cum_5d": 0,
-          "cum_20d": 0,
+          "cum_5d": -2.78,
+          "cum_20d": -12.2,
           "valid_count": 5,
           "total_market_cap": 2491.4,
           "stocks": [
@@ -1609,8 +1609,8 @@
           "color": "#c0392b",
           "layer": "upstream",
           "today_return": 1.63,
-          "cum_5d": 7.66,
-          "cum_20d": -5.26,
+          "cum_5d": 6.28,
+          "cum_20d": -0.09,
           "valid_count": 6,
           "total_market_cap": 4892.74,
           "stocks": [
@@ -1670,8 +1670,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": 0.26,
-          "cum_5d": -10.26,
-          "cum_20d": -23.3,
+          "cum_5d": 2.24,
+          "cum_20d": -9.08,
           "valid_count": 7,
           "total_market_cap": 4780.35,
           "stocks": [
@@ -1739,8 +1739,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": -0.64,
-          "cum_5d": 0,
-          "cum_20d": 0,
+          "cum_5d": 7.34,
+          "cum_20d": 10.53,
           "valid_count": 4,
           "total_market_cap": 1469.29,
           "stocks": [
@@ -1784,8 +1784,8 @@
           "color": "#e74c3c",
           "layer": "upstream",
           "today_return": -0.87,
-          "cum_5d": 0,
-          "cum_20d": 0,
+          "cum_5d": 9.62,
+          "cum_20d": 8.32,
           "valid_count": 3,
           "total_market_cap": 332.98,
           "stocks": [
