@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-16 07:41:15",
+  "update_time": "2026-11-16 16:47:45",
   "chains": [
     {
       "id": "ai",
@@ -875,7 +875,7 @@
           "cum_5d": -7.93,
           "cum_20d": -35.77,
           "valid_count": 5,
-          "total_market_cap": 4259.71,
+          "total_market_cap": 4259.7,
           "stocks": [
             {
               "code": "688183",
@@ -914,7 +914,7 @@
               "name": "胜宏科技",
               "price": 109.02,
               "change_pct": -11.54,
-              "market_cap": 943.24,
+              "market_cap": 943.23,
               "tier": "GPU加速卡OAM板"
             }
           ]
@@ -1367,14 +1367,14 @@
           "cum_5d": -6.61,
           "cum_20d": 14.22,
           "valid_count": 2,
-          "total_market_cap": 512.75,
+          "total_market_cap": 512.77,
           "stocks": [
             {
               "code": "002850",
               "name": "科达利",
               "price": 161.2,
               "change_pct": -2.6,
-              "market_cap": 338.06,
+              "market_cap": 338.08,
               "tier": "电池结构件"
             },
             {
@@ -1458,8 +1458,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": -0.25,
-          "cum_5d": 0.34,
-          "cum_20d": 11.64,
+          "cum_5d": -5.46,
+          "cum_20d": -10.44,
           "valid_count": 4,
           "total_market_cap": 1478.26,
           "stocks": [
@@ -1503,8 +1503,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": -0.29,
-          "cum_5d": 0.35,
-          "cum_20d": 11.98,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 197.51,
           "stocks": [
@@ -1548,8 +1548,8 @@
           "color": "#e74c3c",
           "layer": "upstream",
           "today_return": -1.39,
-          "cum_5d": -4.82,
-          "cum_20d": 4.87,
+          "cum_5d": -5.45,
+          "cum_20d": 8.48,
           "valid_count": 3,
           "total_market_cap": 316.25,
           "stocks": [
@@ -1699,8 +1699,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": -6.77,
-          "cum_5d": -4.12,
-          "cum_20d": -4.26,
+          "cum_5d": -6.37,
+          "cum_20d": -20.97,
           "valid_count": 7,
           "total_market_cap": 4573.91,
           "stocks": [
@@ -1771,14 +1771,14 @@
           "cum_5d": -7.01,
           "cum_20d": -13.21,
           "valid_count": 5,
-          "total_market_cap": 2307.43,
+          "total_market_cap": 2307.44,
           "stocks": [
             {
               "code": "002600",
               "name": "领益智造",
               "price": 11.0,
               "change_pct": -3.68,
-              "market_cap": 797.88,
+              "market_cap": 797.89,
               "tier": "精密功能件"
             },
             {
