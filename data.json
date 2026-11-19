@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-19 08:26:02",
+  "update_time": "2026-11-19 16:20:07",
   "chains": [
     {
       "id": "ai",
@@ -445,7 +445,7 @@
           "cum_5d": -6.74,
           "cum_20d": -3.77,
           "valid_count": 9,
-          "total_market_cap": 1193.77,
+          "total_market_cap": 1193.84,
           "stocks": [
             {
               "code": "300054",
@@ -476,7 +476,7 @@
               "name": "强力新材",
               "price": 8.64,
               "change_pct": -0.8,
-              "market_cap": 37.88,
+              "market_cap": 37.95,
               "tier": "临时键合胶"
             },
             {
@@ -1319,10 +1319,10 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": -2.57,
-          "cum_5d": -11.59,
+          "cum_5d": -11.58,
           "cum_20d": 6.68,
           "valid_count": 2,
-          "total_market_cap": 472.15,
+          "total_market_cap": 471.71,
           "stocks": [
             {
               "code": "002850",
@@ -1337,7 +1337,7 @@
               "name": "震裕科技",
               "price": 85.0,
               "change_pct": -4.85,
-              "market_cap": 150.14,
+              "market_cap": 149.7,
               "tier": "顶盖/壳体"
             }
           ]
@@ -1572,8 +1572,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": -1.51,
-          "cum_5d": -15.47,
-          "cum_20d": -20.94,
+          "cum_5d": -13.28,
+          "cum_20d": -13.2,
           "valid_count": 7,
           "total_market_cap": 4401.01,
           "stocks": [
@@ -1644,7 +1644,7 @@
           "cum_5d": -17.8,
           "cum_20d": -21.13,
           "valid_count": 5,
-          "total_market_cap": 2145.04,
+          "total_market_cap": 2145.06,
           "stocks": [
             {
               "code": "002384",
@@ -1659,7 +1659,7 @@
               "name": "领益智造",
               "price": 10.46,
               "change_pct": -2.7,
-              "market_cap": 758.76,
+              "market_cap": 758.78,
               "tier": "精密功能件"
             },
             {
@@ -1731,8 +1731,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": -2.49,
-          "cum_5d": 0,
-          "cum_20d": 0,
+          "cum_5d": -2.76,
+          "cum_20d": 3.46,
           "valid_count": 4,
           "total_market_cap": 1447.34,
           "stocks": [
@@ -1776,8 +1776,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": -4.32,
-          "cum_5d": 0,
-          "cum_20d": 0,
+          "cum_5d": -10.22,
+          "cum_20d": -3.91,
           "valid_count": 4,
           "total_market_cap": 182.79,
           "stocks": [
