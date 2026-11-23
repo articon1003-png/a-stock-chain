@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-23 08:37:40",
+  "update_time": "2026-11-23 19:01:25",
   "chains": [
     {
       "id": "ai",
@@ -1075,8 +1075,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 3.25,
-          "cum_5d": -5.75,
-          "cum_20d": -20.04,
+          "cum_5d": -6.45,
+          "cum_20d": -23.21,
           "valid_count": 4,
           "total_market_cap": 564.23,
           "stocks": [
@@ -1120,8 +1120,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": 3.09,
-          "cum_5d": -8.99,
-          "cum_20d": -3.05,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 3,
           "total_market_cap": 611.98,
           "stocks": [
@@ -1271,8 +1271,8 @@
           "color": "#3498db",
           "layer": "midstream",
           "today_return": 0.87,
-          "cum_5d": -7.09,
-          "cum_20d": -3.1,
+          "cum_5d": -1.4,
+          "cum_20d": -3.28,
           "valid_count": 5,
           "total_market_cap": 1507.17,
           "stocks": [
@@ -1385,8 +1385,8 @@
           "color": "#9b59b6",
           "layer": "downstream",
           "today_return": 0.0,
-          "cum_5d": 0.21,
-          "cum_20d": 3.72,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 5,
           "total_market_cap": 1288.98,
           "stocks": [
@@ -1458,8 +1458,8 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": 6.16,
-          "cum_5d": -6.47,
-          "cum_20d": -21.31,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 5,
           "total_market_cap": 2155.73,
           "stocks": [
@@ -1511,8 +1511,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": 6.07,
-          "cum_5d": -3.55,
-          "cum_20d": -13.92,
+          "cum_5d": -3.86,
+          "cum_20d": -22.37,
           "valid_count": 7,
           "total_market_cap": 4400.04,
           "stocks": [
@@ -1580,8 +1580,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 4.76,
-          "cum_5d": -11.07,
-          "cum_20d": -5.38,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 181.82,
           "stocks": [
@@ -1625,8 +1625,8 @@
           "color": "#e74c3c",
           "layer": "upstream",
           "today_return": 3.28,
-          "cum_5d": -6.55,
-          "cum_20d": -8.68,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 3,
           "total_market_cap": 295.38,
           "stocks": [
@@ -1662,8 +1662,8 @@
           "color": "#c0392b",
           "layer": "upstream",
           "today_return": 2.48,
-          "cum_5d": -0.62,
-          "cum_20d": -7.78,
+          "cum_5d": 0.18,
+          "cum_20d": -11.06,
           "valid_count": 6,
           "total_market_cap": 4573.87,
           "stocks": [
@@ -1723,8 +1723,8 @@
           "color": "#d35400",
           "layer": "upstream",
           "today_return": 1.97,
-          "cum_5d": -5.2,
-          "cum_20d": -7.8,
+          "cum_5d": -4.52,
+          "cum_20d": -7.13,
           "valid_count": 5,
           "total_market_cap": 4747.09,
           "stocks": [
@@ -1776,8 +1776,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": 0.21,
-          "cum_5d": -7.17,
-          "cum_20d": -4.49,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 1368.46,
           "stocks": [
