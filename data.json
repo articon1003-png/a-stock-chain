@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-24 10:43:07",
+  "update_time": "2026-11-24 18:40:27",
   "chains": [
     {
       "id": "ai",
@@ -1458,8 +1458,8 @@
           "color": "#d35400",
           "layer": "upstream",
           "today_return": 3.89,
-          "cum_5d": 0.1,
-          "cum_20d": -1.92,
+          "cum_5d": 0.26,
+          "cum_20d": -1.5,
           "valid_count": 5,
           "total_market_cap": 4931.78,
           "stocks": [
@@ -1511,8 +1511,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": 3.75,
-          "cum_5d": -5.28,
-          "cum_20d": 4.46,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 188.62,
           "stocks": [
@@ -1556,10 +1556,10 @@
           "color": "#e67e22",
           "layer": "upstream",
           "today_return": 1.66,
-          "cum_5d": -0.43,
-          "cum_20d": -17.54,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 5,
-          "total_market_cap": 2191.56,
+          "total_market_cap": 2191.59,
           "stocks": [
             {
               "code": "688210",
@@ -1574,7 +1574,7 @@
               "name": "领益智造",
               "price": 10.66,
               "change_pct": 1.91,
-              "market_cap": 773.3,
+              "market_cap": 773.33,
               "tier": "精密功能件"
             },
             {
@@ -1609,8 +1609,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": 1.32,
-          "cum_5d": -8.17,
-          "cum_20d": -1.05,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 1384.29,
           "stocks": [
@@ -1654,8 +1654,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": 0.65,
-          "cum_5d": -0.42,
-          "cum_20d": -9.11,
+          "cum_5d": -0.96,
+          "cum_20d": -21.0,
           "valid_count": 7,
           "total_market_cap": 4427.08,
           "stocks": [
@@ -1784,8 +1784,8 @@
           "color": "#e74c3c",
           "layer": "upstream",
           "today_return": 0.01,
-          "cum_5d": -7.47,
-          "cum_20d": -6.26,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 3,
           "total_market_cap": 295.4,
           "stocks": [
