@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-25 09:34:12",
+  "update_time": "2026-11-25 17:51:01",
   "chains": [
     {
       "id": "ai",
@@ -1458,8 +1458,8 @@
           "color": "#8e44ad",
           "layer": "downstream",
           "today_return": -2.95,
-          "cum_5d": -9.48,
-          "cum_20d": -3.3,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 1343.13,
           "stocks": [
@@ -1617,8 +1617,8 @@
           "color": "#16a085",
           "layer": "downstream",
           "today_return": -4.38,
-          "cum_5d": -7.44,
-          "cum_20d": -5.58,
+          "cum_5d": 0,
+          "cum_20d": 0,
           "valid_count": 4,
           "total_market_cap": 180.32,
           "stocks": [
@@ -1662,8 +1662,8 @@
           "color": "#e74c3c",
           "layer": "upstream",
           "today_return": -5.62,
-          "cum_5d": -10.7,
-          "cum_20d": -12.03,
+          "cum_5d": -7.7,
+          "cum_20d": -12.0,
           "valid_count": 3,
           "total_market_cap": 278.72,
           "stocks": [
@@ -1702,7 +1702,7 @@
           "cum_5d": -5.31,
           "cum_20d": -25.0,
           "valid_count": 5,
-          "total_market_cap": 2064.96,
+          "total_market_cap": 2064.98,
           "stocks": [
             {
               "code": "002384",
@@ -1717,7 +1717,7 @@
               "name": "领益智造",
               "price": 9.95,
               "change_pct": -6.66,
-              "market_cap": 721.82,
+              "market_cap": 721.84,
               "tier": "精密功能件"
             },
             {
@@ -1752,8 +1752,8 @@
           "color": "#2980b9",
           "layer": "midstream",
           "today_return": -6.35,
-          "cum_5d": -6.97,
-          "cum_20d": -19.89,
+          "cum_5d": -9.69,
+          "cum_20d": -31.6,
           "valid_count": 7,
           "total_market_cap": 4145.92,
           "stocks": [
